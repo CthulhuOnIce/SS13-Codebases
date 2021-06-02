@@ -1,10 +1,28 @@
-digraph  G {
+digraph G {
 	label = "SS13 Codebases Circa Late 2020"
 	labelloc="top"
+	//rankdir="TB"
 	
+    graph [compound = true];
 
-	// info boxes
-	"Red arrows indicate that the child is not a fork of a parent, rather a new version or rebrand." [shape=rectangle]
+    subgraph cluster_0
+    {
+		label = ""
+		rankdir = "LR"
+		style = "invis"
+    	compound = true
+  		node[shape = box];
+    	//{rank = same; GitHub_source_repo; B;}
+
+		// info boxes
+		info1 [label = "Red arrows indicate that the child is not a fork of a parent, rather a new version or rebrand.", shape=rectangle]
+		GitHub_source_repo [label = <<b><u><font color="blue" style="font-weight: bold;">GitHub source repo </font></u></b> >, shape = rectangle, URL = "https://github.com/CthulhuOnIce/SS13-Codebases"]
+
+		info1 -> GitHub_source_repo [style="invis"] //, taillabel = "tail", lhead=cluster_0, constraint=false]
+		
+    }
+
+
 
 	"BurgerStation"
 	"SS13 (Pre Open)" -> "Source Decompilation (OpenSS13)"
