@@ -5,17 +5,17 @@ digraph G {
 	ratio = "auto" //size = "30, 30"
 	rankdir = "LB"
 	
-    graph [compound = true];
+	graph [compound = true];
 
-    subgraph cluster_0
-    {
+	subgraph cluster_0
+	{
 		label = ""
 		style="dotted"
 		rankdir = "LB"
-    	compound = false
+		compound = false
 		rank = same
 		node [shape=record, height=.08, fontsize=11, width=3.5];
-    	//{rank = same; GitHub_source_repo; B;}
+		//{rank = same; GitHub_source_repo; B;}
 
 		// info boxes
 		info1 [label = "Red arrows indicate that the child is not a fork of a parent, rather a new version or rebrand.", shape=rectangle]
@@ -23,10 +23,10 @@ digraph G {
 
 		info1 -> GitHub_source_repo [style="invis"] //, taillabel = "tail", lhead=cluster_0, constraint=false]
 		
-    }
+	}
 
-    subgraph cluster_1
-    {
+	subgraph cluster_1
+	{
 		label = ""
 		style="dotted"
 
@@ -45,12 +45,12 @@ digraph G {
 		"Step2" -> "note4";
 		
 		
-    }
+	}
 
 
 
-    subgraph cluster_map
-    {
+	subgraph cluster_map
+	{
 		label = "SS13 Codebases Circa Late 2020"
 		labelloc = "top"
 		style = "dotted"
@@ -111,7 +111,7 @@ digraph G {
 		"/tg/Station (AGPL)" -> "OracleStation"
 		"/tg/Station (AGPL)" -> "Sunset Station"
 		"/tg/Station (AGPL)" -> "Star Trek 13"
-		"Star Trek 13" -> "Deep Space 13" [color=red]	
+		"Star Trek 13" -> "Deep Space 13" [color=red]
 		"/tg/Station (AGPL)" -> "FTL13"
 		"/tg/Station (AGPL)" -> "Apollo Station"
 		"BayStation (AGPL)" -> "Urist McStation"
