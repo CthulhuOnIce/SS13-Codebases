@@ -1,23 +1,23 @@
 digraph G {
 	//rankdir="TB"
-	rankdir="LR"
+	rankdir = "LR"
 
 	subgraph cluster_0{
-		rankdir="LR"
-		style="dotted"
+		rankdir = "LR"
+		style   = "dotted"
 		edge [constraint = false]
 		a->bbbbb
 	}
 	subgraph cluster_1{
-		rankdir="LR";
+		rankdir = "LR";
 		ccccccc->d;
 	}
 
 	// https://stackoverflow.com/a/2112178
     subgraph cluster_2
     {
-		rankdir="LR";
-		labeljust="l";
+		rankdir   = "LR";
+		labeljust = "l";
 		node [shape=record, height=.08, fontsize=11, width=4.5, constraint=false, style=solid]
 		elk [label="Red arrows indicate that the child is not a fork of a parent, \l
 		rather a new version or rebrand.\l",]
@@ -25,6 +25,6 @@ digraph G {
 		//elk:s -> buffalo:n [style="invis", weight=999]
 	}
 	
-	node1111111:s -> node2:n [splines="ortho"]
+	node1111111: s -> node2: n [splines="ortho"]
 
 }
