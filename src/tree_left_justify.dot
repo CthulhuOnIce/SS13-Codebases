@@ -27,4 +27,11 @@ digraph G {
 	
 	node1111111: s -> node2: n [splines="ortho"]
 
+	
+	subgraph cluster_3{
+		rankdir = LR;
+		a2 -> b2;
+		c2 -> a2 [dir = "back"];
+	}
+
 }
