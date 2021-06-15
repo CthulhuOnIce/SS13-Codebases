@@ -1,8 +1,10 @@
 # SS13-Codebases
-A DOT graph of the family tree of SS13
+A DOT graph of the family tree of SS13 builds.
 
-![Graph](https://raw.githubusercontent.com/CthulhuOnIce/SS13-Codebases/master/tree.svg?sanitize=true)
-**Compiled October 16th, 2020 - 12:01AM**
+![Graphviz graph](.\out\tree.svg?sanitize=true)
+<!-- **Compiled: October 16th, 2020 - 12:01AM** -->
 
 ## Contributing
-Please feel free to add your own codebase / add missing codebases / fix mistakes through a PR. 
+Please feel free to add your own codebase, add missing codebases, fix mistakes through a PR.
+
+Tue, Jun 15, 2021  9:51:33 PM

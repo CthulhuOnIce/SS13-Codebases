@@ -9,6 +9,11 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 887)">
 <title>G</title>
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-887 3982,-887 3982,4 -4,4"/>
+<g id="clust3" class="cluster">
+<title>cluster_map</title>
+<polygon fill="none" stroke="black" stroke-dasharray="1,5" points="895,-8 895,-875 3970,-875 3970,-8 895,-8"/>
+<text text-anchor="middle" x="2432.5" y="-859.8" font-family="Arial" font-size="14.00">SS13 Codebases Circa Late 2020</text>
+</g>
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
 <polygon fill="none" stroke="black" stroke-dasharray="1,5" points="452,-656 452,-852 887,-852 887,-656 452,-656"/>
@@ -16,11 +21,6 @@
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
 <polygon fill="none" stroke="black" stroke-dasharray="1,5" points="8,-736 8,-844 444,-844 444,-736 8,-736"/>
-</g>
-<g id="clust3" class="cluster">
-<title>cluster_map</title>
-<polygon fill="none" stroke="black" stroke-dasharray="1,5" points="895,-8 895,-875 3970,-875 3970,-8 895,-8"/>
-<text text-anchor="middle" x="2432.5" y="-859.8" font-family="Arial" font-size="14.00">SS13 Codebases Circa Late 2020</text>
 </g>
 <!-- info1 -->
 <g id="node1" class="node">
