@@ -24,14 +24,38 @@ digraph G {
 		buffalo [label = <<b><u><font color="blue" style="font-weight: bold; text-align: left; align: left;">GitHub source repo </font></u></b> >, shape = rectangle, URL = "https://github.com/CthulhuOnIce/SS13-Codebases"]
 		//elk:s -> buffalo:n [style="invis", weight=999]
 	}
-	
+
 	node1111111: s -> node2: n [splines="ortho"]
 
-	
+
 	subgraph cluster_3{
 		rankdir = LR;
 		a2 -> b2;
 		c2 -> a2 [dir = "back"];
+	}
+
+
+
+	subgraph cluster_4
+	{
+		label = ""
+		style = "dotted"
+
+		info2 [label = "Red.", shape=rectangle]
+		GitHub_source_repo2 [label = <<b><u><font color="blue" style="font-weight: bold;">GitHub source repo </font></u></b> >, shape = rectangle, URL = "https://github.com/CthulhuOnIce/SS13-Codebases"]
+		info2 -> GitHub_source_repo2 [style="invis"] //, taillabel = "tail", lhead=cluster_0, constraint=false]
+
+
+		node[group=a, fontname="Arial", fontsize=14];
+		"Step11111" -> "Step2" -> "Step3";
+
+		node[group=""];
+		"Step2" -> "note1";
+		"Step2" -> "note2";
+		"Step2" -> "note3";
+		"Step2" -> "note4";
+
+
 	}
 
 }

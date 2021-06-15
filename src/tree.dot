@@ -4,53 +4,32 @@ digraph G {
 	fontsize = 14
 	ratio    = "auto"   //size = "30, 30"
 	rankdir  = "LB"
-	
+
 	graph [compound = true];
 
-	subgraph cluster_0
-	{
-		label    = ""
-		style    = "dotted"
-		rankdir  = "LB"
-		compound = false
-		rank     = same
-		node [shape=record, height=.08, fontsize=11, width=3.5];
-		//{rank = same; GitHub_source_repo; B;}
-
-		// info boxes
-		info1 [label = "Red arrows indicate that the child is not a fork of a parent, rather a new version or rebrand.", shape=rectangle]
-		GitHub_source_repo [label = <<b><u><font color="blue" style="font-weight: bold;">GitHub source repo </font></u></b> >, shape = rectangle, URL = "https://github.com/CthulhuOnIce/SS13-Codebases"]
-
-		info1 -> GitHub_source_repo [style="invis"] //, taillabel = "tail", lhead=cluster_0, constraint=false]
-		
-	}
-
-	subgraph cluster_1
-	{
-		label = ""
-		style = "dotted"
-
-		info2 [label = "Red.", shape=rectangle]
-		GitHub_source_repo2 [label = <<b><u><font color="blue" style="font-weight: bold;">GitHub source repo </font></u></b> >, shape = rectangle, URL = "https://github.com/CthulhuOnIce/SS13-Codebases"]
-		info2 -> GitHub_source_repo2 [style="invis"] //, taillabel = "tail", lhead=cluster_0, constraint=false]
-
-
-		node[group=a, fontname="Arial", fontsize=14];
-		"Step11111" -> "Step2" -> "Step3";
-
-		node[group=""];
-		"Step2" -> "note1";
-		"Step2" -> "note2";
-		"Step2" -> "note3";
-		"Step2" -> "note4";
-		
-		
-	}
 
 
 
 	subgraph cluster_map
 	{
+		subgraph cluster_0
+		{
+			label    = ""
+			style    = "dotted"
+			rankdir  = "LB"
+			compound = false
+			rank     = same
+			node [shape=record, height=.08, fontsize=11, width=3.5];
+			//{rank = same; GitHub_source_repo; B;}
+
+			// info boxes
+			info1 [label = "Red arrows indicate that the child is not a fork of a parent, rather a new version or rebrand.", shape=rectangle]
+			GitHub_source_repo [label = <<b><u><font color="blue" style="font-weight: bold;">GitHub source repo </font></u></b> >, shape = rectangle, URL = "https://github.com/CthulhuOnIce/SS13-Codebases"]
+
+			info1 -> GitHub_source_repo [style="invis"] //, taillabel = "tail", lhead=cluster_0, constraint=false]
+
+		}
+
 		label    = "SS13 Codebases Circa Late 2020"
 		labelloc = "top"
 		style    = "dotted"
@@ -119,6 +98,8 @@ digraph G {
 		"Polaris" -> "World Server"
 		"BayStation (AGPL)" -> "CEV Eris"
 		"CEV Eris" -> "InterStation-Two"
+		"CEV Eris" -> "Soujurn Station"
+		"Soujurn Station" -> "Navarro"
 		"InterStation-Two" -> "Ava's Battlegrounds"
 		"Ava's Battlegrounds" -> "No Mans's Land"
 		"No Mans's Land" -> "Lebensraum"
