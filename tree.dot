@@ -8,13 +8,16 @@ digraph  G {
 
 	"BurgerStation"
 	"SS13 (Pre Open)" -> "Source Decompilation (OpenSS13)"
-	"Source Decompilation (OpenSS13)" -> "BayStation OpenSS13"
+	"Source Decompilation (OpenSS13)"
 	"SS13 (Pre Open)" -> "Goonstation"
+	"Goonstation" -> "Goon 2009 Public SVN" [color=red]
+	"Goon 2009 Public SVN" -> "Baystation Pre-r4407"
 	"Goonstation" -> "Revision 4407 (r4407)" [color=red]
 	"Goonstation" -> "Goon 2016 Release" [color=red]
 	"Goon 2016 Release" -> "T/Goonstation"
 	"Goon 2016 Release" -> "Goon 2020 Release" [color=red]
 	"Goonstation" -> "Goonstation (Open Source)" [color=red]
+	"Goonstation (Open Source)" -> "BeeStation Clover"	
 	"Revision 4407 (r4407)" -> "/tg/Station (Pre-AGPL)"
 	"Revision 4407 (r4407)" -> "BayStation (Luna)"
 	"Revision 4407 (r4407)" -> "D2K5"
@@ -28,7 +31,6 @@ digraph  G {
 	"/tg/Station (Pre-AGPL)" -> "Traitor Death Match"
 	"/tg/Station (Pre-AGPL)" -> "Archangel"
 	"/tg/Station (Pre-AGPL)" -> "FacePunch"
-	"/tg/Station (Pre-AGPL)" -> "Old FTL13"
 	"NTStation" -> "D20 Station"
 	"FacePunch" -> "Corporate Mercenaries"
 	"BayStation (GPL)" -> "/vg/Station"
@@ -42,9 +44,12 @@ digraph  G {
 	"BayStation (GPL)" -> "Colonial Marines"
 	"Colonial Marines" -> "DM;CA"
 	"DM;CA" -> "TGMC" [color=red]
-	"BayStation (GPL)" -> "BayStation (AGPL)"  [color=red]
+	"BayStation (GPL)" -> "BayStation (AGPL)" [color=red]
 	"/tg/Station (AGPL)" -> "YogStation"
-	"YogStation" -> "Fulpstation"
+	"YogStation" -> "Old FTL13"
+	"Old FTL13" -> "FTL13" [color=red]
+	"/tg/Station (AGPL)" -> "Fulpstation"
+	"/tg/Station (AGPL)" -> "FTL13"
 	"/tg/Station (AGPL)" -> "Fallout 13"
 	"Fallout 13" -> "Desert Rose"
 	"/tg/Station (AGPL)" -> "BeeStation"
@@ -60,9 +65,14 @@ digraph  G {
 	"/tg/Station (AGPL)" -> "OracleStation"
 	"/tg/Station (AGPL)" -> "Sunset Station"
 	"/tg/Station (AGPL)" -> "Star Trek 13"
-	"Star Trek 13" -> "Deep Space 13" [color=red]	
-	"/tg/Station (AGPL)" -> "FTL13"
+	"Star Trek 13" -> "Deep Space 13" [color=red]
 	"/tg/Station (AGPL)" -> "Apollo Station"
+	"BayStation (AGPL)" -> "Persistence (New)"
+	"BayStation (AGPL)" -> "Europa Station"
+	"BayStation (AGPL)" -> "SCP-13"
+	"BayStation (AGPL)" -> "Halo: Space Station Evolved"
+	"BayStation (AGPL)" -> "Dead Space 13"
+	"BayStation (AGPL)" -> "Aurora Station"
 	"BayStation (AGPL)" -> "Urist McStation"
 	"BayStation (AGPL)" -> "Polaris"
 	"Polaris" -> "World Server"
@@ -70,15 +80,9 @@ digraph  G {
 	"CEV Eris" -> "InterStation-Two"
 	"CEV Eris" -> "NEV Northern Light"
 	"InterStation-Two" -> "Ava's Battlegrounds"
-	"Ava's Battlegrounds" -> "No Mans's Land"
-	"No Mans's Land" -> "Lebensraum"
-	"Lebensraum" -> "Civilization 13"
-	"BayStation (AGPL)" -> "Persistence (New)"
-	"BayStation (AGPL)" -> "Europa Station"
-	"BayStation (AGPL)" -> "SCP-13"
-	"BayStation (AGPL)" -> "Halo: Space Station Evolved"
-	"BayStation (AGPL)" -> "Dead Space 13"
-	"BayStation (AGPL)" -> "Aurora Station"
+	"Ava's Battlegrounds" -> "No Mans's Land" [color=red]
+	"No Mans's Land" -> "Lebensraum" [color=red]
+	"Lebensraum" -> "Civilization 13" [color=red]
 	"BayStation (AGPL)" -> "Interbay"
 	"Interbay" -> "Interpost Hague"
 	"Polaris" -> "V.O.R.E. Station"
