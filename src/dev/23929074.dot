@@ -1,0 +1,312 @@
+// https://stackoverflow.com/questions/23929074/how-can-i-align-nodes-horizontally-when-rankdir-lr-in-graphviz
+digraph{
+	rankdir=LR;
+	ratio=auto
+	node[shape=rectangle];
+
+	i0[label=<
+		<TABLE border="0">
+			<TR>
+				<TD valign="top" rowspan="2">
+					I<sub>0</sub>:
+				</TD>
+				<TD align="left">
+					S'→.bexpr<BR ALIGN="LEFT"/>
+				</TD>
+			</TR>
+			<TR>
+				<TD align="left" bgcolor="#aaaaaa">
+					bexpr→.bexpr or bterm <BR ALIGN="LEFT"/>
+					bexpr→.bterm <BR ALIGN="LEFT"/>
+					bterm→ .bterm and bfactor <BR ALIGN="LEFT"/>
+					bterm→.bfactor <BR ALIGN="LEFT"/>
+					bfactor→.not bfactor <BR ALIGN="LEFT"/>
+					bfactor→.(bexpr) <BR ALIGN="LEFT"/>
+					bfactor→.true <BR ALIGN="LEFT"/>
+					bfactor→.false <BR ALIGN="LEFT"/>
+				</TD>
+			</TR>
+		</TABLE>
+	>];
+
+	i1[label=<
+		<TABLE border="0">
+			<TR>
+				<TD valign="top">
+					I<sub>1</sub>:
+				</TD>
+				<TD align="left">
+					S'→bexpr. <BR ALIGN="LEFT"/>
+					bexpr→bexpr .or bterm <BR ALIGN="LEFT"/>
+				</TD>
+			</TR>
+		</TABLE>
+	>];
+
+	i2[label=<
+		<TABLE border="0">
+			<TR>
+				<TD valign="top" rowspan="1">
+					I<sub>2</sub>:
+				</TD>
+				<TD align="left">
+					bexpr→bterm. <BR ALIGN="LEFT"/>
+					bterm→bterm .and bfactor <BR ALIGN="LEFT"/>
+				</TD>
+			</TR>
+		</TABLE>
+	>];
+
+	i3[label=<
+		<TABLE border="0">
+			<TR>
+				<TD valign="top" rowspan="1">
+					I<sub>3</sub>:
+				</TD>
+				<TD align="left">
+					bterm→bfactor.<BR ALIGN="LEFT"/>
+				</TD>
+			</TR>
+		</TABLE>
+	>];
+
+	i4[label=<
+		<TABLE border="0">
+			<TR>
+				<TD valign="top" rowspan="2">
+					I<sub>4</sub>:
+				</TD>
+				<TD align="left">
+					bfactor→not .bfactor <BR ALIGN="LEFT"/>
+				</TD>
+			</TR>
+			<TR>
+				<TD align="left" bgcolor="#aaaaaa">
+					bfactor→.not bfactor <BR ALIGN="LEFT"/>
+					bfactor→.(bexpr) <BR ALIGN="LEFT"/>
+					bfactor→.true <BR ALIGN="LEFT"/>
+					bfactor→.false <BR ALIGN="LEFT"/>
+				</TD>
+			</TR>
+		</TABLE>
+	>];
+	i5[label=<
+		<TABLE border="0">
+			<TR>
+				<TD valign="top" rowspan="2">
+					I<sub>5</sub>:
+				</TD>
+				<TD align="left">
+					bfactor→(.bexpr) <BR ALIGN="LEFT"/>
+				</TD>
+			</TR>
+			<TR>
+				<TD align="left" bgcolor="#aaaaaa">
+					bexpr→.bexpr or bterm <BR ALIGN="LEFT"/>
+					bexpr→.bterm <BR ALIGN="LEFT"/>
+					bterm→.bterm and bfactor <BR ALIGN="LEFT"/>
+					bterm→.bfactor <BR ALIGN="LEFT"/>
+					bfactor→.not bfactor <BR ALIGN="LEFT"/>
+					bfactor→.(bexpr) <BR ALIGN="LEFT"/>
+					bfactor→.true <BR ALIGN="LEFT"/>
+					bfactor→.false <BR ALIGN="LEFT"/>
+				</TD>
+			</TR>
+		</TABLE>
+	>];
+
+	i6[label=<
+		<TABLE border="0">
+			<TR>
+				<TD valign="top" rowspan="1">
+					I<sub>6</sub>:
+				</TD>
+				<TD align="left">
+					bfactor→true.<BR ALIGN="LEFT"/>
+				</TD>
+			</TR>
+		</TABLE>
+	>];
+
+	i7[label=<
+		<TABLE border="0">
+			<TR>
+				<TD valign="top" rowspan="1">
+					I<sub>7</sub>:
+				</TD>
+				<TD align="left">
+					bfactor→false. <BR ALIGN="LEFT"/>
+				</TD>
+			</TR>
+		</TABLE>
+	>];
+
+	i8[label=<
+		<TABLE border="0">
+			<TR>
+				<TD valign="top" rowspan="2">
+					I<sub>8</sub>:
+				</TD>
+				<TD align="left">
+					bexpr→bexpr or .bterm  <BR ALIGN="LEFT"/>
+				</TD>
+			</TR>
+			<TR>
+				<TD align="left" bgcolor="#aaaaaa">
+					bterm→ .bterm and bfactor  <BR ALIGN="LEFT"/>
+					bterm→.bfactor  <BR ALIGN="LEFT"/>
+					bfactor→.not bfactor  <BR ALIGN="LEFT"/>
+					bfactor→.(bexpr)  <BR ALIGN="LEFT"/>
+					bfactor→.true  <BR ALIGN="LEFT"/>
+					bfactor→.false  <BR ALIGN="LEFT"/>
+				</TD>
+			</TR>
+		</TABLE>
+	>];
+
+	i9[label=<
+		<TABLE border="0">
+			<TR>
+				<TD valign="top" rowspan="2">
+					I<sub>9</sub>:
+				</TD>
+				<TD align="left">
+					bterm→ bterm and .bfactor <BR ALIGN="LEFT"/>
+				</TD>
+			</TR>
+			<TR>
+				<TD align="left" bgcolor="#aaaaaa">
+					bfactor→.not bfactor <BR ALIGN="LEFT"/>
+					bfactor→.(bexpr) <BR ALIGN="LEFT"/>
+					bfactor→.true <BR ALIGN="LEFT"/>
+					bfactor→.false <BR ALIGN="LEFT"/>
+				</TD>
+			</TR>
+		</TABLE>
+	>];
+
+	i10[label=<
+		<TABLE border="0">
+			<TR>
+				<TD valign="top" rowspan="1">
+					I<sub>10</sub>:
+				</TD>
+				<TD align="left">
+					bfactor→not bfactor. <BR ALIGN="LEFT"/>
+				</TD>
+			</TR>
+		</TABLE>
+	>];
+
+	i11[label=<
+		<TABLE border="0">
+			<TR>
+				<TD valign="top" rowspan="1">
+					I<sub>11</sub>:
+				</TD>
+				<TD align="left">
+					bfactor→(bexpr.) <BR ALIGN="LEFT"/>
+					bexpr→bexpr .or bterm <BR ALIGN="LEFT"/>
+				</TD>
+			</TR>
+		</TABLE>
+	>];
+
+	i12[label=<
+		<TABLE border="0">
+			<TR>
+				<TD valign="top" rowspan="1">
+					I<sub>12</sub>:
+				</TD>
+				<TD align="left">
+						bexpr→bexpr or bterm. <BR ALIGN="LEFT"/>
+						bterm→ bterm .and bfactor <BR ALIGN="LEFT"/>
+				</TD>
+			</TR>
+		</TABLE>
+	>];
+
+	i13[label=<
+		<TABLE border="0">
+			<TR>
+				<TD valign="top" rowspan="1">
+					I<sub>13</sub>:
+				</TD>
+				<TD align="left">
+					bterm→ bterm and bfactor. <BR ALIGN="LEFT"/>
+				</TD>
+			</TR>
+		</TABLE>
+	>];
+
+	i14[label=<
+		<TABLE border="0">
+			<TR>
+				<TD valign="top" rowspan="1">
+					I<sub>14</sub>:
+				</TD>
+				<TD align="left">
+					bfactor→(bexpr). <BR ALIGN="LEFT"/>
+				</TD>
+			</TR>
+		</TABLE>
+	>];
+
+	node[width=0.15,shape=none,fixedsize=false];
+	i2_1[label=<I<sub>2</sub>>];
+	i3_1[label=<I<sub>3</sub>>];
+	i3_2[label=<I<sub>3</sub>>];
+	i4_2[label=<I<sub>4</sub>>];
+	i4_3[label=<I<sub>4</sub>>];
+	i4_3[label=<I<sub>4</sub>>];
+	i5_1[label=<I<sub>5</sub>>];
+	i5_3[label=<I<sub>5</sub>>];
+	i5_4[label=<I<sub>5</sub>>];
+	i6_1[label=<I<sub>6</sub>>];
+	i6_2[label=<I<sub>6</sub>>];
+	i6_3[label=<I<sub>6</sub>>];
+	i6_4[label=<I<sub>6</sub>>];
+	i7_1[label=<I<sub>7</sub>>];
+	i7_2[label=<I<sub>7</sub>>];
+	i7_3[label=<I<sub>7</sub>>];
+	i7_4[label=<I<sub>7</sub>>];
+	i8_1[label=<I<sub>8</sub>>];
+	i9_1[label=<I<sub>9</sub>>];
+
+	i0 -> i1 [label ="bexpr"];
+	i0 -> i2 [label = "bterm"];
+	i0 -> i3 [label = "bfactor"];
+	i0 -> i4 [label = "not"];
+	i0 -> i5 [label = "("];
+	i0 -> i6 [label = "true"];
+	i0 -> i7 [label = "false"];
+	i1 -> i8 [label = "or"];
+	i2 -> i9 [label = "and"];
+	i4 -> i10 [label = "bfactor"];
+	i4 -> i4 [label = "not",weight=1];
+	i4 -> i5_1 [label = "("];
+	i4 -> i6_1 [label = "true"];
+	i4 -> i7_1 [label = "false"];
+	i5 -> i11 [label = "bexpr"];
+	i5 -> i2_1 [label ="bterm"];
+	i5 -> i3_1 [label = "bfactor"];
+	i5 -> i4_2 [label = "not"];
+	i5:sw -> i5:_ [label = "("];
+	i5 -> i6_2 [label = "true"];
+	i5 -> i7_2 [label = "false"];
+	i8 -> i12 [label = "bterm"];
+	i8 -> i3_2 [label = "bfactor"];
+	i8 -> i4_3 [label = "not"];
+	i8 -> i5_3 [label = "("];
+	i8 -> i6_3 [label = "true"];
+	i8 -> i7_3 [label = "false"];
+	i9 -> i13 [label = "bfactor"];
+	i9 -> i4_4 [label = "not"];
+	i9 -> i5_4 [label = "("];
+	i9 -> i6_4 [label = "true"];
+	i9 -> i7_4 [label = "false"];
+	i11 -> i14 [label = ")"];
+	i11 -> i8_1 [label = "or"];
+	i12 -> i9_1[label = "and"];
+	{rank = same;i0,i5};
+}
