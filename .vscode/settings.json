@@ -7,6 +7,6 @@
         "**/.DS_Store": true
     },
     "explorerExclude.backup": null,
-	"insertDateString.format": "MMMM MM, YYYY - HH:mmA", //"YYYY-MM-DD hh:mm:ss",
-    "insertDateString.formatDate": "MMMM MM, YYYY - HH:mmA", //"YYYY-MM-DD",
+	"insertDateString.format": "MMMM MM, YYYY - HH:mmA (ÜTC Z)", //"YYYY-MM-DD hh:mm:ss",
+    "insertDateString.formatDate": "MMMM MM, YYYY - HH:mmA (ÜTC Z)", //"YYYY-MM-DD",
 }

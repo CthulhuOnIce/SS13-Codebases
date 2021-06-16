@@ -13,13 +13,17 @@ IF %ERRORLEVEL% NEQ 0 (
 
 
 CD /D %CD%
-DOT.EXE -V -v
+DOT.EXE -V
 
 ECHO .svg generating..
 DOT.EXE -Tsvg ".\..\src\tree.dot" > ".\..\out\tree.svg"
 
 ECHO .png generating..
 DOT.EXE -Tpng ".\..\src\tree.dot" > ".\..\out\tree.png"
+
+ECHO Log file generating..
+DATE /t >  ".\..\out\compile_datetime.txt"
+TIME /t >> ".\..\out\compile_datetime.txt"
 
 
 TIMEOUT /t 10

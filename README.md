@@ -2,7 +2,8 @@
 A DOT graph of the family tree of SS13 builds.
 
 ![Graphviz graph](./out/tree.svg?sanitize=true)
- **Compiled: June 06, 2021 - 01:37PM**
+**Compiled: June 06, 2021 - 02:40PM (ÜTC +03)**
+(or check auto-generated datetime [here](./out/compile_datetime.txt))
 
 ---
 
