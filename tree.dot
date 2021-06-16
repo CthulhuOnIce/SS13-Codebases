@@ -40,6 +40,8 @@ digraph  G {
 	"BayStation (GPL)" -> "BestRP"
 	"BayStation (GPL)" -> "Tau Ceti"
 	"BayStation (GPL)" -> "Aurora (Old)"
+	"BestRP" -> "Unbound Travels"
+	"Unbound Travels" -> "Aphelion Project"
 	"Aurora (Old)" -> "Aurora Station" [color=red]
 	"BayStation (GPL)" -> "Colonial Marines"
 	"Colonial Marines" -> "DM;CA"
