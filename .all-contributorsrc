@@ -62,6 +62,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "BlueNexus",
+      "name": "BlueNexus",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12956760?v=4",
+      "profile": "https://github.com/BlueNexus",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
