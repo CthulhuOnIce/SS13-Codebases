@@ -16,6 +16,15 @@
       ]
     },
     {
+      "login": "spacestation13",
+      "name": "Space Station 13",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72716220?v=4",
+      "profile": "https://spacestation13.com",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
       "login": "Gesugao-san",
       "name": "Gesugao-san",
       "avatar_url": "https://avatars.githubusercontent.com/u/28023014?v=4",
@@ -24,7 +33,8 @@
         "code",
         "ideas",
         "infra",
-        "tool"
+        "tool",
+        "content"
       ]
     },
     {
@@ -32,15 +42,6 @@
       "name": "drexample",
       "avatar_url": "https://avatars.githubusercontent.com/u/19371983?v=4",
       "profile": "https://github.com/drexample",
-      "contributions": [
-        "content"
-      ]
-    },
-    {
-      "login": "spacestation13",
-      "name": "Space Station 13",
-      "avatar_url": "https://avatars.githubusercontent.com/u/72716220?v=4",
-      "profile": "https://spacestation13.com",
       "contributions": [
         "content"
       ]
