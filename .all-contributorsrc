@@ -1,0 +1,27 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Gesugao-san",
+      "name": "Gesugao-san",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28023014?v=4",
+      "profile": "https://github.com/Gesugao-san",
+      "contributions": [
+        "code",
+        "ideas",
+        "infra",
+        "tool"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "SS13-Codebases",
+  "projectOwner": "Gesugao-san",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
