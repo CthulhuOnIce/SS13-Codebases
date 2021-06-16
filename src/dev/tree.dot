@@ -11,7 +11,7 @@ digraph G {
 	subgraph cluster_map
 	{
 		//
-		subgraph cluster_notes
+		subgraph cluster_note
 		{
 			/// Attributes ///
 			label    = "Notes about tree"
@@ -88,7 +88,7 @@ digraph G {
 		"BayStation (GPL)" -> "Colonial Marines"
 		"Colonial Marines" -> "DM;CA"
 		"DM;CA" -> "TGMC" [color=red]
-		"BayStation (GPL)" -> "BayStation (AGPL)"  [color=red]
+		"BayStation (GPL)" -> "BayStation (AGPL)" [color=red]
 		"/tg/Station (AGPL)" -> "YogStation"
 		"YogStation" -> "Fulpstation"
 		"/tg/Station (AGPL)" -> "Fallout 13"
@@ -117,7 +117,7 @@ digraph G {
 		"CEV Eris" -> "Soujurn Station"
 		"Soujurn Station" -> "Navarro"
 		"InterStation-Two" -> "Ava's Battlegrounds"
-		"Ava's Battlegrounds" -> "No Mans's Land"
+		"Ava's Battlegrounds" -> "No Mans's Land" [color=red]
 		"No Mans's Land" -> "Lebensraum"
 		"Lebensraum" -> "Civilization 13"
 		"BayStation (AGPL)" -> "Persistence (New)"
@@ -138,6 +138,21 @@ digraph G {
 		"UnityStation"
 		"SS3D"
 		"SS3D" -> "RE:SS3D"
+
+		"/tg/Station (AGPL)" -> "Fulpstation"
 		"/tg/Station (AGPL)" -> "Mojave Sun"
+		"BayStation (AGPL)" -> "Nebula"
+		"BestRP" -> "Unbound Travels"
+		"Boomer Station" -> "White Sands" [color=red]
+		"CEV Eris" -> "NEV Northern Light"
+		"Goon 2009 Public SVN" -> "BayStation Pre-r4407"
+		"Goonstation (Open Source)" -> "BeeStation Clover"
+		"Goonstation" -> "Goon 2009 Public SVN" [color=red]
+		"Lebensraum" -> "Civilization 13" [color=red]
+		"No Mans's Land" -> "Lebensraum" [color=red]
+		"Old FTL13" -> "FTL13" [color=red]
+		"Source Decompilation (OpenSS13)" -> "BayStation OpenSS13"
+		"Unbound Travels" -> "Aphelion Project"
+		"YogStation" -> "Old FTL13"
 	}
 }

@@ -8,8 +8,6 @@ digraph G {
 	graph [compound = true];
 
 
-
-
 	subgraph cluster_map
 	{
 		//

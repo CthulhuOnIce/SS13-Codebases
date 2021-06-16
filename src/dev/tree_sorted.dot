@@ -8,25 +8,41 @@ digraph G {
 	graph [compound = true];
 
 
-
-
 	subgraph cluster_map
 	{
-		subgraph cluster_info
+		//
+		subgraph cluster_note
 		{
-			label    = ""
+			/// Attributes ///
+			label    = "Notes about tree"
 			style    = "dotted"
 			rankdir  = "LB"
 			compound = false
 			rank     = same
-			node [shape=record, height=.08, fontsize=11, width=3.5];
-			//{rank = same; GitHub_source_repo; B;}
 
-			// info boxes
-			info1 [label = "Red arrows indicate that the child is not a fork of a parent, rather a new version or rebrand.", shape=rectangle]
-			GitHub_source_repo [label = <<b><u><font color="blue" style="font-weight: bold;">GitHub source repo </font></u></b> >, shape = rectangle, URL = "https://github.com/CthulhuOnIce/SS13-Codebases"]
+			node [
+				shape    = rectangle,
+				fontsize = 14,
+				//width    = 3.5
+				//height   = .08
+				minlen = 1
+			]
 
-			info1 -> GitHub_source_repo [style="invis"] //, taillabel = "tail", lhead=cluster_0, constraint=false]
+			/// Nodes ///
+			note1 [
+				label = "Red arrows indicate that the child is not a fork of a parent, \l
+			rather a new version or rebrand.\l", width = 4.5,
+			]
+			note2 [
+				label = <<b><u><font color="blue" style="font-weight: bold;" align="center">GitHub source <br align="center"/>repository </font></u></b> >,
+				URL = "https://github.com/CthulhuOnIce/SS13-Codebases", width = 1.5
+			]
+			dummy_helper1 [style = "invis", width = 3]
+
+			/// Edges ///
+			note1 -> note2 [style = "invis"] //, taillabel = "tail", lhead=cluster_0, constraint=false]
+			//node [shape=record, height=.08, fontsize=11, width=3.5]
+			note1 -> dummy_helper1 [style = "invis"] //, taillabel = "tail", lhead=cluster_0, constraint=false]
 
 		}
 
