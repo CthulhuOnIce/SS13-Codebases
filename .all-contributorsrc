@@ -6,14 +6,6 @@
   "commit": false,
   "contributors": [
     {
-      "login": "CthulhuOnIce",
-      "name": "CthulhuOnIce",
-      "avatar_url": "https://avatars.githubusercontent.com/u/41597119?v=4",
-      "profile": "https://github.com/CthulhuOnIce",
-      "contributions": [
-        "ideas",
-        "code"
-      ],        
       "login": "Gesugao-san",
       "name": "Gesugao-san",
       "avatar_url": "https://avatars.githubusercontent.com/u/28023014?v=4",
@@ -23,6 +15,16 @@
         "ideas",
         "infra",
         "tool"
+      ]
+    },
+    {
+      "login": "CthulhuOnIce",
+      "name": "CthulhuOnIce",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41597119?v=4",
+      "profile": "https://github.com/CthulhuOnIce",
+      "contributions": [
+        "ideas",
+        "code"
       ]
     }
   ],
