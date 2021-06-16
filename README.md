@@ -1,6 +1,6 @@
 # SS13-Codebases
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 A DOT graph of the family tree of SS13 builds.
 
@@ -26,6 +26,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Gesugao-san"><img src="https://avatars.githubusercontent.com/u/28023014?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gesugao-san</b></sub></a><br /><a href="https://github.com/Gesugao-san/SS13-Codebases/commits?author=Gesugao-san" title="Code">💻</a> <a href="#ideas-Gesugao-san" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-Gesugao-san" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#tool-Gesugao-san" title="Tools">🔧</a></td>
     <td align="center"><a href="https://github.com/drexample"><img src="https://avatars.githubusercontent.com/u/19371983?v=4?s=100" width="100px;" alt=""/><br /><sub><b>drexample</b></sub></a><br /><a href="#content-drexample" title="Content">🖋</a></td>
     <td align="center"><a href="https://spacestation13.com"><img src="https://avatars.githubusercontent.com/u/72716220?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Space Station 13</b></sub></a><br /><a href="#content-spacestation13" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/comradef191"><img src="https://avatars.githubusercontent.com/u/62987296?v=4?s=100" width="100px;" alt=""/><br /><sub><b>comradef191</b></sub></a><br /><a href="#content-comradef191" title="Content">🖋</a></td>
   </tr>
 </table>
 
