@@ -2,10 +2,11 @@
     "recommendations": [
         "eamodio.gitlens",
         "joaompinto.vscode-graphviz",
-        "vshaxe.terminator",
-        "wwm.better-align",
         "shan.code-settings-sync",
         "shd101wyy.markdown-preview-enhanced",
-        "yzhang.markdown-all-in-one"
+        "tintinweb.graphviz-interactive-preview",
+        "vshaxe.terminator",
+        "wwm.better-align",
+        "yzhang.markdown-all-in-one",
     ]
 }

@@ -8,12 +8,10 @@ digraph G {
 	graph [compound = true];
 
 
-
-
 	subgraph cluster_map
 	{
 		//
-		subgraph cluster_note
+		subgraph cluster_notes
 		{
 			/// Attributes ///
 			label    = "Notes about tree"

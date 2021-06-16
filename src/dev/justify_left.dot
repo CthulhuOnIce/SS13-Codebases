@@ -14,7 +14,7 @@ digraph G {
 	}
 
 	// https://stackoverflow.com/a/2112178
-    subgraph cluster_2
+    subgraph cluster_info
     {
 		rankdir   = "LR";
 		labeljust = "l";
