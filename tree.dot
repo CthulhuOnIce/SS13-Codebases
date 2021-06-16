@@ -97,4 +97,5 @@ digraph  G {
 	"SS3D"
 	"SS3D" -> "RE:SS3D"
 	"/tg/Station (AGPL)" -> "Mojave Sun"
+	"BayStation (AGPL)" -> "Nebula"
 }
