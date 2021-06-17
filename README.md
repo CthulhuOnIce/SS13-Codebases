@@ -23,7 +23,10 @@
   <br>
 
   <a href="https://code.visualstudio.com/">
-    <img alt="Made in-VS Code" src="static/Made_in-VS_Code-1f425f.svg "/>
+    <img alt="Made in Graphviz" src="static/Made_in-Graphviz-30638e.svg"/>
+  </a>˙
+  <a href="https://code.visualstudio.com/">
+    <img alt="Made in VS Code" src="static/Made_in-VS_Code-1f425f.svg"/>
   </a>˙
   <a href="https://opensource.org/licenses/MIT">
     <img alt="MIT license" src="static/License-MIT-yellow.svg"/>
@@ -47,16 +50,14 @@
 
 ---
 
-<details>
-<summary><strong><big>Table of Contents</big></strong></summary>
+## Table of Contents
 
-** [SS13 Codebases](#ss13-codebases)
-*** [Contributing](#contributing)
-*** [Contributors](#contributors)
-
-</details>
+- [SS13 Codebases](#ss13-codebases)
+	- [Contributing](#contributing)
+	- [Contributors ✨](#contributors-)
 
 # SS13 Codebases
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
@@ -69,6 +70,7 @@ A [DOT graph](https://graphviz.org/) of the family tree of [Space Station 13](ht
 ---
 
 ## Contributing
+
 Please feel free to add your own codebase, add missing codebases, fix mistakes through a PR.
 
 ## Contributors ✨
@@ -96,5 +98,3 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
-Wed, Jun 16, 2021  8:12:34 PM
-Wed, Jun 16, 2021 11:39:23 PM
