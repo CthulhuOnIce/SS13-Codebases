@@ -1,18 +1,16 @@
 digraph G {
-	/// Attributes ///info3_dummy
+	/// Attributes ///
 	color    = "black"
 	fontname = "Arial"
 	fontsize = 14
 	ratio    = "auto"   //size = "30, 30"
 	rankdir  = "LB"
 
-	graph [
-		compound = true
-	]
+	graph [compound = true]
 
 
 	//
-	subgraph cluster_notes
+	subgraph cluster_note
 	{
 		/// Attributes ///
 		label    = "Notes about tree"

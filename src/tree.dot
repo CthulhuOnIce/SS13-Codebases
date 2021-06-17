@@ -1,13 +1,15 @@
 digraph G {
+	/// Attributes ///
 	color    = "black"
 	fontname = "Arial"
 	fontsize = 14
 	ratio    = "auto"   //size = "30, 30"
 	rankdir  = "LB"
 
-	graph [compound = true];
+	graph [compound = true]
 
 
+	//
 	subgraph cluster_map
 	{
 		//
@@ -46,12 +48,14 @@ digraph G {
 
 		}
 
+		/// Attributes ///
 		label    = "SS13 Codebases Circa Late 2020"
 		labelloc = "top"
 		style    = "dotted"
 		//rankdir = "TB"
 		//edge [constraint = true]
 
+		/// Edges ///
 		"BurgerStation"
 		"SS13 (Pre Open)" -> "Source Decompilation (OpenSS13)"
 		"Source Decompilation (OpenSS13)" -> "BayStation OpenSS13"

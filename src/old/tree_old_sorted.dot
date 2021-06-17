@@ -1,11 +1,15 @@
-digraph  G {
-	label = "SS13 Codebases Circa Early 2021"
-	labelloc="top"
+digraph G {
+	/// Attributes ///
+	label    = "SS13 Codebases Circa Early 2021"
+	labelloc = "top"
+	style    = "dotted"
+	rankdir  = "TB"
+	//edge [constraint = true]
 
-
-	// info boxes
+	/// Nodes ///
 	"Red arrows indicate that the child is not a fork of a parent, rather a new version or rebrand." [shape=rectangle]
 
+	/// Edges ///
 	"/tg/Station (AGPL)" -> "Apollo Station"
 	"/tg/Station (AGPL)" -> "BeeStation"
 	"/tg/Station (AGPL)" -> "Citadel Main"
