@@ -41,13 +41,14 @@ digraph G {
 	"BayStation (AGPL)" -> "Europa Station"
 	"BayStation (AGPL)" -> "Halo: Space Station Evolved"
 	"BayStation (AGPL)" -> "Interbay"
+	"BayStation (AGPL)" -> "Nebula"
 	"BayStation (AGPL)" -> "Persistence (New)"
 	"BayStation (AGPL)" -> "Polaris"
 	"BayStation (AGPL)" -> "SCP-13"
 	"BayStation (AGPL)" -> "Urist McStation"
 	"BayStation (GPL)" -> "/vg/Station"
 	"BayStation (GPL)" -> "Aurora (Old)"
-	"BayStation (GPL)" -> "BayStation (AGPL)"  [color=red]
+	"BayStation (GPL)" -> "BayStation (AGPL)" [color=red]
 	"BayStation (GPL)" -> "BestRP"
 	"BayStation (GPL)" -> "Colonial Marines"
 	"BayStation (GPL)" -> "Paradise"
@@ -56,8 +57,11 @@ digraph G {
 	"BayStation (Luna)" -> "Lifeweb"
 	"BeeStation" -> "Austation"
 	"BeeStation" -> "NSV13"
+	"BestRP" -> "Unbound Travels"
+	"Boomer Station" -> "White Sands" [color=red]
 	"BurgerStation"
 	"CEV Eris" -> "InterStation-Two"
+	"CEV Eris" -> "NEV Northern Light"
 	"CEV Eris" -> "Soujurn Station"
 	"Citadel Main" -> "HyperStation"
 	"Citadel Main" -> "Skyrat 13"
@@ -65,8 +69,11 @@ digraph G {
 	"DM;CA" -> "TGMC" [color=red]
 	"FacePunch" -> "Corporate Mercenaries"
 	"Fallout 13" -> "Desert Rose"
+	"Goon 2009 Public SVN" -> "BayStation Pre-r4407"
 	"Goon 2016 Release" -> "Goon 2020 Release" [color=red]
 	"Goon 2016 Release" -> "T/Goonstation"
+	"Goonstation (Open Source)" -> "BeeStation Clover"
+	"Goonstation" -> "Goon 2009 Public SVN" [color=red]
 	"Goonstation" -> "Goon 2016 Release" [color=red]
 	"Goonstation" -> "Goonstation (Open Source)" [color=red]
 	"Goonstation" -> "Revision 4407 (r4407)" [color=red]
@@ -83,6 +90,7 @@ digraph G {
 	"Revision 4407 (r4407)" -> "D2K5"
 	"Revision 4407 (r4407)" -> "Mars Station 42"
 	"Soujurn Station" -> "Navarro"
+	"Source Decompilation (OpenSS13)"
 	"Source Decompilation (OpenSS13)" -> "BayStation OpenSS13"
 	"SS13 (Pre Open)" -> "Goonstation"
 	"SS13 (Pre Open)" -> "Source Decompilation (OpenSS13)"
@@ -90,6 +98,7 @@ digraph G {
 	"SS3D"
 	"SS3D" -> "RE:SS3D"
 	"Star Trek 13" -> "Deep Space 13" [color=red]
+	"Unbound Travels" -> "Aphelion Project"
 	"UnityStation"
 	"V.O.R.E. Station" -> "AEIOU"
 	"V.O.R.E. Station" -> "Citadel RP"

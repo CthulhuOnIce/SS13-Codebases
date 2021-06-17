@@ -92,7 +92,7 @@ digraph G {
 		"BayStation (GPL)" -> "Colonial Marines"
 		"Colonial Marines" -> "DM;CA"
 		"DM;CA" -> "TGMC" [color=red]
-		"BayStation (GPL)" -> "BayStation (AGPL)"  [color=red]
+		"BayStation (GPL)" -> "BayStation (AGPL)" [color=red]
 		"/tg/Station (AGPL)" -> "YogStation"
 		"YogStation" -> "Fulpstation"
 		"/tg/Station (AGPL)" -> "Fallout 13"
@@ -143,6 +143,16 @@ digraph G {
 		"SS3D"
 		"SS3D" -> "RE:SS3D"
 		"/tg/Station (AGPL)" -> "Mojave Sun"
+
 		"/tg/Station (Pre-AGPL)" -> "FreeTG Station"
+		"BayStation (AGPL)" -> "Nebula"
+		"BestRP" -> "Unbound Travels"
+		"Boomer Station" -> "White Sands" [color=red]
+		"CEV Eris" -> "NEV Northern Light"
+		"Goon 2009 Public SVN" -> "BayStation Pre-r4407"
+		"Goonstation (Open Source)" -> "BeeStation Clover"
+		"Goonstation" -> "Goon 2009 Public SVN" [color=red]
+		"Source Decompilation (OpenSS13)"
+		"Unbound Travels" -> "Aphelion Project"
 	}
 }
