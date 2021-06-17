@@ -139,5 +139,6 @@ digraph G {
 		"SS3D"
 		"SS3D" -> "RE:SS3D"
 		"/tg/Station (AGPL)" -> "Mojave Sun"
+		"/tg/Station (Pre-AGPL)" -> "FreeTG Station"
 	}
 }

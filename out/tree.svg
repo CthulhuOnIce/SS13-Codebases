@@ -16,24 +16,24 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_note</title>
-<polygon fill="none" stroke="black" stroke-dasharray="1,5" points="1149,-728 1149,-893 1511,-893 1511,-728 1149,-728"/>
-<text text-anchor="middle" x="1330" y="-877.8" font-family="Arial" font-size="14.00">Notes about tree</text>
+<polygon fill="none" stroke="black" stroke-dasharray="1,5" points="1234,-728 1234,-893 1596,-893 1596,-728 1234,-728"/>
+<text text-anchor="middle" x="1415" y="-877.8" font-family="Arial" font-size="14.00">Notes about tree</text>
 </g>
 <!-- note1 -->
 <g id="node1" class="node">
 <title>note1</title>
-<polygon fill="none" stroke="black" points="1503,-862 1157,-862 1157,-808 1503,-808 1503,-862"/>
-<text text-anchor="start" x="1165" y="-846.8" font-family="Times New Roman,serif" font-size="14.00">Red arrows indicate that the child is not a fork of a parent, </text>
-<text text-anchor="start" x="1165" y="-815.8" font-family="Times New Roman,serif" font-size="14.00">			rather a new version or rebrand.</text>
+<polygon fill="none" stroke="black" points="1588,-862 1242,-862 1242,-808 1588,-808 1588,-862"/>
+<text text-anchor="start" x="1250" y="-846.8" font-family="Times New Roman,serif" font-size="14.00">Red arrows indicate that the child is not a fork of a parent, </text>
+<text text-anchor="start" x="1250" y="-815.8" font-family="Times New Roman,serif" font-size="14.00">			rather a new version or rebrand.</text>
 </g>
 <!-- note2 -->
 <g id="node2" class="node">
 <title>note2</title>
 <g id="a_node2"><a xlink:href="https://github.com/CthulhuOnIce/SS13-Codebases" xlink:title="&lt;b&gt;&lt;u&gt;&lt;font color=&quot;blue&quot; style=&quot;font&#45;weight: bold;&quot; align=&quot;center&quot;&gt;GitHub source &lt;br align=&quot;center&quot;/&gt;repository &lt;/font&gt;&lt;/u&gt;&lt;/b&gt; ">
-<polygon fill="none" stroke="black" points="1268,-772 1158,-772 1158,-736 1268,-736 1268,-772"/>
-<text text-anchor="start" x="1166" y="-757.8" font-family="Times New Roman,serif" font-weight="bold" text-decoration="underline" font-size="14.00" fill="blue">GitHub source </text>
-<text text-anchor="start" x="1177.5" y="-743.8" font-family="Times New Roman,serif" font-weight="bold" text-decoration="underline" font-size="14.00" fill="blue">repository </text>
-<text text-anchor="start" x="1244.5" y="-743.8" font-family="Times New Roman,serif" font-size="14.00"> </text>
+<polygon fill="none" stroke="black" points="1353,-772 1243,-772 1243,-736 1353,-736 1353,-772"/>
+<text text-anchor="start" x="1251" y="-757.8" font-family="Times New Roman,serif" font-weight="bold" text-decoration="underline" font-size="14.00" fill="blue">GitHub source </text>
+<text text-anchor="start" x="1262.5" y="-743.8" font-family="Times New Roman,serif" font-weight="bold" text-decoration="underline" font-size="14.00" fill="blue">repository </text>
+<text text-anchor="start" x="1329.5" y="-743.8" font-family="Times New Roman,serif" font-size="14.00"> </text>
 </a>
 </g>
 </g>
@@ -43,98 +43,98 @@
 <!-- BurgerStation -->
 <g id="node4" class="node">
 <title>BurgerStation</title>
-<ellipse fill="none" stroke="black" cx="1071" cy="-835" rx="60.39" ry="18"/>
-<text text-anchor="middle" x="1071" y="-831.3" font-family="Times New Roman,serif" font-size="14.00">BurgerStation</text>
+<ellipse fill="none" stroke="black" cx="1150" cy="-835" rx="60.39" ry="18"/>
+<text text-anchor="middle" x="1150" y="-831.3" font-family="Times New Roman,serif" font-size="14.00">BurgerStation</text>
 </g>
 <!-- SS13 (Pre Open) -->
 <g id="node5" class="node">
 <title>SS13 (Pre Open)</title>
-<ellipse fill="none" stroke="black" cx="902" cy="-835" rx="73.39" ry="18"/>
-<text text-anchor="middle" x="902" y="-831.3" font-family="Times New Roman,serif" font-size="14.00">SS13 (Pre Open)</text>
+<ellipse fill="none" stroke="black" cx="969" cy="-835" rx="73.39" ry="18"/>
+<text text-anchor="middle" x="969" y="-831.3" font-family="Times New Roman,serif" font-size="14.00">SS13 (Pre Open)</text>
 </g>
 <!-- Source Decompilation (OpenSS13) -->
 <g id="node6" class="node">
 <title>Source Decompilation (OpenSS13)</title>
-<ellipse fill="none" stroke="black" cx="684" cy="-754" rx="139.98" ry="18"/>
-<text text-anchor="middle" x="684" y="-750.3" font-family="Times New Roman,serif" font-size="14.00">Source Decompilation (OpenSS13)</text>
+<ellipse fill="none" stroke="black" cx="760" cy="-754" rx="139.98" ry="18"/>
+<text text-anchor="middle" x="760" y="-750.3" font-family="Times New Roman,serif" font-size="14.00">Source Decompilation (OpenSS13)</text>
 </g>
 <!-- SS13 (Pre Open)&#45;&gt;Source Decompilation (OpenSS13) -->
 <g id="edge3" class="edge">
 <title>SS13 (Pre Open)&#45;&gt;Source Decompilation (OpenSS13)</title>
-<path fill="none" stroke="black" d="M862.52,-819.69C827.68,-807.07 776.58,-788.55 737.97,-774.56"/>
-<polygon fill="black" stroke="black" points="739.03,-771.22 728.44,-771.1 736.65,-777.8 739.03,-771.22"/>
+<path fill="none" stroke="black" d="M930.67,-819.51C897.46,-806.96 849.1,-788.68 812.33,-774.78"/>
+<polygon fill="black" stroke="black" points="813.36,-771.43 802.77,-771.17 810.89,-777.98 813.36,-771.43"/>
 </g>
 <!-- Goonstation -->
 <g id="node8" class="node">
 <title>Goonstation</title>
-<ellipse fill="none" stroke="black" cx="993" cy="-754" rx="55.79" ry="18"/>
-<text text-anchor="middle" x="993" y="-750.3" font-family="Times New Roman,serif" font-size="14.00">Goonstation</text>
+<ellipse fill="none" stroke="black" cx="1069" cy="-754" rx="55.79" ry="18"/>
+<text text-anchor="middle" x="1069" y="-750.3" font-family="Times New Roman,serif" font-size="14.00">Goonstation</text>
 </g>
 <!-- SS13 (Pre Open)&#45;&gt;Goonstation -->
 <g id="edge5" class="edge">
 <title>SS13 (Pre Open)&#45;&gt;Goonstation</title>
-<path fill="none" stroke="black" d="M921.3,-817.25C934.5,-805.78 952.18,-790.44 966.67,-777.85"/>
-<polygon fill="black" stroke="black" points="969.09,-780.39 974.35,-771.19 964.51,-775.1 969.09,-780.39"/>
+<path fill="none" stroke="black" d="M989.72,-817.63C1004.53,-805.93 1024.63,-790.05 1040.89,-777.21"/>
+<polygon fill="black" stroke="black" points="1043.31,-779.75 1048.99,-770.81 1038.97,-774.26 1043.31,-779.75"/>
 </g>
 <!-- BayStation OpenSS13 -->
 <g id="node7" class="node">
 <title>BayStation OpenSS13</title>
-<ellipse fill="none" stroke="black" cx="637" cy="-682" rx="92.08" ry="18"/>
-<text text-anchor="middle" x="637" y="-678.3" font-family="Times New Roman,serif" font-size="14.00">BayStation OpenSS13</text>
+<ellipse fill="none" stroke="black" cx="713" cy="-682" rx="92.08" ry="18"/>
+<text text-anchor="middle" x="713" y="-678.3" font-family="Times New Roman,serif" font-size="14.00">BayStation OpenSS13</text>
 </g>
 <!-- Source Decompilation (OpenSS13)&#45;&gt;BayStation OpenSS13 -->
 <g id="edge4" class="edge">
 <title>Source Decompilation (OpenSS13)&#45;&gt;BayStation OpenSS13</title>
-<path fill="none" stroke="black" d="M672.62,-736.05C667.11,-727.84 660.36,-717.79 654.23,-708.66"/>
-<polygon fill="black" stroke="black" points="657.08,-706.63 648.6,-700.28 651.27,-710.53 657.08,-706.63"/>
+<path fill="none" stroke="black" d="M748.62,-736.05C743.11,-727.84 736.36,-717.79 730.23,-708.66"/>
+<polygon fill="black" stroke="black" points="733.08,-706.63 724.6,-700.28 727.27,-710.53 733.08,-706.63"/>
 </g>
 <!-- Revision 4407 (r4407) -->
 <g id="node9" class="node">
 <title>Revision 4407 (r4407)</title>
-<ellipse fill="none" stroke="black" cx="1262" cy="-682" rx="90.98" ry="18"/>
-<text text-anchor="middle" x="1262" y="-678.3" font-family="Times New Roman,serif" font-size="14.00">Revision 4407 (r4407)</text>
+<ellipse fill="none" stroke="black" cx="1338" cy="-682" rx="90.98" ry="18"/>
+<text text-anchor="middle" x="1338" y="-678.3" font-family="Times New Roman,serif" font-size="14.00">Revision 4407 (r4407)</text>
 </g>
 <!-- Goonstation&#45;&gt;Revision 4407 (r4407) -->
 <g id="edge6" class="edge">
 <title>Goonstation&#45;&gt;Revision 4407 (r4407)</title>
-<path fill="none" stroke="red" d="M1035.03,-742.06C1079.08,-730.6 1148.79,-712.46 1199.33,-699.31"/>
-<polygon fill="red" stroke="red" points="1200.38,-702.65 1209.18,-696.75 1198.62,-695.88 1200.38,-702.65"/>
+<path fill="none" stroke="red" d="M1111.03,-742.06C1155.08,-730.6 1224.79,-712.46 1275.33,-699.31"/>
+<polygon fill="red" stroke="red" points="1276.38,-702.65 1285.18,-696.75 1274.62,-695.88 1276.38,-702.65"/>
 </g>
 <!-- Goon 2016 Release -->
 <g id="node10" class="node">
 <title>Goon 2016 Release</title>
-<ellipse fill="none" stroke="black" cx="829" cy="-682" rx="81.79" ry="18"/>
-<text text-anchor="middle" x="829" y="-678.3" font-family="Times New Roman,serif" font-size="14.00">Goon 2016 Release</text>
+<ellipse fill="none" stroke="black" cx="905" cy="-682" rx="81.79" ry="18"/>
+<text text-anchor="middle" x="905" y="-678.3" font-family="Times New Roman,serif" font-size="14.00">Goon 2016 Release</text>
 </g>
 <!-- Goonstation&#45;&gt;Goon 2016 Release -->
 <g id="edge7" class="edge">
 <title>Goonstation&#45;&gt;Goon 2016 Release</title>
-<path fill="none" stroke="red" d="M960.6,-739.17C935.88,-728.62 901.53,-713.96 874.13,-702.26"/>
-<polygon fill="red" stroke="red" points="875.32,-698.97 864.75,-698.26 872.57,-705.4 875.32,-698.97"/>
+<path fill="none" stroke="red" d="M1036.6,-739.17C1011.88,-728.62 977.53,-713.96 950.13,-702.26"/>
+<polygon fill="red" stroke="red" points="951.32,-698.97 940.75,-698.26 948.57,-705.4 951.32,-698.97"/>
 </g>
 <!-- Goonstation (Open Source) -->
 <g id="node13" class="node">
 <title>Goonstation (Open Source)</title>
-<ellipse fill="none" stroke="black" cx="1041" cy="-682" rx="112.38" ry="18"/>
-<text text-anchor="middle" x="1041" y="-678.3" font-family="Times New Roman,serif" font-size="14.00">Goonstation (Open Source)</text>
+<ellipse fill="none" stroke="black" cx="1117" cy="-682" rx="112.38" ry="18"/>
+<text text-anchor="middle" x="1117" y="-678.3" font-family="Times New Roman,serif" font-size="14.00">Goonstation (Open Source)</text>
 </g>
 <!-- Goonstation&#45;&gt;Goonstation (Open Source) -->
 <g id="edge10" class="edge">
 <title>Goonstation&#45;&gt;Goonstation (Open Source)</title>
-<path fill="none" stroke="red" d="M1004.62,-736.05C1010.25,-727.84 1017.14,-717.79 1023.4,-708.66"/>
-<polygon fill="red" stroke="red" points="1026.39,-710.5 1029.15,-700.28 1020.61,-706.54 1026.39,-710.5"/>
+<path fill="none" stroke="red" d="M1080.62,-736.05C1086.25,-727.84 1093.14,-717.79 1099.4,-708.66"/>
+<polygon fill="red" stroke="red" points="1102.39,-710.5 1105.15,-700.28 1096.61,-706.54 1102.39,-710.5"/>
 </g>
 <!-- /tg/Station (Pre&#45;AGPL) -->
 <g id="node14" class="node">
 <title>/tg/Station (Pre&#45;AGPL)</title>
-<ellipse fill="none" stroke="black" cx="1353" cy="-610" rx="94.78" ry="18"/>
-<text text-anchor="middle" x="1353" y="-606.3" font-family="Times New Roman,serif" font-size="14.00">/tg/Station (Pre&#45;AGPL)</text>
+<ellipse fill="none" stroke="black" cx="1428" cy="-610" rx="94.78" ry="18"/>
+<text text-anchor="middle" x="1428" y="-606.3" font-family="Times New Roman,serif" font-size="14.00">/tg/Station (Pre&#45;AGPL)</text>
 </g>
 <!-- Revision 4407 (r4407)&#45;&gt;/tg/Station (Pre&#45;AGPL) -->
 <g id="edge11" class="edge">
 <title>Revision 4407 (r4407)&#45;&gt;/tg/Station (Pre&#45;AGPL)</title>
-<path fill="none" stroke="black" d="M1283.57,-664.41C1295.38,-655.32 1310.2,-643.92 1323.11,-633.99"/>
-<polygon fill="black" stroke="black" points="1325.48,-636.58 1331.27,-627.71 1321.21,-631.04 1325.48,-636.58"/>
+<path fill="none" stroke="black" d="M1359.33,-664.41C1371.01,-655.32 1385.67,-643.92 1398.44,-633.99"/>
+<polygon fill="black" stroke="black" points="1400.77,-636.61 1406.51,-627.71 1396.47,-631.09 1400.77,-636.61"/>
 </g>
 <!-- BayStation (Luna) -->
 <g id="node15" class="node">
@@ -145,56 +145,56 @@
 <!-- Revision 4407 (r4407)&#45;&gt;BayStation (Luna) -->
 <g id="edge12" class="edge">
 <title>Revision 4407 (r4407)&#45;&gt;BayStation (Luna)</title>
-<path fill="none" stroke="black" d="M1339.76,-672.52C1463.15,-659.07 1702.43,-632.98 1825.98,-619.51"/>
-<polygon fill="black" stroke="black" points="1826.56,-622.96 1836.12,-618.4 1825.8,-616.01 1826.56,-622.96"/>
+<path fill="none" stroke="black" d="M1412.87,-671.74C1520.71,-658.4 1718.71,-633.92 1827.46,-620.47"/>
+<polygon fill="black" stroke="black" points="1828.21,-623.9 1837.7,-619.2 1827.35,-616.95 1828.21,-623.9"/>
 </g>
 <!-- D2K5 -->
 <g id="node16" class="node">
 <title>D2K5</title>
-<ellipse fill="none" stroke="black" cx="1053" cy="-610" rx="32.49" ry="18"/>
-<text text-anchor="middle" x="1053" y="-606.3" font-family="Times New Roman,serif" font-size="14.00">D2K5</text>
+<ellipse fill="none" stroke="black" cx="1128" cy="-610" rx="32.49" ry="18"/>
+<text text-anchor="middle" x="1128" y="-606.3" font-family="Times New Roman,serif" font-size="14.00">D2K5</text>
 </g>
 <!-- Revision 4407 (r4407)&#45;&gt;D2K5 -->
 <g id="edge13" class="edge">
 <title>Revision 4407 (r4407)&#45;&gt;D2K5</title>
-<path fill="none" stroke="black" d="M1213.44,-666.67C1179.93,-656.52 1134.49,-642.23 1095,-628 1092.6,-627.14 1090.14,-626.22 1087.67,-625.28"/>
-<polygon fill="black" stroke="black" points="1088.78,-621.95 1078.2,-621.57 1086.23,-628.47 1088.78,-621.95"/>
+<path fill="none" stroke="black" d="M1289.14,-666.7C1255.43,-656.56 1209.72,-642.28 1170,-628 1167.6,-627.14 1165.14,-626.22 1162.67,-625.28"/>
+<polygon fill="black" stroke="black" points="1163.78,-621.96 1153.19,-621.57 1161.23,-628.48 1163.78,-621.96"/>
 </g>
 <!-- Mars Station 42 -->
 <g id="node17" class="node">
 <title>Mars Station 42</title>
-<ellipse fill="none" stroke="black" cx="1172" cy="-610" rx="68.49" ry="18"/>
-<text text-anchor="middle" x="1172" y="-606.3" font-family="Times New Roman,serif" font-size="14.00">Mars Station 42</text>
+<ellipse fill="none" stroke="black" cx="1247" cy="-610" rx="68.49" ry="18"/>
+<text text-anchor="middle" x="1247" y="-606.3" font-family="Times New Roman,serif" font-size="14.00">Mars Station 42</text>
 </g>
 <!-- Revision 4407 (r4407)&#45;&gt;Mars Station 42 -->
 <g id="edge14" class="edge">
 <title>Revision 4407 (r4407)&#45;&gt;Mars Station 42</title>
-<path fill="none" stroke="black" d="M1240.67,-664.41C1228.82,-655.19 1213.9,-643.59 1201,-633.55"/>
-<polygon fill="black" stroke="black" points="1202.91,-630.61 1192.87,-627.23 1198.61,-636.13 1202.91,-630.61"/>
+<path fill="none" stroke="black" d="M1316.43,-664.41C1304.45,-655.19 1289.37,-643.59 1276.32,-633.55"/>
+<polygon fill="black" stroke="black" points="1278.16,-630.55 1268.1,-627.23 1273.89,-636.1 1278.16,-630.55"/>
 </g>
 <!-- T/Goonstation -->
 <g id="node11" class="node">
 <title>T/Goonstation</title>
-<ellipse fill="none" stroke="black" cx="711" cy="-610" rx="63.89" ry="18"/>
-<text text-anchor="middle" x="711" y="-606.3" font-family="Times New Roman,serif" font-size="14.00">T/Goonstation</text>
+<ellipse fill="none" stroke="black" cx="823" cy="-610" rx="63.89" ry="18"/>
+<text text-anchor="middle" x="823" y="-606.3" font-family="Times New Roman,serif" font-size="14.00">T/Goonstation</text>
 </g>
 <!-- Goon 2016 Release&#45;&gt;T/Goonstation -->
 <g id="edge8" class="edge">
 <title>Goon 2016 Release&#45;&gt;T/Goonstation</title>
-<path fill="none" stroke="black" d="M801.93,-664.94C785.36,-655.11 763.98,-642.43 746.11,-631.83"/>
-<polygon fill="black" stroke="black" points="747.52,-628.6 737.13,-626.5 743.95,-634.62 747.52,-628.6"/>
+<path fill="none" stroke="black" d="M885.57,-664.41C874.87,-655.28 861.43,-643.81 849.76,-633.84"/>
+<polygon fill="black" stroke="black" points="851.89,-631.06 842.01,-627.23 847.34,-636.38 851.89,-631.06"/>
 </g>
 <!-- Goon 2020 Release -->
 <g id="node12" class="node">
 <title>Goon 2020 Release</title>
-<ellipse fill="none" stroke="black" cx="875" cy="-610" rx="81.79" ry="18"/>
-<text text-anchor="middle" x="875" y="-606.3" font-family="Times New Roman,serif" font-size="14.00">Goon 2020 Release</text>
+<ellipse fill="none" stroke="black" cx="987" cy="-610" rx="81.79" ry="18"/>
+<text text-anchor="middle" x="987" y="-606.3" font-family="Times New Roman,serif" font-size="14.00">Goon 2020 Release</text>
 </g>
 <!-- Goon 2016 Release&#45;&gt;Goon 2020 Release -->
 <g id="edge9" class="edge">
 <title>Goon 2016 Release&#45;&gt;Goon 2020 Release</title>
-<path fill="none" stroke="red" d="M840.14,-664.05C845.54,-655.84 852.14,-645.79 858.14,-636.66"/>
-<polygon fill="red" stroke="red" points="861.08,-638.55 863.65,-628.28 855.23,-634.71 861.08,-638.55"/>
+<path fill="none" stroke="red" d="M924.43,-664.41C934.98,-655.41 948.18,-644.14 959.74,-634.27"/>
+<polygon fill="red" stroke="red" points="962.09,-636.87 967.42,-627.71 957.54,-631.54 962.09,-636.87"/>
 </g>
 <!-- /tg/Station (AGPL) -->
 <g id="node19" class="node">
@@ -205,8 +205,8 @@
 <!-- /tg/Station (Pre&#45;AGPL)&#45;&gt;/tg/Station (AGPL) -->
 <g id="edge16" class="edge">
 <title>/tg/Station (Pre&#45;AGPL)&#45;&gt;/tg/Station (AGPL)</title>
-<path fill="none" stroke="red" d="M1434.9,-600.8C1569.47,-587.32 1835.82,-560.65 1970.28,-547.18"/>
-<polygon fill="red" stroke="red" points="1970.91,-550.64 1980.51,-546.16 1970.21,-543.67 1970.91,-550.64"/>
+<path fill="none" stroke="red" d="M1507.35,-600.1C1626.8,-586.7 1851.58,-561.48 1971.63,-548.02"/>
+<polygon fill="red" stroke="red" points="1972.31,-551.46 1981.85,-546.87 1971.52,-544.51 1972.31,-551.46"/>
 </g>
 <!-- BayStation (GPL) -->
 <g id="node20" class="node">
@@ -217,8 +217,8 @@
 <!-- /tg/Station (Pre&#45;AGPL)&#45;&gt;BayStation (GPL) -->
 <g id="edge17" class="edge">
 <title>/tg/Station (Pre&#45;AGPL)&#45;&gt;BayStation (GPL)</title>
-<path fill="none" stroke="black" d="M1286.27,-597.17C1273.91,-595.25 1261.08,-593.42 1249,-592 1026.4,-565.9 969.19,-576.46 746,-556 721.36,-553.74 694.52,-550.87 670.34,-548.14"/>
-<polygon fill="black" stroke="black" points="670.49,-544.64 660.16,-546.98 669.7,-551.59 670.49,-544.64"/>
+<path fill="none" stroke="black" d="M1361.56,-597.13C1349.11,-595.19 1336.18,-593.37 1324,-592 1068.23,-563.2 1002.42,-578.31 746,-556 721.23,-553.85 694.25,-550.99 669.99,-548.24"/>
+<polygon fill="black" stroke="black" points="670.1,-544.73 659.77,-547.07 669.31,-551.69 670.1,-544.73"/>
 </g>
 <!-- Old HippieStation -->
 <g id="node21" class="node">
@@ -229,8 +229,8 @@
 <!-- /tg/Station (Pre&#45;AGPL)&#45;&gt;Old HippieStation -->
 <g id="edge18" class="edge">
 <title>/tg/Station (Pre&#45;AGPL)&#45;&gt;Old HippieStation</title>
-<path fill="none" stroke="black" d="M1285.11,-597.36C1273.1,-595.45 1260.69,-593.59 1249,-592 1101.49,-571.99 1063.13,-578.62 916,-556 909.3,-554.97 902.33,-553.78 895.4,-552.51"/>
-<polygon fill="black" stroke="black" points="895.76,-549.02 885.28,-550.61 894.47,-555.9 895.76,-549.02"/>
+<path fill="none" stroke="black" d="M1360.69,-597.25C1348.5,-595.34 1335.89,-593.49 1324,-592 1143.38,-569.3 1096.19,-581.89 916,-556 909.29,-555.04 902.32,-553.89 895.38,-552.64"/>
+<polygon fill="black" stroke="black" points="895.73,-549.15 885.26,-550.77 894.46,-556.03 895.73,-549.15"/>
 </g>
 <!-- Old YogStation -->
 <g id="node22" class="node">
@@ -241,8 +241,8 @@
 <!-- /tg/Station (Pre&#45;AGPL)&#45;&gt;Old YogStation -->
 <g id="edge19" class="edge">
 <title>/tg/Station (Pre&#45;AGPL)&#45;&gt;Old YogStation</title>
-<path fill="none" stroke="black" d="M1286.27,-597.13C1228.85,-586.76 1143.83,-571.06 1070,-556 1064.55,-554.89 1058.89,-553.7 1053.23,-552.49"/>
-<polygon fill="black" stroke="black" points="1053.58,-548.99 1043.07,-550.3 1052.1,-555.83 1053.58,-548.99"/>
+<path fill="none" stroke="black" d="M1359.22,-597.55C1347.48,-595.65 1335.39,-593.74 1324,-592 1211.29,-574.8 1182.19,-576.31 1070,-556 1064.22,-554.95 1058.21,-553.78 1052.22,-552.55"/>
+<polygon fill="black" stroke="black" points="1052.69,-549.07 1042.18,-550.45 1051.25,-555.92 1052.69,-549.07"/>
 </g>
 <!-- NTStation -->
 <g id="node23" class="node">
@@ -253,8 +253,8 @@
 <!-- /tg/Station (Pre&#45;AGPL)&#45;&gt;NTStation -->
 <g id="edge20" class="edge">
 <title>/tg/Station (Pre&#45;AGPL)&#45;&gt;NTStation</title>
-<path fill="none" stroke="black" d="M1305.62,-594.33C1266.53,-582.22 1211.41,-565.14 1172.77,-553.18"/>
-<polygon fill="black" stroke="black" points="1173.41,-549.71 1162.82,-550.1 1171.34,-556.4 1173.41,-549.71"/>
+<path fill="none" stroke="black" d="M1364.78,-596.48C1315.57,-586.43 1245.66,-571.49 1185,-556 1181.11,-555.01 1177.08,-553.93 1173.05,-552.82"/>
+<polygon fill="black" stroke="black" points="1173.67,-549.35 1163.09,-550 1171.76,-556.09 1173.67,-549.35"/>
 </g>
 <!-- Traitor Death Match -->
 <g id="node24" class="node">
@@ -265,8 +265,8 @@
 <!-- /tg/Station (Pre&#45;AGPL)&#45;&gt;Traitor Death Match -->
 <g id="edge21" class="edge">
 <title>/tg/Station (Pre&#45;AGPL)&#45;&gt;Traitor Death Match</title>
-<path fill="none" stroke="black" d="M1334.84,-592.05C1325.45,-583.28 1313.82,-572.43 1303.53,-562.83"/>
-<polygon fill="black" stroke="black" points="1305.69,-560.05 1295.99,-555.79 1300.91,-565.17 1305.69,-560.05"/>
+<path fill="none" stroke="black" d="M1393.96,-593.12C1372.23,-582.98 1343.89,-569.75 1320.66,-558.91"/>
+<polygon fill="black" stroke="black" points="1321.93,-555.64 1311.39,-554.58 1318.97,-561.98 1321.93,-555.64"/>
 </g>
 <!-- Archangel -->
 <g id="node25" class="node">
@@ -277,8 +277,8 @@
 <!-- /tg/Station (Pre&#45;AGPL)&#45;&gt;Archangel -->
 <g id="edge22" class="edge">
 <title>/tg/Station (Pre&#45;AGPL)&#45;&gt;Archangel</title>
-<path fill="none" stroke="black" d="M1371.16,-592.05C1380.92,-582.94 1393.1,-571.57 1403.68,-561.7"/>
-<polygon fill="black" stroke="black" points="1406.12,-564.21 1411.04,-554.83 1401.34,-559.09 1406.12,-564.21"/>
+<path fill="none" stroke="black" d="M1428,-591.7C1428,-583.98 1428,-574.71 1428,-566.11"/>
+<polygon fill="black" stroke="black" points="1431.5,-566.1 1428,-556.1 1424.5,-566.1 1431.5,-566.1"/>
 </g>
 <!-- FacePunch -->
 <g id="node26" class="node">
@@ -289,8 +289,8 @@
 <!-- /tg/Station (Pre&#45;AGPL)&#45;&gt;FacePunch -->
 <g id="edge23" class="edge">
 <title>/tg/Station (Pre&#45;AGPL)&#45;&gt;FacePunch</title>
-<path fill="none" stroke="black" d="M1394.66,-593.81C1426.15,-582.33 1469.26,-566.61 1501.24,-554.95"/>
-<polygon fill="black" stroke="black" points="1502.59,-558.19 1510.79,-551.47 1500.19,-551.61 1502.59,-558.19"/>
+<path fill="none" stroke="black" d="M1455.43,-592.59C1472.11,-582.61 1493.54,-569.79 1511.25,-559.19"/>
+<polygon fill="black" stroke="black" points="1513.35,-562.02 1520.13,-553.88 1509.75,-556.01 1513.35,-562.02"/>
 </g>
 <!-- Old FTL13 -->
 <g id="node27" class="node">
@@ -301,8 +301,20 @@
 <!-- /tg/Station (Pre&#45;AGPL)&#45;&gt;Old FTL13 -->
 <g id="edge24" class="edge">
 <title>/tg/Station (Pre&#45;AGPL)&#45;&gt;Old FTL13</title>
-<path fill="none" stroke="black" d="M1417.21,-596.68C1468.29,-586.6 1541.48,-571.51 1605,-556 1609.09,-555 1613.31,-553.92 1617.55,-552.81"/>
-<polygon fill="black" stroke="black" points="1618.63,-556.14 1627.38,-550.17 1616.81,-549.38 1618.63,-556.14"/>
+<path fill="none" stroke="black" d="M1477.03,-594.58C1518.26,-582.45 1576.88,-565.21 1617.86,-553.16"/>
+<polygon fill="black" stroke="black" points="1619.01,-556.47 1627.62,-550.29 1617.04,-549.75 1619.01,-556.47"/>
+</g>
+<!-- FreeTG Station -->
+<g id="node91" class="node">
+<title>FreeTG Station</title>
+<ellipse fill="none" stroke="black" cx="1804" cy="-538" rx="67.69" ry="18"/>
+<text text-anchor="middle" x="1804" y="-534.3" font-family="Times New Roman,serif" font-size="14.00">FreeTG Station</text>
+</g>
+<!-- /tg/Station (Pre&#45;AGPL)&#45;&gt;FreeTG Station -->
+<g id="edge86" class="edge">
+<title>/tg/Station (Pre&#45;AGPL)&#45;&gt;FreeTG Station</title>
+<path fill="none" stroke="black" d="M1497.03,-597.61C1557.73,-587.39 1648.41,-571.63 1727,-556 1732.68,-554.87 1738.58,-553.65 1744.48,-552.4"/>
+<polygon fill="black" stroke="black" points="1745.32,-555.8 1754.36,-550.28 1743.85,-548.96 1745.32,-555.8"/>
 </g>
 <!-- Lifeweb -->
 <g id="node18" class="node">
@@ -445,8 +457,8 @@
 <!-- /tg/Station (AGPL)&#45;&gt;FTL13 -->
 <g id="edge57" class="edge">
 <title>/tg/Station (AGPL)&#45;&gt;FTL13</title>
-<path fill="none" stroke="black" d="M1975.84,-532.39C1843.84,-523.97 1577.95,-505.04 1487,-484 1484.18,-483.35 1481.29,-482.56 1478.42,-481.68"/>
-<polygon fill="black" stroke="black" points="1479.36,-478.31 1468.76,-478.45 1477.13,-484.94 1479.36,-478.31"/>
+<path fill="none" stroke="black" d="M1980.46,-529.76C1949.83,-526.69 1913.67,-523.12 1881,-520 1705.95,-503.3 1658.36,-523.43 1487,-484 1484.18,-483.35 1481.29,-482.56 1478.42,-481.69"/>
+<polygon fill="black" stroke="black" points="1479.36,-478.32 1468.76,-478.46 1477.13,-484.95 1479.36,-478.32"/>
 </g>
 <!-- Apollo Station -->
 <g id="node61" class="node">
@@ -1033,32 +1045,32 @@
 <!-- SS14 -->
 <g id="node86" class="node">
 <title>SS14</title>
-<ellipse fill="none" stroke="black" cx="746" cy="-835" rx="30.59" ry="18"/>
-<text text-anchor="middle" x="746" y="-831.3" font-family="Times New Roman,serif" font-size="14.00">SS14</text>
+<ellipse fill="none" stroke="black" cx="771" cy="-835" rx="30.59" ry="18"/>
+<text text-anchor="middle" x="771" y="-831.3" font-family="Times New Roman,serif" font-size="14.00">SS14</text>
 </g>
 <!-- UnityStation -->
 <g id="node87" class="node">
 <title>UnityStation</title>
-<ellipse fill="none" stroke="black" cx="574" cy="-835" rx="55.79" ry="18"/>
-<text text-anchor="middle" x="574" y="-831.3" font-family="Times New Roman,serif" font-size="14.00">UnityStation</text>
+<ellipse fill="none" stroke="black" cx="515" cy="-835" rx="55.79" ry="18"/>
+<text text-anchor="middle" x="515" y="-831.3" font-family="Times New Roman,serif" font-size="14.00">UnityStation</text>
 </g>
 <!-- SS3D -->
 <g id="node88" class="node">
 <title>SS3D</title>
-<ellipse fill="none" stroke="black" cx="66" cy="-835" rx="32.49" ry="18"/>
-<text text-anchor="middle" x="66" y="-831.3" font-family="Times New Roman,serif" font-size="14.00">SS3D</text>
+<ellipse fill="none" stroke="black" cx="78" cy="-835" rx="32.49" ry="18"/>
+<text text-anchor="middle" x="78" y="-831.3" font-family="Times New Roman,serif" font-size="14.00">SS3D</text>
 </g>
 <!-- RE:SS3D -->
 <g id="node89" class="node">
 <title>RE:SS3D</title>
-<ellipse fill="none" stroke="black" cx="66" cy="-754" rx="46.29" ry="18"/>
-<text text-anchor="middle" x="66" y="-750.3" font-family="Times New Roman,serif" font-size="14.00">RE:SS3D</text>
+<ellipse fill="none" stroke="black" cx="78" cy="-754" rx="46.29" ry="18"/>
+<text text-anchor="middle" x="78" y="-750.3" font-family="Times New Roman,serif" font-size="14.00">RE:SS3D</text>
 </g>
 <!-- SS3D&#45;&gt;RE:SS3D -->
 <g id="edge84" class="edge">
 <title>SS3D&#45;&gt;RE:SS3D</title>
-<path fill="none" stroke="black" d="M66,-816.86C66,-806.71 66,-793.63 66,-782.12"/>
-<polygon fill="black" stroke="black" points="69.5,-782.11 66,-772.11 62.5,-782.11 69.5,-782.11"/>
+<path fill="none" stroke="black" d="M78,-816.86C78,-806.71 78,-793.63 78,-782.12"/>
+<polygon fill="black" stroke="black" points="81.5,-782.11 78,-772.11 74.5,-782.11 81.5,-782.11"/>
 </g>
 </g>
 </svg>
