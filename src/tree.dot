@@ -48,6 +48,33 @@ digraph G {
 
 		}
 
+		//
+		subgraph cluster_not_byond
+		{
+			/// Attributes ///
+			label    = "This builds does not
+			running on BYOND"
+			style    = "dotted"
+			rankdir  = "LB"
+			//compound = false
+			//rank     = same
+
+			node [
+				shape    = rectangle,
+				//fontsize = 14,
+				//width    = 3.5
+				//height   = .08
+				//minlen = 1
+			]
+
+			/// Nodes ///
+			"Space Station 14"
+			"UnityStation"
+			"SS3D"
+			"SS3D" -> "RE:SS3D"
+
+		}
+
 		/// Attributes ///
 		label    = "SS13 Codebases Circa Late 2020"
 		labelloc = "top"
@@ -56,7 +83,7 @@ digraph G {
 		//edge [constraint = true]
 
 		/// Edges ///
-		"BurgerStation"
+		"Citadel Main" -> "BurgerStation 13"
 		"SS13 (Pre Open)" -> "Source Decompilation (OpenSS13)"
 		"Source Decompilation (OpenSS13)" -> "BayStation OpenSS13"
 		"SS13 (Pre Open)" -> "Goonstation"
@@ -138,10 +165,6 @@ digraph G {
 		"Yawn Wider" -> "CHOMPstation"
 		"V.O.R.E. Station" -> "AEIOU"
 		"AEIOU" -> "Eclipse Station" [color=red]
-		"SS14"
-		"UnityStation"
-		"SS3D"
-		"SS3D" -> "RE:SS3D"
 		"/tg/Station (AGPL)" -> "Mojave Sun"
 
 		"/tg/Station (Pre-AGPL)" -> "FreeTG Station"
