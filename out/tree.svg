@@ -14,32 +14,32 @@
 <polygon fill="lightgray" stroke="black" stroke-dasharray="1,5" points="8,-8 8,-955 3139,-955 3139,-8 8,-8"/>
 <text text-anchor="middle" x="1573.5" y="-939.8" font-family="Arial" font-size="14.00">SS13 Codebases Circa Late 2020</text>
 </g>
-<g id="clust3" class="cluster">
-<title>cluster_not_byond</title>
-<polygon fill="lightgray" stroke="black" stroke-dasharray="1,5" points="2507,-738 2507,-924 2811,-924 2811,-738 2507,-738"/>
-<text text-anchor="middle" x="2659" y="-908.8" font-family="Arial" font-size="14.00">This builds does not</text>
-<text text-anchor="middle" x="2659" y="-893.8" font-family="Arial" font-size="14.00">			running on BYOND</text>
-</g>
 <g id="clust2" class="cluster">
 <title>cluster_note</title>
-<polygon fill="lightgray" stroke="black" stroke-dasharray="1,5" points="1818,-738 1818,-918 2180,-918 2180,-738 1818,-738"/>
-<text text-anchor="middle" x="1999" y="-902.8" font-family="Arial" font-size="14.00">Notes about tree</text>
+<polygon fill="lightgray" stroke="black" stroke-dasharray="1,5" points="2449,-738 2449,-918 2811,-918 2811,-738 2449,-738"/>
+<text text-anchor="middle" x="2630" y="-902.8" font-family="Arial" font-size="14.00">Notes about tree</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_not_byond</title>
+<polygon fill="lightgray" stroke="black" stroke-dasharray="1,5" points="1818,-738 1818,-924 2122,-924 2122,-738 1818,-738"/>
+<text text-anchor="middle" x="1970" y="-908.8" font-family="Arial" font-size="14.00">This builds does not</text>
+<text text-anchor="middle" x="1970" y="-893.8" font-family="Arial" font-size="14.00">			running on BYOND</text>
 </g>
 <!-- note1 -->
 <g id="node1" class="node">
 <title>note1</title>
-<polygon fill="none" stroke="black" points="2172,-887 1826,-887 1826,-833 2172,-833 2172,-887"/>
-<text text-anchor="start" x="1834" y="-871.8" font-family="Times New Roman,serif" font-size="14.00">Red arrows indicate that the child is not a fork of a parent, </text>
-<text text-anchor="start" x="1834" y="-840.8" font-family="Times New Roman,serif" font-size="14.00">			rather a new version or rebrand.</text>
+<polygon fill="none" stroke="black" points="2803,-887 2457,-887 2457,-833 2803,-833 2803,-887"/>
+<text text-anchor="start" x="2465" y="-871.8" font-family="Times New Roman,serif" font-size="14.00">Red arrows indicate that the child is not a fork of a parent, </text>
+<text text-anchor="start" x="2465" y="-840.8" font-family="Times New Roman,serif" font-size="14.00">			rather a new version or rebrand.</text>
 </g>
 <!-- note2 -->
 <g id="node2" class="node">
 <title>note2</title>
 <g id="a_node2"><a xlink:href="https://github.com/CthulhuOnIce/SS13-Codebases" xlink:title="&lt;b&gt;&lt;u&gt;&lt;font color=&quot;blue&quot; style=&quot;font&#45;weight: bold;&quot; align=&quot;center&quot;&gt;GitHub source &lt;br align=&quot;center&quot;/&gt;repository &lt;/font&gt;&lt;/u&gt;&lt;/b&gt; ">
-<polygon fill="none" stroke="black" points="1937,-782 1827,-782 1827,-746 1937,-746 1937,-782"/>
-<text text-anchor="start" x="1835" y="-767.8" font-family="Times New Roman,serif" font-weight="bold" text-decoration="underline" font-size="14.00" fill="blue">GitHub source </text>
-<text text-anchor="start" x="1846.5" y="-753.8" font-family="Times New Roman,serif" font-weight="bold" text-decoration="underline" font-size="14.00" fill="blue">repository </text>
-<text text-anchor="start" x="1913.5" y="-753.8" font-family="Times New Roman,serif" font-size="14.00"> </text>
+<polygon fill="none" stroke="black" points="2568,-782 2458,-782 2458,-746 2568,-746 2568,-782"/>
+<text text-anchor="start" x="2466" y="-767.8" font-family="Times New Roman,serif" font-weight="bold" text-decoration="underline" font-size="14.00" fill="blue">GitHub source </text>
+<text text-anchor="start" x="2477.5" y="-753.8" font-family="Times New Roman,serif" font-weight="bold" text-decoration="underline" font-size="14.00" fill="blue">repository </text>
+<text text-anchor="start" x="2544.5" y="-753.8" font-family="Times New Roman,serif" font-size="14.00"> </text>
 </a>
 </g>
 </g>
@@ -49,37 +49,37 @@
 <!-- Space Station 14 -->
 <g id="node4" class="node">
 <title>Space Station 14</title>
-<polygon fill="none" stroke="black" points="2802.5,-878 2691.5,-878 2691.5,-842 2802.5,-842 2802.5,-878"/>
-<text text-anchor="middle" x="2747" y="-856.3" font-family="Times New Roman,serif" font-size="14.00">Space Station 14</text>
+<polygon fill="none" stroke="black" points="2113.5,-878 2002.5,-878 2002.5,-842 2113.5,-842 2113.5,-878"/>
+<text text-anchor="middle" x="2058" y="-856.3" font-family="Times New Roman,serif" font-size="14.00">Space Station 14</text>
 </g>
 <!-- UnityStation -->
 <g id="node5" class="node">
 <title>UnityStation</title>
-<polygon fill="none" stroke="black" points="2673,-878 2587,-878 2587,-842 2673,-842 2673,-878"/>
-<text text-anchor="middle" x="2630" y="-856.3" font-family="Times New Roman,serif" font-size="14.00">UnityStation</text>
+<polygon fill="none" stroke="black" points="1984,-878 1898,-878 1898,-842 1984,-842 1984,-878"/>
+<text text-anchor="middle" x="1941" y="-856.3" font-family="Times New Roman,serif" font-size="14.00">UnityStation</text>
 </g>
 <!-- SS3D -->
 <g id="node6" class="node">
 <title>SS3D</title>
-<polygon fill="none" stroke="black" points="2569,-878 2515,-878 2515,-842 2569,-842 2569,-878"/>
-<text text-anchor="middle" x="2542" y="-856.3" font-family="Times New Roman,serif" font-size="14.00">SS3D</text>
+<polygon fill="none" stroke="black" points="1880,-878 1826,-878 1826,-842 1880,-842 1880,-878"/>
+<text text-anchor="middle" x="1853" y="-856.3" font-family="Times New Roman,serif" font-size="14.00">SS3D</text>
 </g>
 <!-- RE:SS3D -->
 <g id="node7" class="node">
 <title>RE:SS3D</title>
-<polygon fill="none" stroke="black" points="2586.5,-782 2515.5,-782 2515.5,-746 2586.5,-746 2586.5,-782"/>
-<text text-anchor="middle" x="2551" y="-760.3" font-family="Times New Roman,serif" font-size="14.00">RE:SS3D</text>
+<polygon fill="none" stroke="black" points="1897.5,-782 1826.5,-782 1826.5,-746 1897.5,-746 1897.5,-782"/>
+<text text-anchor="middle" x="1862" y="-760.3" font-family="Times New Roman,serif" font-size="14.00">RE:SS3D</text>
 </g>
 <!-- SS3D&#45;&gt;RE:SS3D -->
 <g id="edge3" class="edge">
 <title>SS3D&#45;&gt;RE:SS3D</title>
-<path fill="none" stroke="black" d="M2543.65,-841.76C2544.97,-827.98 2546.84,-808.4 2548.37,-792.47"/>
-<polygon fill="black" stroke="black" points="2549.36,-782.13 2552.89,-792.52 2548.88,-787.11 2548.41,-792.09 2548.41,-792.09 2548.41,-792.09 2548.88,-787.11 2543.93,-791.66 2549.36,-782.13 2549.36,-782.13"/>
+<path fill="none" stroke="black" d="M1854.65,-841.76C1855.97,-827.98 1857.84,-808.4 1859.37,-792.47"/>
+<polygon fill="black" stroke="black" points="1860.36,-782.13 1863.89,-792.52 1859.88,-787.11 1859.41,-792.09 1859.41,-792.09 1859.41,-792.09 1859.88,-787.11 1854.93,-791.66 1860.36,-782.13 1860.36,-782.13"/>
 </g>
 <!-- Goonstation -->
 <g id="node8" class="node">
 <title>Goonstation</title>
-<polygon fill="none" stroke="green" points="982,-782 896,-782 896,-746 982,-746 982,-782"/>
+<polygon fill="none" stroke="blue" points="982,-782 896,-782 896,-746 982,-746 982,-782"/>
 <text text-anchor="middle" x="939" y="-760.3" font-family="Times New Roman,serif" font-size="14.00">Goonstation</text>
 </g>
 <!-- Revision 4407 (r4407) -->
@@ -133,13 +133,13 @@
 <!-- /tg/Station (GPLv3) -->
 <g id="node9" class="node">
 <title>/tg/Station (GPLv3)</title>
-<polygon fill="none" stroke="green" points="809.5,-636 682.5,-636 682.5,-600 809.5,-600 809.5,-636"/>
+<polygon fill="none" stroke="blue" points="809.5,-636 682.5,-636 682.5,-600 809.5,-600 809.5,-636"/>
 <text text-anchor="middle" x="746" y="-614.3" font-family="Times New Roman,serif" font-size="14.00">/tg/Station (GPLv3)</text>
 </g>
 <!-- /tg/Station (AGPL) -->
 <g id="node10" class="node">
 <title>/tg/Station (AGPL)</title>
-<polygon fill="none" stroke="green" points="1224.5,-563 1101.5,-563 1101.5,-527 1224.5,-527 1224.5,-563"/>
+<polygon fill="none" stroke="blue" points="1224.5,-563 1101.5,-563 1101.5,-527 1224.5,-527 1224.5,-563"/>
 <text text-anchor="middle" x="1163" y="-541.3" font-family="Times New Roman,serif" font-size="14.00">/tg/Station (AGPL)</text>
 </g>
 <!-- /tg/Station (GPLv3)&#45;&gt;/tg/Station (AGPL) -->
@@ -151,7 +151,7 @@
 <!-- BayStation (GPL) -->
 <g id="node11" class="node">
 <title>BayStation (GPL)</title>
-<polygon fill="none" stroke="green" points="2584.5,-563 2467.5,-563 2467.5,-527 2584.5,-527 2584.5,-563"/>
+<polygon fill="none" stroke="blue" points="2584.5,-563 2467.5,-563 2467.5,-527 2584.5,-527 2584.5,-563"/>
 <text text-anchor="middle" x="2526" y="-541.3" font-family="Times New Roman,serif" font-size="14.00">BayStation (GPL)</text>
 </g>
 <!-- /tg/Station (GPLv3)&#45;&gt;BayStation (GPL) -->
@@ -415,7 +415,7 @@
 <!-- BayStation (AGPL) -->
 <g id="node12" class="node">
 <title>BayStation (AGPL)</title>
-<polygon fill="none" stroke="green" points="2172.5,-490 2045.5,-490 2045.5,-454 2172.5,-454 2172.5,-490"/>
+<polygon fill="none" stroke="blue" points="2172.5,-490 2045.5,-490 2045.5,-454 2172.5,-454 2172.5,-490"/>
 <text text-anchor="middle" x="2109" y="-468.3" font-family="Times New Roman,serif" font-size="14.00">BayStation (AGPL)</text>
 </g>
 <!-- BayStation (GPL)&#45;&gt;BayStation (AGPL) -->
@@ -679,14 +679,14 @@
 <!-- SS13 (Pre Open) -->
 <g id="node15" class="node">
 <title>SS13 (Pre Open)</title>
-<ellipse fill="none" stroke="black" cx="1029" cy="-860" rx="73.39" ry="18"/>
-<text text-anchor="middle" x="1029" y="-856.3" font-family="Times New Roman,serif" font-size="14.00">SS13 (Pre Open)</text>
+<ellipse fill="none" stroke="black" cx="1028" cy="-860" rx="73.39" ry="18"/>
+<text text-anchor="middle" x="1028" y="-856.3" font-family="Times New Roman,serif" font-size="14.00">SS13 (Pre Open)</text>
 </g>
 <!-- SS13 (Pre Open)&#45;&gt;Goonstation -->
 <g id="edge7" class="edge">
 <title>SS13 (Pre Open)&#45;&gt;Goonstation</title>
-<path fill="none" stroke="black" d="M1012.91,-842.19C998.88,-827.54 978.35,-806.09 962.48,-789.52"/>
-<polygon fill="black" stroke="black" points="955.56,-782.3 965.73,-786.41 959.02,-785.91 962.48,-789.52 962.48,-789.52 962.48,-789.52 959.02,-785.91 959.23,-792.63 955.56,-782.3 955.56,-782.3"/>
+<path fill="none" stroke="black" d="M1012.09,-842.19C998.34,-827.67 978.27,-806.48 962.64,-789.97"/>
+<polygon fill="black" stroke="black" points="955.38,-782.3 965.52,-786.46 958.81,-785.93 962.25,-789.56 962.25,-789.56 962.25,-789.56 958.81,-785.93 958.98,-792.65 955.38,-782.3 955.38,-782.3"/>
 </g>
 <!-- OpenSS13 -->
 <g id="node16" class="node">
@@ -697,8 +697,8 @@
 <!-- SS13 (Pre Open)&#45;&gt;OpenSS13 -->
 <g id="edge5" class="edge">
 <title>SS13 (Pre Open)&#45;&gt;OpenSS13</title>
-<path fill="none" stroke="black" d="M1045.09,-842.19C1059.38,-827.27 1080.43,-805.29 1096.41,-788.6"/>
-<polygon fill="black" stroke="black" points="1103.35,-781.35 1099.69,-791.68 1099.89,-784.96 1096.43,-788.57 1096.43,-788.57 1096.43,-788.57 1099.89,-784.96 1093.18,-785.46 1103.35,-781.35 1103.35,-781.35"/>
+<path fill="none" stroke="black" d="M1044.27,-842.19C1058.72,-827.27 1080,-805.29 1096.16,-788.6"/>
+<polygon fill="black" stroke="black" points="1103.18,-781.35 1099.45,-791.66 1099.7,-784.94 1096.22,-788.53 1096.22,-788.53 1096.22,-788.53 1099.7,-784.94 1092.99,-785.4 1103.18,-781.35 1103.18,-781.35"/>
 <text text-anchor="middle" x="1146.5" y="-803.8" font-family="Times New Roman,serif" font-size="14.00">Source Decompilation</text>
 </g>
 <!-- BayStation (OpenSS13) -->
@@ -824,7 +824,7 @@
 <!-- FacePunch&#45;&gt;Corporate Mercenaries -->
 <g id="edge28" class="edge">
 <title>FacePunch&#45;&gt;Corporate Mercenaries</title>
-<path fill="none" stroke="black" d="M708.81,-532.58C701,-530.48 692.77,-528.49 685,-527 533.1,-497.92 492.25,-510.82 339,-490 330.67,-488.87 321.99,-487.59 313.34,-486.25"/>
+<path fill="none" stroke="black" d="M708.81,-532.58C701,-530.48 692.77,-528.49 685,-527 609.05,-512.46 415.62,-500.41 339,-490 330.67,-488.87 321.99,-487.59 313.34,-486.25"/>
 <polygon fill="black" stroke="black" points="303.23,-484.66 313.81,-481.77 308.17,-485.44 313.11,-486.22 313.11,-486.22 313.11,-486.22 308.17,-485.44 312.41,-490.66 303.23,-484.66 303.23,-484.66"/>
 </g>
 <!-- Persistence SS13 (Old) -->
@@ -944,14 +944,14 @@
 <!-- White Sands -->
 <g id="node94" class="node">
 <title>White Sands</title>
-<ellipse fill="none" stroke="black" cx="1013" cy="-326" rx="57.39" ry="18"/>
-<text text-anchor="middle" x="1013" y="-322.3" font-family="Times New Roman,serif" font-size="14.00">White Sands</text>
+<ellipse fill="none" stroke="black" cx="994" cy="-326" rx="57.39" ry="18"/>
+<text text-anchor="middle" x="994" y="-322.3" font-family="Times New Roman,serif" font-size="14.00">White Sands</text>
 </g>
 <!-- Boomer Station&#45;&gt;White Sands -->
 <g id="edge90" class="edge">
 <title>Boomer Station&#45;&gt;White Sands</title>
-<path fill="none" stroke="red" d="M1072.14,-381.53C1062.03,-372.21 1049.23,-360.41 1038.13,-350.17"/>
-<polygon fill="red" stroke="red" points="1030.76,-343.38 1041.16,-346.85 1034.44,-346.77 1038.11,-350.16 1038.11,-350.16 1038.11,-350.16 1034.44,-346.77 1035.06,-353.47 1030.76,-343.38 1030.76,-343.38"/>
+<path fill="none" stroke="red" d="M1068.22,-381.89C1054.99,-372.11 1037.93,-359.49 1023.51,-348.82"/>
+<polygon fill="red" stroke="red" points="1015.37,-342.8 1026.08,-345.13 1019.39,-345.78 1023.41,-348.75 1023.41,-348.75 1023.41,-348.75 1019.39,-345.78 1020.73,-352.37 1015.37,-342.8 1015.37,-342.8"/>
 </g>
 <!-- Deep Space 13 -->
 <g id="node63" class="node">
@@ -968,194 +968,218 @@
 <!-- World Server -->
 <g id="node68" class="node">
 <title>World Server</title>
-<ellipse fill="none" stroke="black" cx="2401" cy="-326" rx="59.59" ry="18"/>
-<text text-anchor="middle" x="2401" y="-322.3" font-family="Times New Roman,serif" font-size="14.00">World Server</text>
+<ellipse fill="none" stroke="black" cx="2555" cy="-326" rx="59.59" ry="18"/>
+<text text-anchor="middle" x="2555" y="-322.3" font-family="Times New Roman,serif" font-size="14.00">World Server</text>
 </g>
 <!-- Polaris&#45;&gt;World Server -->
 <g id="edge63" class="edge">
 <title>Polaris&#45;&gt;World Server</title>
-<path fill="none" stroke="black" d="M2460.51,-382.59C2450.44,-373.18 2437.35,-360.96 2426.02,-350.38"/>
-<polygon fill="black" stroke="black" points="2418.52,-343.36 2428.9,-346.9 2422.17,-346.78 2425.82,-350.19 2425.82,-350.19 2425.82,-350.19 2422.17,-346.78 2422.75,-353.48 2418.52,-343.36 2418.52,-343.36"/>
+<path fill="none" stroke="black" d="M2493.54,-382.94C2504.03,-373.39 2517.81,-360.85 2529.67,-350.06"/>
+<polygon fill="black" stroke="black" points="2537.12,-343.27 2532.76,-353.33 2533.43,-346.64 2529.73,-350 2529.73,-350 2529.73,-350 2533.43,-346.64 2526.7,-346.68 2537.12,-343.27 2537.12,-343.27"/>
 </g>
 <!-- V.O.R.E. Station -->
 <g id="node84" class="node">
 <title>V.O.R.E. Station</title>
-<ellipse fill="none" stroke="black" cx="2552" cy="-326" rx="73.39" ry="18"/>
-<text text-anchor="middle" x="2552" y="-322.3" font-family="Times New Roman,serif" font-size="14.00">V.O.R.E. Station</text>
+<ellipse fill="none" stroke="black" cx="2404" cy="-326" rx="73.39" ry="18"/>
+<text text-anchor="middle" x="2404" y="-322.3" font-family="Times New Roman,serif" font-size="14.00">V.O.R.E. Station</text>
 </g>
 <!-- Polaris&#45;&gt;V.O.R.E. Station -->
 <g id="edge80" class="edge">
 <title>Polaris&#45;&gt;V.O.R.E. Station</title>
-<path fill="none" stroke="black" d="M2493.27,-382.59C2503.15,-373.25 2515.94,-361.13 2527.07,-350.6"/>
-<polygon fill="black" stroke="black" points="2534.45,-343.61 2530.28,-353.76 2530.82,-347.05 2527.19,-350.49 2527.19,-350.49 2527.19,-350.49 2530.82,-347.05 2524.09,-347.22 2534.45,-343.61 2534.45,-343.61"/>
+<path fill="none" stroke="black" d="M2461.16,-382.59C2451.55,-373.25 2439.1,-361.13 2428.27,-350.6"/>
+<polygon fill="black" stroke="black" points="2421.08,-343.61 2431.39,-347.36 2424.67,-347.1 2428.25,-350.59 2428.25,-350.59 2428.25,-350.59 2424.67,-347.1 2425.11,-353.81 2421.08,-343.61 2421.08,-343.61"/>
 </g>
 <!-- InterStation&#45;Two -->
 <g id="node70" class="node">
 <title>InterStation&#45;Two</title>
-<ellipse fill="none" stroke="black" cx="1161" cy="-326" rx="72.59" ry="18"/>
-<text text-anchor="middle" x="1161" y="-322.3" font-family="Times New Roman,serif" font-size="14.00">InterStation&#45;Two</text>
+<ellipse fill="none" stroke="black" cx="1329" cy="-326" rx="72.59" ry="18"/>
+<text text-anchor="middle" x="1329" y="-322.3" font-family="Times New Roman,serif" font-size="14.00">InterStation&#45;Two</text>
 </g>
 <!-- CEV Eris&#45;&gt;InterStation&#45;Two -->
 <g id="edge65" class="edge">
 <title>CEV Eris&#45;&gt;InterStation&#45;Two</title>
-<path fill="none" stroke="black" d="M1207.08,-381.53C1199.62,-372.7 1190.27,-361.63 1181.94,-351.78"/>
-<polygon fill="black" stroke="black" points="1175.26,-343.87 1185.15,-348.6 1178.48,-347.69 1181.71,-351.51 1181.71,-351.51 1181.71,-351.51 1178.48,-347.69 1178.27,-354.41 1175.26,-343.87 1175.26,-343.87"/>
+<path fill="none" stroke="black" d="M1243.38,-383.29C1258.53,-373.33 1278.81,-359.99 1295.83,-348.8"/>
+<polygon fill="black" stroke="black" points="1304.39,-343.18 1298.51,-352.43 1300.21,-345.92 1296.04,-348.67 1296.04,-348.67 1296.04,-348.67 1300.21,-345.92 1293.56,-344.91 1304.39,-343.18 1304.39,-343.18"/>
 </g>
 <!-- Soujurn Station -->
 <g id="node71" class="node">
 <title>Soujurn Station</title>
-<ellipse fill="none" stroke="black" cx="1319" cy="-326" rx="66.89" ry="18"/>
-<text text-anchor="middle" x="1319" y="-322.3" font-family="Times New Roman,serif" font-size="14.00">Soujurn Station</text>
+<ellipse fill="none" stroke="black" cx="1487" cy="-326" rx="66.89" ry="18"/>
+<text text-anchor="middle" x="1487" y="-322.3" font-family="Times New Roman,serif" font-size="14.00">Soujurn Station</text>
 </g>
 <!-- CEV Eris&#45;&gt;Soujurn Station -->
 <g id="edge66" class="edge">
 <title>CEV Eris&#45;&gt;Soujurn Station</title>
-<path fill="none" stroke="black" d="M1241.78,-382.94C1255.44,-373.05 1273.52,-359.95 1288.76,-348.91"/>
-<polygon fill="black" stroke="black" points="1296.88,-343.02 1291.43,-352.53 1292.84,-345.96 1288.79,-348.89 1288.79,-348.89 1288.79,-348.89 1292.84,-345.96 1286.15,-345.25 1296.88,-343.02 1296.88,-343.02"/>
+<path fill="none" stroke="black" d="M1255.19,-386.92C1261.75,-384.89 1268.57,-382.83 1275,-381 1326.57,-366.33 1385.74,-351.41 1428.44,-340.99"/>
+<polygon fill="black" stroke="black" points="1438.38,-338.57 1429.73,-345.31 1433.52,-339.75 1428.66,-340.93 1428.66,-340.93 1428.66,-340.93 1433.52,-339.75 1427.6,-336.56 1438.38,-338.57 1438.38,-338.57"/>
 </g>
 <!-- NEV Northern Light -->
 <g id="node95" class="node">
 <title>NEV Northern Light</title>
-<ellipse fill="none" stroke="black" cx="1488" cy="-326" rx="84.49" ry="18"/>
-<text text-anchor="middle" x="1488" y="-322.3" font-family="Times New Roman,serif" font-size="14.00">NEV Northern Light</text>
+<ellipse fill="none" stroke="black" cx="1154" cy="-326" rx="84.49" ry="18"/>
+<text text-anchor="middle" x="1154" y="-322.3" font-family="Times New Roman,serif" font-size="14.00">NEV Northern Light</text>
 </g>
 <!-- CEV Eris&#45;&gt;NEV Northern Light -->
 <g id="edge91" class="edge">
 <title>CEV Eris&#45;&gt;NEV Northern Light</title>
-<path fill="none" stroke="black" d="M1255.19,-386.91C1261.75,-384.88 1268.57,-382.83 1275,-381 1324.6,-366.92 1381.2,-352.65 1423.59,-342.32"/>
-<polygon fill="black" stroke="black" points="1433.49,-339.92 1424.84,-346.65 1428.64,-341.1 1423.78,-342.28 1423.78,-342.28 1423.78,-342.28 1428.64,-341.1 1422.71,-337.9 1433.49,-339.92 1433.49,-339.92"/>
+<path fill="none" stroke="black" d="M1205.8,-381.89C1197.31,-372.89 1186.55,-361.49 1177.05,-351.42"/>
+<polygon fill="black" stroke="black" points="1170.08,-344.04 1180.21,-348.22 1173.51,-347.67 1176.94,-351.31 1176.94,-351.31 1176.94,-351.31 1173.51,-347.67 1173.67,-354.4 1170.08,-344.04 1170.08,-344.04"/>
 </g>
 <!-- Ava&#39;s Battlegrounds -->
 <g id="node73" class="node">
 <title>Ava&#39;s Battlegrounds</title>
-<ellipse fill="none" stroke="black" cx="1161" cy="-253" rx="83.69" ry="18"/>
-<text text-anchor="middle" x="1161" y="-249.3" font-family="Times New Roman,serif" font-size="14.00">Ava&#39;s Battlegrounds</text>
+<ellipse fill="none" stroke="black" cx="1329" cy="-253" rx="83.69" ry="18"/>
+<text text-anchor="middle" x="1329" y="-249.3" font-family="Times New Roman,serif" font-size="14.00">Ava&#39;s Battlegrounds</text>
 </g>
 <!-- InterStation&#45;Two&#45;&gt;Ava&#39;s Battlegrounds -->
 <g id="edge68" class="edge">
 <title>InterStation&#45;Two&#45;&gt;Ava&#39;s Battlegrounds</title>
-<path fill="none" stroke="black" d="M1161,-307.81C1161,-299.79 1161,-290.05 1161,-281.07"/>
-<polygon fill="black" stroke="black" points="1161,-271.03 1165.5,-281.03 1161,-276.03 1161,-281.03 1161,-281.03 1161,-281.03 1161,-276.03 1156.5,-281.03 1161,-271.03 1161,-271.03"/>
+<path fill="none" stroke="black" d="M1329,-307.81C1329,-299.79 1329,-290.05 1329,-281.07"/>
+<polygon fill="black" stroke="black" points="1329,-271.03 1333.5,-281.03 1329,-276.03 1329,-281.03 1329,-281.03 1329,-281.03 1329,-276.03 1324.5,-281.03 1329,-271.03 1329,-271.03"/>
 </g>
 <!-- Navarro -->
 <g id="node72" class="node">
 <title>Navarro</title>
-<ellipse fill="none" stroke="black" cx="1319" cy="-253" rx="40.09" ry="18"/>
-<text text-anchor="middle" x="1319" y="-249.3" font-family="Times New Roman,serif" font-size="14.00">Navarro</text>
+<ellipse fill="none" stroke="black" cx="1487" cy="-253" rx="40.09" ry="18"/>
+<text text-anchor="middle" x="1487" y="-249.3" font-family="Times New Roman,serif" font-size="14.00">Navarro</text>
 </g>
 <!-- Soujurn Station&#45;&gt;Navarro -->
 <g id="edge67" class="edge">
 <title>Soujurn Station&#45;&gt;Navarro</title>
-<path fill="none" stroke="black" d="M1319,-307.81C1319,-299.79 1319,-290.05 1319,-281.07"/>
-<polygon fill="black" stroke="black" points="1319,-271.03 1323.5,-281.03 1319,-276.03 1319,-281.03 1319,-281.03 1319,-281.03 1319,-276.03 1314.5,-281.03 1319,-271.03 1319,-271.03"/>
+<path fill="none" stroke="black" d="M1487,-307.81C1487,-299.79 1487,-290.05 1487,-281.07"/>
+<polygon fill="black" stroke="black" points="1487,-271.03 1491.5,-281.03 1487,-276.03 1487,-281.03 1487,-281.03 1487,-281.03 1487,-276.03 1482.5,-281.03 1487,-271.03 1487,-271.03"/>
 </g>
 <!-- No Mans&#39;s Land -->
 <g id="node74" class="node">
 <title>No Mans&#39;s Land</title>
-<ellipse fill="none" stroke="black" cx="1161" cy="-180" rx="71.49" ry="18"/>
-<text text-anchor="middle" x="1161" y="-176.3" font-family="Times New Roman,serif" font-size="14.00">No Mans&#39;s Land</text>
+<ellipse fill="none" stroke="black" cx="1329" cy="-180" rx="71.49" ry="18"/>
+<text text-anchor="middle" x="1329" y="-176.3" font-family="Times New Roman,serif" font-size="14.00">No Mans&#39;s Land</text>
 </g>
 <!-- Ava&#39;s Battlegrounds&#45;&gt;No Mans&#39;s Land -->
 <g id="edge69" class="edge">
 <title>Ava&#39;s Battlegrounds&#45;&gt;No Mans&#39;s Land</title>
-<path fill="none" stroke="black" d="M1161,-234.81C1161,-226.79 1161,-217.05 1161,-208.07"/>
-<polygon fill="black" stroke="black" points="1161,-198.03 1165.5,-208.03 1161,-203.03 1161,-208.03 1161,-208.03 1161,-208.03 1161,-203.03 1156.5,-208.03 1161,-198.03 1161,-198.03"/>
+<path fill="none" stroke="black" d="M1329,-234.81C1329,-226.79 1329,-217.05 1329,-208.07"/>
+<polygon fill="black" stroke="black" points="1329,-198.03 1333.5,-208.03 1329,-203.03 1329,-208.03 1329,-208.03 1329,-208.03 1329,-203.03 1324.5,-208.03 1329,-198.03 1329,-198.03"/>
 </g>
 <!-- Lebensraum -->
 <g id="node75" class="node">
 <title>Lebensraum</title>
-<ellipse fill="none" stroke="black" cx="1161" cy="-107" rx="55.49" ry="18"/>
-<text text-anchor="middle" x="1161" y="-103.3" font-family="Times New Roman,serif" font-size="14.00">Lebensraum</text>
+<ellipse fill="none" stroke="black" cx="1329" cy="-107" rx="55.49" ry="18"/>
+<text text-anchor="middle" x="1329" y="-103.3" font-family="Times New Roman,serif" font-size="14.00">Lebensraum</text>
 </g>
 <!-- No Mans&#39;s Land&#45;&gt;Lebensraum -->
 <g id="edge70" class="edge">
 <title>No Mans&#39;s Land&#45;&gt;Lebensraum</title>
-<path fill="none" stroke="black" d="M1161,-161.81C1161,-153.79 1161,-144.05 1161,-135.07"/>
-<polygon fill="black" stroke="black" points="1161,-125.03 1165.5,-135.03 1161,-130.03 1161,-135.03 1161,-135.03 1161,-135.03 1161,-130.03 1156.5,-135.03 1161,-125.03 1161,-125.03"/>
+<path fill="none" stroke="black" d="M1329,-161.81C1329,-153.79 1329,-144.05 1329,-135.07"/>
+<polygon fill="black" stroke="black" points="1329,-125.03 1333.5,-135.03 1329,-130.03 1329,-135.03 1329,-135.03 1329,-135.03 1329,-130.03 1324.5,-135.03 1329,-125.03 1329,-125.03"/>
 </g>
 <!-- Civilization 13 -->
 <g id="node76" class="node">
 <title>Civilization 13</title>
-<ellipse fill="none" stroke="black" cx="1161" cy="-34" rx="61.99" ry="18"/>
-<text text-anchor="middle" x="1161" y="-30.3" font-family="Times New Roman,serif" font-size="14.00">Civilization 13</text>
+<ellipse fill="none" stroke="black" cx="1329" cy="-34" rx="61.99" ry="18"/>
+<text text-anchor="middle" x="1329" y="-30.3" font-family="Times New Roman,serif" font-size="14.00">Civilization 13</text>
 </g>
 <!-- Lebensraum&#45;&gt;Civilization 13 -->
 <g id="edge71" class="edge">
 <title>Lebensraum&#45;&gt;Civilization 13</title>
-<path fill="none" stroke="black" d="M1161,-88.81C1161,-80.79 1161,-71.05 1161,-62.07"/>
-<polygon fill="black" stroke="black" points="1161,-52.03 1165.5,-62.03 1161,-57.03 1161,-62.03 1161,-62.03 1161,-62.03 1161,-57.03 1156.5,-62.03 1161,-52.03 1161,-52.03"/>
+<path fill="none" stroke="black" d="M1329,-88.81C1329,-80.79 1329,-71.05 1329,-62.07"/>
+<polygon fill="black" stroke="black" points="1329,-52.03 1333.5,-62.03 1329,-57.03 1329,-62.03 1329,-62.03 1329,-62.03 1329,-57.03 1324.5,-62.03 1329,-52.03 1329,-52.03"/>
 </g>
 <!-- Interpost Hague -->
 <g id="node83" class="node">
 <title>Interpost Hague</title>
-<ellipse fill="none" stroke="black" cx="2137" cy="-326" rx="68.79" ry="18"/>
-<text text-anchor="middle" x="2137" y="-322.3" font-family="Times New Roman,serif" font-size="14.00">Interpost Hague</text>
+<ellipse fill="none" stroke="black" cx="2062" cy="-326" rx="68.79" ry="18"/>
+<text text-anchor="middle" x="2062" y="-322.3" font-family="Times New Roman,serif" font-size="14.00">Interpost Hague</text>
 </g>
 <!-- Interbay&#45;&gt;Interpost Hague -->
 <g id="edge79" class="edge">
 <title>Interbay&#45;&gt;Interpost Hague</title>
-<path fill="none" stroke="black" d="M2137,-380.81C2137,-372.79 2137,-363.05 2137,-354.07"/>
-<polygon fill="black" stroke="black" points="2137,-344.03 2141.5,-354.03 2137,-349.03 2137,-354.03 2137,-354.03 2137,-354.03 2137,-349.03 2132.5,-354.03 2137,-344.03 2137,-344.03"/>
+<path fill="none" stroke="black" d="M2120.36,-382.24C2110.47,-372.88 2097.74,-360.84 2086.7,-350.38"/>
+<polygon fill="black" stroke="black" points="2079.38,-343.45 2089.74,-347.06 2083.01,-346.89 2086.64,-350.33 2086.64,-350.33 2086.64,-350.33 2083.01,-346.89 2083.55,-353.6 2079.38,-343.45 2079.38,-343.45"/>
+</g>
+<!-- Cadia Station -->
+<g id="node101" class="node">
+<title>Cadia Station</title>
+<ellipse fill="none" stroke="black" cx="2209" cy="-326" rx="59.59" ry="18"/>
+<text text-anchor="middle" x="2209" y="-322.3" font-family="Times New Roman,serif" font-size="14.00">Cadia Station</text>
+</g>
+<!-- Interbay&#45;&gt;Cadia Station -->
+<g id="edge97" class="edge">
+<title>Interbay&#45;&gt;Cadia Station</title>
+<path fill="none" stroke="black" d="M2152.98,-382.24C2162.38,-372.97 2174.45,-361.07 2184.98,-350.69"/>
+<polygon fill="black" stroke="black" points="2192.31,-343.45 2188.35,-353.68 2188.75,-346.96 2185.19,-350.47 2185.19,-350.47 2185.19,-350.47 2188.75,-346.96 2182.03,-347.27 2192.31,-343.45 2192.31,-343.45"/>
+</g>
+<!-- Interpost: Redux -->
+<g id="node100" class="node">
+<title>Interpost: Redux</title>
+<ellipse fill="none" stroke="black" cx="2062" cy="-253" rx="71.49" ry="18"/>
+<text text-anchor="middle" x="2062" y="-249.3" font-family="Times New Roman,serif" font-size="14.00">Interpost: Redux</text>
+</g>
+<!-- Interpost Hague&#45;&gt;Interpost: Redux -->
+<g id="edge96" class="edge">
+<title>Interpost Hague&#45;&gt;Interpost: Redux</title>
+<path fill="none" stroke="black" d="M2062,-307.81C2062,-299.79 2062,-290.05 2062,-281.07"/>
+<polygon fill="black" stroke="black" points="2062,-271.03 2066.5,-281.03 2062,-276.03 2062,-281.03 2062,-281.03 2062,-281.03 2062,-276.03 2057.5,-281.03 2062,-271.03 2062,-271.03"/>
 </g>
 <!-- Citadel RP -->
 <g id="node85" class="node">
 <title>Citadel RP</title>
-<ellipse fill="none" stroke="black" cx="2427" cy="-253" rx="50.09" ry="18"/>
-<text text-anchor="middle" x="2427" y="-249.3" font-family="Times New Roman,serif" font-size="14.00">Citadel RP</text>
+<ellipse fill="none" stroke="black" cx="2279" cy="-253" rx="50.09" ry="18"/>
+<text text-anchor="middle" x="2279" y="-249.3" font-family="Times New Roman,serif" font-size="14.00">Citadel RP</text>
 </g>
 <!-- V.O.R.E. Station&#45;&gt;Citadel RP -->
 <g id="edge81" class="edge">
 <title>V.O.R.E. Station&#45;&gt;Citadel RP</title>
-<path fill="none" stroke="black" d="M2524.26,-309.24C2505.67,-298.69 2481.07,-284.71 2461.26,-273.46"/>
-<polygon fill="black" stroke="black" points="2452.54,-268.5 2463.45,-269.53 2456.88,-270.97 2461.23,-273.44 2461.23,-273.44 2461.23,-273.44 2456.88,-270.97 2459.01,-277.36 2452.54,-268.5 2452.54,-268.5"/>
+<path fill="none" stroke="black" d="M2376.26,-309.24C2357.67,-298.69 2333.07,-284.71 2313.26,-273.46"/>
+<polygon fill="black" stroke="black" points="2304.54,-268.5 2315.45,-269.53 2308.88,-270.97 2313.23,-273.44 2313.23,-273.44 2313.23,-273.44 2308.88,-270.97 2311.01,-277.36 2304.54,-268.5 2304.54,-268.5"/>
 </g>
 <!-- Yawn Wider -->
 <g id="node86" class="node">
 <title>Yawn Wider</title>
-<ellipse fill="none" stroke="black" cx="2552" cy="-253" rx="56.59" ry="18"/>
-<text text-anchor="middle" x="2552" y="-249.3" font-family="Times New Roman,serif" font-size="14.00">Yawn Wider</text>
+<ellipse fill="none" stroke="black" cx="2404" cy="-253" rx="56.59" ry="18"/>
+<text text-anchor="middle" x="2404" y="-249.3" font-family="Times New Roman,serif" font-size="14.00">Yawn Wider</text>
 </g>
 <!-- V.O.R.E. Station&#45;&gt;Yawn Wider -->
 <g id="edge82" class="edge">
 <title>V.O.R.E. Station&#45;&gt;Yawn Wider</title>
-<path fill="none" stroke="black" d="M2552,-307.81C2552,-299.79 2552,-290.05 2552,-281.07"/>
-<polygon fill="black" stroke="black" points="2552,-271.03 2556.5,-281.03 2552,-276.03 2552,-281.03 2552,-281.03 2552,-281.03 2552,-276.03 2547.5,-281.03 2552,-271.03 2552,-271.03"/>
+<path fill="none" stroke="black" d="M2404,-307.81C2404,-299.79 2404,-290.05 2404,-281.07"/>
+<polygon fill="black" stroke="black" points="2404,-271.03 2408.5,-281.03 2404,-276.03 2404,-281.03 2404,-281.03 2404,-281.03 2404,-276.03 2399.5,-281.03 2404,-271.03 2404,-271.03"/>
 </g>
 <!-- AEIOU -->
 <g id="node88" class="node">
 <title>AEIOU</title>
-<ellipse fill="none" stroke="black" cx="2684" cy="-253" rx="38.19" ry="18"/>
-<text text-anchor="middle" x="2684" y="-249.3" font-family="Times New Roman,serif" font-size="14.00">AEIOU</text>
+<ellipse fill="none" stroke="black" cx="2536" cy="-253" rx="38.19" ry="18"/>
+<text text-anchor="middle" x="2536" y="-249.3" font-family="Times New Roman,serif" font-size="14.00">AEIOU</text>
 </g>
 <!-- V.O.R.E. Station&#45;&gt;AEIOU -->
 <g id="edge84" class="edge">
 <title>V.O.R.E. Station&#45;&gt;AEIOU</title>
-<path fill="none" stroke="black" d="M2580.97,-309.42C2601.46,-298.4 2629,-283.58 2650.45,-272.05"/>
-<polygon fill="black" stroke="black" points="2659.53,-267.16 2652.85,-275.86 2655.12,-269.53 2650.72,-271.9 2650.72,-271.9 2650.72,-271.9 2655.12,-269.53 2648.59,-267.94 2659.53,-267.16 2659.53,-267.16"/>
+<path fill="none" stroke="black" d="M2432.97,-309.42C2453.46,-298.4 2481,-283.58 2502.45,-272.05"/>
+<polygon fill="black" stroke="black" points="2511.53,-267.16 2504.85,-275.86 2507.12,-269.53 2502.72,-271.9 2502.72,-271.9 2502.72,-271.9 2507.12,-269.53 2500.59,-267.94 2511.53,-267.16 2511.53,-267.16"/>
 </g>
 <!-- CHOMPstation -->
 <g id="node87" class="node">
 <title>CHOMPstation</title>
-<ellipse fill="none" stroke="black" cx="2544" cy="-180" rx="67.69" ry="18"/>
-<text text-anchor="middle" x="2544" y="-176.3" font-family="Times New Roman,serif" font-size="14.00">CHOMPstation</text>
+<ellipse fill="none" stroke="black" cx="2396" cy="-180" rx="67.69" ry="18"/>
+<text text-anchor="middle" x="2396" y="-176.3" font-family="Times New Roman,serif" font-size="14.00">CHOMPstation</text>
 </g>
 <!-- Yawn Wider&#45;&gt;CHOMPstation -->
 <g id="edge83" class="edge">
 <title>Yawn Wider&#45;&gt;CHOMPstation</title>
-<path fill="none" stroke="black" d="M2550.06,-234.81C2549.16,-226.79 2548.06,-217.05 2547.05,-208.07"/>
-<polygon fill="black" stroke="black" points="2545.92,-198.03 2551.51,-207.46 2546.48,-203 2547.04,-207.97 2547.04,-207.97 2547.04,-207.97 2546.48,-203 2542.57,-208.47 2545.92,-198.03 2545.92,-198.03"/>
+<path fill="none" stroke="black" d="M2402.06,-234.81C2401.16,-226.79 2400.06,-217.05 2399.05,-208.07"/>
+<polygon fill="black" stroke="black" points="2397.92,-198.03 2403.51,-207.46 2398.48,-203 2399.04,-207.97 2399.04,-207.97 2399.04,-207.97 2398.48,-203 2394.57,-208.47 2397.92,-198.03 2397.92,-198.03"/>
 </g>
 <!-- Eclipse Station -->
 <g id="node89" class="node">
 <title>Eclipse Station</title>
-<ellipse fill="none" stroke="black" cx="2695" cy="-180" rx="64.99" ry="18"/>
-<text text-anchor="middle" x="2695" y="-176.3" font-family="Times New Roman,serif" font-size="14.00">Eclipse Station</text>
+<ellipse fill="none" stroke="black" cx="2547" cy="-180" rx="64.99" ry="18"/>
+<text text-anchor="middle" x="2547" y="-176.3" font-family="Times New Roman,serif" font-size="14.00">Eclipse Station</text>
 </g>
 <!-- AEIOU&#45;&gt;Eclipse Station -->
 <g id="edge85" class="edge">
 <title>AEIOU&#45;&gt;Eclipse Station</title>
-<path fill="none" stroke="red" d="M2686.66,-234.81C2687.91,-226.79 2689.42,-217.05 2690.81,-208.07"/>
-<polygon fill="red" stroke="red" points="2692.36,-198.03 2695.28,-208.6 2691.6,-202.97 2690.83,-207.91 2690.83,-207.91 2690.83,-207.91 2691.6,-202.97 2686.38,-207.22 2692.36,-198.03 2692.36,-198.03"/>
+<path fill="none" stroke="red" d="M2538.66,-234.81C2539.91,-226.79 2541.42,-217.05 2542.81,-208.07"/>
+<polygon fill="red" stroke="red" points="2544.36,-198.03 2547.28,-208.6 2543.6,-202.97 2542.83,-207.91 2542.83,-207.91 2542.83,-207.91 2543.6,-202.97 2538.38,-207.22 2544.36,-198.03 2544.36,-198.03"/>
 </g>
 <!-- Aphelion Project -->
 <g id="node99" class="node">
