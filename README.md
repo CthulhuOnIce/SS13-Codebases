@@ -64,7 +64,7 @@
 A [DOT graph](https://graphviz.org/) of the family tree of [Space Station 13](http://www.byond.com/games/Exadv1/SpaceStation13) builds codebases.
 
 ![Graphviz graph](./out/tree.svg?sanitize=true)
-**Compiled: June 06, 2021 - 10:15AM (ÜTC +03)**
+**Compiled: June 06, 2021 - 10:36AM (ÜTC +03)**
 (or check auto-generated datetime [here](./out/compile_datetime.txt))
 
 ---
