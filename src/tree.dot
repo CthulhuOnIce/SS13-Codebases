@@ -178,6 +178,7 @@ digraph G {
 		"AEIOU" -> "Eclipse Station" [color=red]
 		"/tg/Station (AGPL)" -> "Mojave Sun"
 
+		/// Gesugao-san ///
 		"/tg/Station (GPLv3)" -> "FreeTG Station"
 		"BayStation (AGPL)" -> "Nebula"
 		"BestRP" -> "Unbound Travels"
@@ -187,5 +188,9 @@ digraph G {
 		"Goonstation (Open Source)" -> "BeeStation Clover"
 		"Goonstation" -> "Goonstation (2009 Public SVN)" [color=red]
 		"Unbound Travels" -> "Aphelion Project"
+		"Interpost Hague" ->  "Interpost: Redux"
+		"Interbay" -> "Cadia Station"
+		/// Gesugao-san ///
+
 	}
 }
