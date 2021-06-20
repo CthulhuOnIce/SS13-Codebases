@@ -95,20 +95,20 @@ digraph G {
 
 		/// Edges ///
 		"Citadel Main" -> "BurgerStation 13"
-		"SS13 (Pre Open)" -> "OpenSS13" [label="Source Decompilation"]
+		"SS13 (Pre Open)" -> "OpenSS13" [label = "[Source Decompilation]"]
 		"OpenSS13" -> "BayStation (OpenSS13)"
 		"SS13 (Pre Open)" -> "Goonstation"
-		"Goonstation" -> "Revision 4407 (r4407)" [color=red]
-		"Goonstation" -> "Goonstation (2016 Release)" [color=red]
+		"Goonstation" -> "Revision 4407 (r4407)" [color = red]
+		"Goonstation" -> "Goonstation (2016 Release)" [color = red]
 		"Goonstation (2016 Release)" -> "T/Goonstation"
-		"Goonstation (2016 Release)" -> "Goonstation (2020 Release)" [color=red]
-		"Goonstation" -> "Goonstation (Open Source)" [color=red]
+		"Goonstation (2016 Release)" -> "Goonstation (2020 Release)" [color = red]
+		"Goonstation" -> "Goonstation (Open Source)" [color = red]
 		"Revision 4407 (r4407)" -> "/tg/Station (GPLv3)"
 		"Revision 4407 (r4407)" -> "BayStation (Luna)"
 		"Revision 4407 (r4407)" -> "D2K5"
 		"Revision 4407 (r4407)" -> "Mars Station 42"
 		"BayStation (Luna)" -> "Lifeweb"
-		"/tg/Station (GPLv3)" -> "/tg/Station (AGPL)" [color=red]
+		"/tg/Station (GPLv3)" -> "/tg/Station (AGPL)" [color = red]
 		"/tg/Station (GPLv3)" -> "BayStation (GPL)"
 		"/tg/Station (GPLv3)" -> "HippieStation (Old)"
 		"/tg/Station (GPLv3)" -> "YogStation (Old)"
@@ -126,11 +126,11 @@ digraph G {
 		"BayStation (GPL)" -> "BestRP"
 		"BayStation (GPL)" -> "Tau Ceti"
 		"BayStation (GPL)" -> "Aurora (Old)"
-		"Aurora (Old)" -> "Aurora Station" [color=red]
+		"Aurora (Old)" -> "Aurora Station" [color = red]
 		"BayStation (GPL)" -> "Colonial Marines"
 		"Colonial Marines" -> "DM;CA"
-		"DM;CA" -> "TerraGov Marine Corps (TGMC)" [color=red]
-		"BayStation (GPL)" -> "BayStation (AGPL)" [color=red]
+		"DM;CA" -> "TerraGov Marine Corps (TGMC)" [color = red]
+		"BayStation (GPL)" -> "BayStation (AGPL)" [color = red]
 		"/tg/Station (AGPL)" -> "YogStation"
 		"YogStation" -> "Fulpstation"
 		"/tg/Station (AGPL)" -> "Fallout 13"
@@ -139,7 +139,7 @@ digraph G {
 		"BeeStation" -> "NSV13"
 		"BeeStation" -> "Austation"
 		"/tg/Station (AGPL)" -> "WaspStation"
-		"WaspStation" -> "Boomer Station" [color=red]
+		"WaspStation" -> "Boomer Station" [color = red]
 		"/tg/Station (AGPL)" -> "HippieStation"
 		"/tg/Station (AGPL)" -> "Citadel Main"
 		"Citadel Main" -> "HyperStation"
@@ -148,7 +148,7 @@ digraph G {
 		"/tg/Station (AGPL)" -> "OracleStation"
 		"/tg/Station (AGPL)" -> "Sunset Station"
 		"/tg/Station (AGPL)" -> "Star Trek 13"
-		"Star Trek 13" -> "Deep Space 13" [color=red]
+		"Star Trek 13" -> "Deep Space 13" [color = red]
 		"/tg/Station (AGPL)" -> "FTL13"
 		"/tg/Station (AGPL)" -> "Apollo Station"
 		"BayStation (AGPL)" -> "Urist McStation"
@@ -175,26 +175,26 @@ digraph G {
 		"V.O.R.E. Station" -> "Yawn Wider"
 		"Yawn Wider" -> "CHOMPstation"
 		"V.O.R.E. Station" -> "AEIOU"
-		"AEIOU" -> "Eclipse Station" [color=red]
+		"AEIOU" -> "Eclipse Station" [color = red]
 		"/tg/Station (AGPL)" -> "Mojave Sun"
 
 		/// Gesugao-san ///
 		"/tg/Station (GPLv3)" -> "FreeTG Station"
 		"BayStation (AGPL)" -> "Nebula"
 		"BestRP" -> "Unbound Travels"
-		"Boomer Station" -> "White Sands" [color=red]
+		"Boomer Station" -> "White Sands" [color = red]
 		"CEV Eris" -> "NEV Northern Light"
 		"Goonstation (2009 Public SVN)" -> "BayStation (Pre-r4407)"
 		"Goonstation (Open Source)" -> "BeeStation Clover"
-		"Goonstation" -> "Goonstation (2009 Public SVN)" [color=red]
+		"Goonstation" -> "Goonstation (2009 Public SVN)" [color = red]
 		"Unbound Travels" -> "Aphelion Project"
 		"Interpost Hague" ->  "Interpost: Redux"
 		"Interbay" -> "Cadia Station"
 		"Interbay" -> "Samosbor 13"
 		"BayStation (AGPL)" -> "KaiserBay"
 		"/tg/Station (AGPL)" -> "Sigma"
-		"/tg/Station (AGPL)" -> "Stalker Project (aka /tg/stalker, Call of flesh)"
-		"Stalker Project" -> "Ashen Sky"
+		"/tg/Station (AGPL)" -> "Stalker Project \n(aka /tg/stalker, Call of Flesh)"
+		"Stalker Project \n(aka /tg/stalker, Call of Flesh)" -> "Ashen Sky"
 		/// Gesugao-san ///
 	}
 }
