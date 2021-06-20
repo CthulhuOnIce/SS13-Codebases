@@ -193,7 +193,8 @@ digraph G {
 		"Interbay" -> "Samosbor 13"
 		"BayStation (AGPL)" -> "KaiserBay"
 		"/tg/Station (AGPL)" -> "Sigma"
-		"/tg/Station (AGPL)" -> "/tg/stalker (Call of flesh)" // "Stalker Project"?
+		"/tg/Station (AGPL)" -> "Stalker Project (aka /tg/stalker, Call of flesh)"
+		"Stalker Project" -> "Ashen Sky"
 		/// Gesugao-san ///
 	}
 }
