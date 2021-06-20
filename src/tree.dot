@@ -192,6 +192,7 @@ digraph G {
 		"Interbay" -> "Cadia Station"
 		"Interbay" -> "Samosbor 13"
 		"BayStation (AGPL)" -> "KaiserBay"
+		"/tg/Station (AGPL)" -> "Sigma"
 		/// Gesugao-san ///
 	}
 }

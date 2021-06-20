@@ -1,5 +1,7 @@
 #!/bin/sh
 
+echo "! PLEASE MAKE SURE THAT ANTIVIRUS ALLOWING TO EXECUTE THIS SCRIPT !"
+
 DOT -V -v
 
 echo ".svg generating.."
