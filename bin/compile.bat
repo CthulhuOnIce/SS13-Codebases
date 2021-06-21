@@ -29,6 +29,8 @@ ECHO Log file generating..
 DATE /t >  ".\..\out\compile_datetime.txt"
 TIME /t >> ".\..\out\compile_datetime.txt"
 
+@REM To replace "ÜTC" in README.MD
+@REM FOR /f %%i IN ('DATE /t') DO SET compile_datetime=%%i
 
 TIMEOUT /t 10
-REM PAUSE
+@REM PAUSE
