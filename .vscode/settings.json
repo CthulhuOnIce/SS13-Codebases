@@ -1,12 +1,20 @@
 {
-    "files.exclude": {
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.tabSize": 4,
+	"explorerExclude.backup": null,
+	"files.encoding": "utf8",
+	"files.eol": "\r\n",
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+	"files.exclude": {
         "**/.git": true,
         "**/.svn": true,
         "**/.hg": true,
         "**/CVS": true,
         "**/.DS_Store": true
-    },
-    "explorerExclude.backup": null,
-	"insertDateString.format": "MMMM MM, YYYY - HH:mmA (ÜTC Z)", //"YYYY-MM-DD hh:mm:ss",
+	},
     "insertDateString.formatDate": "MMMM MM, YYYY - HH:mmA (ÜTC Z)", //"YYYY-MM-DD",
+	"insertDateString.format": "MMMM MM, YYYY - HH:mmA (ÜTC Z)", //"YYYY-MM-DD hh:mm:ss",
 }
