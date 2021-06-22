@@ -33,12 +33,14 @@ jobs:
           repository: ${{ github.repository }}
           #token: ${{ secrets.my_pat }}
 
-      - uses: ts-graphviz/setup-graphviz@v1
+      #- name: Install Graphviz
+      #  uses: ts-graphviz/setup-graphviz@v1
+
       # Runs a single command using the cmd
       - name: Build graph
         shell: cmd
         env:
-          target_file_path: ${{ '${{github.repository}}\\scripts\\compile.bat' }}
+          target_file_path: ${{ ${{github.repository}}'\\scripts\\compile.bat' }}
         run: |
           @REM @ECHO OFF
           ECHO %target_file_path%
