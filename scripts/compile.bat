@@ -14,7 +14,10 @@ IF %ERRORLEVEL% NEQ 0 (
 ) ELSE (
 	ECHO Graphviz seems to be installed, processing...
 	CD ..
-	@REM ECHO Project dir: %CD%
+	ECHO Project dir: %CD%
+	ECHO | SET /p = "Graphviz install folder: " & WHERE DOT.EXE
+	ECHO | SET /p = "Graphviz version is: " & DOT.EXE -V
+    ECHO ----------------------------------------
 )
 
 SET file_name=tree
