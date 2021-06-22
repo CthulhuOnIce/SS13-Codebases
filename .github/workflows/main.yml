@@ -29,11 +29,11 @@ jobs:
       - name: Build graph
         shell: cmd
         run: |
+          @ECHO OFF
           ECHO ----------------------------------------
           CD ..
           ECHO Project dir: %CD%
-          WHERE DOT
-          ECHO Graphviz version is:
-          DOT.EXE -V
-
-        #"/scripts/compile.bat"
+          ECHO | SET /p = "Graphviz install folder: " & WHERE DOT.EXE
+          ECHO | SET /p = "Graphviz version is: " & DOT.EXE -V
+          ECHO ----------------------------------------
+          "%CD%\\scripts\\compile.bat"
