@@ -31,34 +31,8 @@ jobs:
         run: |
           @REM @ECHO OFF
           ECHO Current dir: %CD%\
-          REM CD ..
+          DIR
+          CD ..
           DIR
           ECHO Project dir: %CD%\
           ECHO Target file: "%CD%\\scripts\\compile.bat"
-
-          ECHO ----------------------------------------
-          ECHO 1: CDs...
-          "%CD%/scripts/compile.bat"   & @REM The system cannot find the path specified.
-          "%CD%\\scripts\\compile.bat" & @REM The system cannot find the path specified.
-          "%CD%\scripts\compile.bat"   & @REM The system cannot find the path specified.
-          TIMEOUT /t 3
-
-          ECHO ----------------------------------------
-          ECHO 2: Dots...
-          "./scripts/compile.bat"   & @REM The system cannot find the path specified.
-          ".\\scripts\\compile.bat" & @REM The system cannot find the path specified.
-          ".\scripts\compile.bat"   & @REM The system cannot find the path specified.
-          TIMEOUT /t 3
-
-          ECHO ----------------------------------------
-          ECHO 3: Slashs...
-          "/scripts/compile.bat"   & @REM The system cannot find the path specified.
-          "\\scripts\\compile.bat" & @REM The network path was not found.
-          "\scripts\compile.bat"   & @REM The system cannot find the path specified.
-          TIMEOUT /t 3
-
-          ECHO ----------------------------------------
-          ECHO 4: Nothing...
-          "scripts/compile.bat" & @REM The system cannot find the path specified.
-          "scripts\\compile.bat" & @REM The system cannot find the path specified.
-          "scripts\compile.bat" & @REM The system cannot find the path specified.
