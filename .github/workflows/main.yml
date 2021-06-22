@@ -29,6 +29,7 @@ jobs:
       - name: Build graph
         shell: cmd
         run: |
-          @ECHO OFF
+          @REM @ECHO OFF
           CD ..
-          "%CD%\\scripts\\compile.bat"
+          ECHO Project dir: %CD%
+          %CD%\\scripts\\compile.bat
