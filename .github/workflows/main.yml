@@ -40,16 +40,22 @@ jobs:
       - name: Build graph
         shell: cmd
         env:
-          target_file_path: ${{github.workspace}}${{'\\scripts\\compile.bat'}}
-        run: |
-          @REM @ECHO OFF
-          ECHO Target file: "%target_file_path%".
-          ECHO ----------------------------------------
+          target_file_path: ${{github.workspace}}${{'\scripts\compile.bat'}}
+        run:
           CALL "%target_file_path%"
 
-  ci_job_cancel_test:
-    name: CI job cancel test
+  ci_job_cancel_test_win:
+    name: CI job cancel test (OS Windows)
     runs-on: windows-latest
     steps:
       - name: Job cancel
-        run: SIGINT
+        shell: cmd
+        run: EXIT 0
+
+  ci_job_cancel_test_lin:
+    name: CI job cancel test (OS *nux)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Job cancel
+        shell: shell
+        run: exit 0

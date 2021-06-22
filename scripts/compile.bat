@@ -5,46 +5,52 @@
 
 :ANTIVIRUS_WARNING
 ECHO.
-ECHO ! PLEASE MAKE SURE THAT ANTIVIRUS ALLOWING TO EXECUTE THIS SCRIPT !
+ECHO. ! PLEASE MAKE SURE THAT ANTIVIRUS ALLOWING TO EXECUTE THIS SCRIPT !
 ECHO.
 
 
 :APP_INSTALLATION_CHECK
 WHERE DOT.EXE
 IF %ERRORLEVEL% NEQ 0 (
+    ECHO ----------------------------------------
 	ECHO Fatal error!
 	ECHO  Graphviz does not installed [dot.exe didn't detected]
 	ECHO  Please install it from: https://graphviz.org/download/
 	EXIT 1
 ) ELSE (
-	ECHO Graphviz seems to be installed, processing...
-	CD ..
-	ECHO Project dir: %CD%
-	ECHO | SET /p = "Graphviz install folder: " & WHERE DOT.EXE
-	ECHO | SET /p = "Graphviz version is: "
-	DOT.EXE -V
     ECHO ----------------------------------------
+	ECHO Graphviz seems to be installed, processing...
+	ECHO | SET /p = "Graphviz install folder: " & WHERE DOT.EXE
+	ECHO Graphviz version is:
+	DOT.EXE -V
 )
 
 
 :SCRIPT_SETTINGS
 SET file_name=tree
-SET path_input_file=%CD%\src\%file_name%.dot
-SET path_output_file=%CD%\out\%file_name%
-SET path_log_file=%CD%\out\compile_datetime.txt
-
-ECHO Target file: "%path_input_file%".
+SET path_input_file=\src\%file_name%.dot
+SET path_output_file=\out\%file_name%
+SET path_log_file=\out\compile_datetime.txt
+ECHO ----------------------------------------
+CD /D %CD%
+ECHO. ! Project dir:      "%CD%";
+ECHO. ! Input file name:  "%file_name%";
+ECHO. ! Input file path:  "%path_input_file%";
+ECHO. ! Output file path: "%path_output_file%";
+ECHO. ! Log file path:    "%path_log_file%".
 
 
 :GRAPHS_COMPILING
+ECHO ----------------------------------------
 ECHO [1/2] ".svg" file generating..
-DOT.EXE -Tsvg "%path_input_file%">"%path_output_file%.svg"
+DOT.EXE -Tsvg "%path_input_file%">"%CD%%path_output_file%.svg"
 
 ECHO [2/2] ".png" file generating..
-DOT.EXE -Tpng "%path_input_file%">"%path_output_file%.png"
+DOT.EXE -Tpng "%path_input_file%">"%CD%%path_output_file%.png"
 
 
 :LOGS_PROCESSING
+ECHO ----------------------------------------
 ECHO Log file generating..
 DATE /t1>"%path_log_file%"
 TIME /t1>>"%path_log_file%"
@@ -56,5 +62,7 @@ TIME /t1>>"%path_log_file%"
 
 
 :END
+ECHO ----------------------------------------
 TIMEOUT /t 10
 @REM PAUSE
+EXIT %ERRORLEVEL%
