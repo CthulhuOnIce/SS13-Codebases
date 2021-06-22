@@ -35,20 +35,22 @@ jobs:
           ECHO Project dir: %CD%\
           ECHO Target file: "%CD%\\scripts\\compile.bat"
 
-          ECHO Slashs...
-          "%CD%/scripts/compile.bat"
-          "%CD%\\scripts\\compile.bat"
-          "%CD%\scripts\compile.bat"
+          ECHO 1: CDs...
+          "%CD%/scripts/compile.bat"   & @REM The system cannot find the path specified.
+          "%CD%\\scripts\\compile.bat" & @REM The system cannot find the path specified.
+          "%CD%\scripts\compile.bat"   & @REM The system cannot find the path specified.
 
-          ECHO Dots...
-          "./scripts/compile.bat"
-          ".\\scripts\\compile.bat"
-          ".\scripts\compile.bat"
+          ECHO 2: Dots...
+          "./scripts/compile.bat"   & @REM The system cannot find the path specified.
+          ".\\scripts\\compile.bat" & @REM The system cannot find the path specified.
+          ".\scripts\compile.bat"   & @REM The system cannot find the path specified.
 
-          ECHO Nothing...
-          "/scripts/compile.bat"
-          "\\scripts\\compile.bat"
-          "\scripts\compile.bat"
+          ECHO 3: Slashs...
+          "/scripts/compile.bat"   & @REM The system cannot find the path specified.
+          "\\scripts\\compile.bat" & @REM The network path was not found.
+          "\scripts\compile.bat"   & @REM The system cannot find the path specified.
 
-          "scripts/compile.bat"
-          "scripts\compile.bat"
+          ECHO 4: Nothing...
+          "scripts/compile.bat" & @REM The system cannot find the path specified.
+          "scripts\\compile.bat" & @REM Unknown...
+          "scripts\compile.bat" & @REM The system cannot find the path specified.
