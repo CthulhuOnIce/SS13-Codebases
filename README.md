@@ -69,7 +69,7 @@
 A [DOT graph](https://graphviz.org/) of the family tree of [Space Station 13](http://www.byond.com/games/Exadv1/SpaceStation13) builds codebases.
 
 ![Graphviz graph](./out/tree.svg?sanitize=true)
-**Compiled: June 06, 2021 - 04:09PM (ÜTC +03)**
+**Compiled: June 06, 2021 - 05:11PM (ÜTC +03)**
 (or check auto-generated datetime [here](./out/compile_datetime.txt))
 
 ---
@@ -87,7 +87,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/CthulhuOnIce"><img src="https://avatars.githubusercontent.com/u/41597119?v=4?s=100" width="100px;" alt=""/><br /><sub><b>CthulhuOnIce</b></sub></a><br /><a href="#ideas-CthulhuOnIce" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/Gesugao-san/SS13-Codebases/commits?author=CthulhuOnIce" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/CthulhuOnIce"><img src="https://avatars.githubusercontent.com/u/41597119?v=4?s=100" width="100px;" alt=""/><br /><sub><b>CthulhuOnIce</b></sub></a><br /><a href="#ideas-CthulhuOnIce" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/Gesugao-san/SS13-Codebases/commits?author=CthulhuOnIce" title="Code">💻</a><br /><a href="#content-drexample" title="Content">🖋</a></td>
     <td align="center"><a href="https://spacestation13.com"><img src="https://avatars.githubusercontent.com/u/72716220?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Space Station 13</b></sub></a><br /><a href="#content-spacestation13" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/Gesugao-san"><img src="https://avatars.githubusercontent.com/u/28023014?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gesugao-san</b></sub></a><br /><a href="https://github.com/Gesugao-san/SS13-Codebases/commits?author=Gesugao-san" title="Code">💻</a> <a href="#ideas-Gesugao-san" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-Gesugao-san" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#tool-Gesugao-san" title="Tools">🔧</a> <a href="#content-spacestation13" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/drexample"><img src="https://avatars.githubusercontent.com/u/19371983?v=4?s=100" width="100px;" alt=""/><br /><sub><b>drexample</b></sub></a><br /><a href="#content-drexample" title="Content">🖋</a></td>
