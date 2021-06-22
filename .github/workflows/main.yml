@@ -42,7 +42,7 @@ jobs:
         env:
           target_file_path: ${{github.workspace}}${{'\scripts\'}}
         run:
-          CD /D "%target_file_path%"
+          CD /D scripts\
           CALL "%target_file_path%compile.bat"
 
   ci_job_cancel_test_win:
@@ -62,6 +62,17 @@ jobs:
     steps:
       - name: Job cancel
         shell: bash
+        run: |
+          echo "Hello world!"
+          echo "----------------------------------------"
+          exit 0
+
+  ci_job_cancel_test_mac:
+    name: CI job cancel test (macOS)
+    runs-on: macos-latest
+    steps:
+      - name: Job cancel
+        shell: sh
         run: |
           echo "Hello world!"
           echo "----------------------------------------"
