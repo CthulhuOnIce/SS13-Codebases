@@ -30,6 +30,7 @@ jobs:
         shell: cmd
         run: |
           @REM @ECHO OFF
+          ECHO Current dir: %CD%
           CD ..
           ECHO Project dir: %CD%
-          %CD%\\scripts\\compile.bat
+          ECHO Target file: "%CD%\\scripts\\compile.bat"
