@@ -49,7 +49,7 @@ jobs:
 
   ci_job_cancel_test:
     name: CI job cancel test
-    #runs-on: windows-latest
+    runs-on: windows-latest
     steps:
       - name: Job cancel
         run: SIGINT
