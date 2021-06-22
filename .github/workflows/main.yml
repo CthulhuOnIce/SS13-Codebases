@@ -30,7 +30,7 @@ jobs:
       - name: Check out (clone) my current repo
       - uses: actions/checkout@master
         with:
-          repository: ${{ repository }}     # <-- clone https://github.com/Gesugao-san/SS13-Codebases
+          repository: ${{ github.repository }}     # <-- clone https://github.com/Gesugao-san/SS13-Codebases
           #token: ${{ secrets.my_pat }}
 
       # Runs a single command using the cmd
