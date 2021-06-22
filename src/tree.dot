@@ -166,7 +166,7 @@ digraph G {
 		"DM;CA"                                              -> "TerraGov Marine Corps (TGMC)" [color = red]
 		"FacePunch"                                          -> "Corporate Mercenaries"
 		"Fallout 13"                                         -> "Desert Rose"
-		"FTL13 (Old)"                                        -> "FTL13"                                               // added by: Gesugao-san
+		"FTL13 (Old)"                                        -> "FTL13" [color = red]                                 // added by: Gesugao-san
 		"Goonstation (2009 Public SVN)"                      -> "BayStation (Pre-r4407)"                              // added by: Gesugao-san
 		"Goonstation (2016 Release)"                         -> "Goonstation (2020 Release)" [color = red]
 		"Goonstation (2016 Release)"                         -> "T/Goonstation"
@@ -175,7 +175,7 @@ digraph G {
 		"Goonstation"                                        -> "Goonstation (2016 Release)" [color = red]
 		"Goonstation"                                        -> "Goonstation (Open Source)" [color = red]
 		"Goonstation"                                        -> "Revision 4407 (r4407)" [color = red]
-		"HippieStation (Old)"                                -> "HippieStation"                                       // added by: Gesugao-san
+		"HippieStation (Old)"                                -> "HippieStation" [color = red]                         // added by: Gesugao-san
 		"Interbay 1.0"                                       -> "Interbay 2.0"                                        // added by: Gesugao-san
 		"Interbay 2.0"                                       -> "Interbay 3.0"                                        // added by: Gesugao-san
 		"Interbay"                                           -> "Cadia Station"                                       // added by: Gesugao-san
@@ -190,7 +190,7 @@ digraph G {
 		"NTStation"                                          -> "D20 Station"
 		"OpenSS13"                                           -> "BayStation (OpenSS13)"
 		"Paradise"                                           -> "Persistence SS13 (Old)"
-		"Persistence SS13 (Old)"                             -> "Persistence"                                         // added by: Gesugao-san
+		"Persistence SS13 (Old)"                             -> "Persistence" [color = red]                           // added by: Gesugao-san
 		"Polaris"                                            -> "V.O.R.E. Station"
 		"Polaris"                                            -> "World Server"
 		"Revision 4407 (r4407)"                              -> "/tg/Station (GPLv3)"
@@ -208,7 +208,7 @@ digraph G {
 		"V.O.R.E. Station"                                   -> "Yawn Wider"
 		"WaspStation"                                        -> "Boomer Station" [color = red]
 		"Yawn Wider"                                         -> "CHOMPstation"
-		"YogStation (Old)"                                   -> "YogStation"                                          // added by: Gesugao-san
+		"YogStation (Old)"                                   -> "YogStation" [color = red]                            // added by: Gesugao-san
 		"YogStation"                                         -> "Fulpstation"
 	}
 }
