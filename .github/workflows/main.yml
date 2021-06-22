@@ -30,7 +30,7 @@ jobs:
       - name: Check out (clone) current repository
         uses: actions/checkout@v2
         with:
-          repository: ${{ GITHUB_WORKSPACE }} # ${{ github.repository }}
+          repository: ${{ github.repository }}
           #token: ${{ secrets.my_pat }}
 
       - uses: ts-graphviz/setup-graphviz@v1
