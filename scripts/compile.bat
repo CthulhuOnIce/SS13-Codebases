@@ -66,7 +66,7 @@ ECHO ^- Time record & TIME /t 1>> "%CD%%path_log_file%"
 :END
 ECHO ----------------------------------------
 SET exit_timeout=10
-ECHO Waiting for %exit_timeout% seconds...
+ECHO Waiting for %exit_timeout% seconds and exit...
 PING -n %exit_timeout% 127.0.0.1 1> NUL
 @REM PAUSE
 EXIT %ERRORLEVEL%
