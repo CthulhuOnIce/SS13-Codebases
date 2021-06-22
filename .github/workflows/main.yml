@@ -16,7 +16,10 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  build_windows:
+
+    name: Build (OS Windows)
+
     # The type of runner that the job will run on
     runs-on: windows-latest
 
@@ -26,8 +29,8 @@ jobs:
       #- uses: ts-graphviz/setup-graphviz@v1
       - uses: actions/checkout@master
         with:
-          name: Gesugao-san/SS13-Codebases     # <-- clone https://github.com/Gesugao-san/SS13-Codebases
-          ref: refs/heads/release
+          #repository: Gesugao-san/SS13-Codebases     # <-- clone https://github.com/Gesugao-san/SS13-Codebases
+          token: ${{ secrets.my_pat }}
 
       # Runs a single command using the cmd
       - name: Build graph
@@ -44,3 +47,9 @@ jobs:
           DIR
           ECHO Project dir: %CD%\
           ECHO Target file: "%CD%\\scripts\\compile.bat"
+
+          REM ECHO ----------------------------------------
+          REM ECHO 1: CDs...
+          REM "%CD%/scripts/compile.bat"   & @REM The system cannot find the path specified.
+          REM "%CD%\\scripts\\compile.bat" & @REM The system cannot find the path specified.
+          REM "%CD%\scripts\compile.bat"   & @REM The system cannot find the path specified.
