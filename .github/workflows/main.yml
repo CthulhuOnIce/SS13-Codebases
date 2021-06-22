@@ -28,4 +28,12 @@ jobs:
       # Runs a single command using the cmd
       - name: Build graph
         shell: cmd
-        run: "/scripts/compile.bat"
+        run: |
+          ECHO ----------------------------------------
+          CD ..
+          ECHO Project dir: %CD%
+          WHERE DOT
+          ECHO Graphviz version is:
+          DOT.EXE -V
+
+        #"/scripts/compile.bat"
