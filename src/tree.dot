@@ -88,7 +88,7 @@ digraph G {
 		}
 
 		/// Attributes ///
-		label    = "SS13 Codebases Circa Late 2020"
+		label    = "SS13 Codebases Circa Mid 2021"
 		labelloc = "top"
 		style    = "dotted"
 		//rankdir = "TB"
@@ -103,8 +103,6 @@ digraph G {
 
 		/// Edges ///
 
-		"/tg/Station (AGPL)"                                 -> "Sigma"                                               // added by: Gesugao-san
-		"/tg/Station (AGPL)"                                 -> "Stalker Project \n(aka /tg/stalker, Call of Flesh)"  // added by: Gesugao-san
 		"/tg/Station (AGPL)"                                 -> "Apollo Station"
 		"/tg/Station (AGPL)"                                 -> "BeeStation"
 		"/tg/Station (AGPL)"                                 -> "Citadel Main"
@@ -113,17 +111,20 @@ digraph G {
 		"/tg/Station (AGPL)"                                 -> "HippieStation"
 		"/tg/Station (AGPL)"                                 -> "Mojave Sun"
 		"/tg/Station (AGPL)"                                 -> "OracleStation"
+		"/tg/Station (AGPL)"                                 -> "Sigma"                                               // added by: Gesugao-san
+		"/tg/Station (AGPL)"                                 -> "Stalker Project \n(aka /tg/stalker, Call of Flesh)"  // added by: Gesugao-san
 		"/tg/Station (AGPL)"                                 -> "Star Trek 13"
 		"/tg/Station (AGPL)"                                 -> "Sunset Station"
 		"/tg/Station (AGPL)"                                 -> "Toolbox Station"
 		"/tg/Station (AGPL)"                                 -> "WaspStation"
 		"/tg/Station (AGPL)"                                 -> "YogStation"
-		"/tg/Station (GPLv3)"                                -> "FreeTG Station"                                      // added by: Gesugao-san
 		"/tg/Station (GPLv3)"                                -> "/tg/Station (AGPL)" [color = red]
 		"/tg/Station (GPLv3)"                                -> "Archangel"
 		"/tg/Station (GPLv3)"                                -> "BayStation (GPL)"
 		"/tg/Station (GPLv3)"                                -> "FacePunch"
+		"/tg/Station (GPLv3)"                                -> "FreeTG Station"                                      // added by: Gesugao-san
 		"/tg/Station (GPLv3)"                                -> "FTL13 (Old)"
+		"FTL13 (Old)"                                        -> "FTL13"                                               // added by: Gesugao-san
 		"/tg/Station (GPLv3)"                                -> "HippieStation (Old)"
 		"/tg/Station (GPLv3)"                                -> "NTStation"
 		"/tg/Station (GPLv3)"                                -> "Traitor Death Match"
@@ -131,14 +132,14 @@ digraph G {
 		"AEIOU"                                              -> "Eclipse Station" [color = red]
 		"Aurora (Old)"                                       -> "Aurora Station" [color = red]
 		"Ava's Battlegrounds"                                -> "No Mans's Land"
-		"BayStation (AGPL)"                                  -> "KaiserBay"                                           // added by: Gesugao-san
-		"BayStation (AGPL)"                                  -> "Nebula"                                              // added by: Gesugao-san
 		"BayStation (AGPL)"                                  -> "Aurora Station"
 		"BayStation (AGPL)"                                  -> "CEV Eris"
 		"BayStation (AGPL)"                                  -> "Dead Space 13"
 		"BayStation (AGPL)"                                  -> "Europa Station"
 		"BayStation (AGPL)"                                  -> "Halo: Space Station Evolved"
 		"BayStation (AGPL)"                                  -> "Interbay"
+		"BayStation (AGPL)"                                  -> "KaiserBay"                                           // added by: Gesugao-san
+		"BayStation (AGPL)"                                  -> "Nebula"                                              // added by: Gesugao-san
 		"BayStation (AGPL)"                                  -> "Persistence (New)"
 		"BayStation (AGPL)"                                  -> "Polaris"
 		"BayStation (AGPL)"                                  -> "SCP-13"
@@ -147,7 +148,7 @@ digraph G {
 		"BayStation (GPL)"                                   -> "Aurora (Old)"
 		"BayStation (GPL)"                                   -> "BayStation (AGPL)" [color = red]
 		"BayStation (GPL)"                                   -> "BestRP"
-		"BayStation (GPL)"                                   -> "Colonial Marines"
+		"BayStation (GPL)"                                   -> "Colonial Marines (CM)"
 		"BayStation (GPL)"                                   -> "Paradise"
 		"BayStation (GPL)"                                   -> "RocketStation42"
 		"BayStation (GPL)"                                   -> "Tau Ceti"
@@ -156,13 +157,13 @@ digraph G {
 		"BeeStation"                                         -> "NSV13"
 		"BestRP"                                             -> "Unbound Travels"                                     // added by: Gesugao-san
 		"Boomer Station"                                     -> "White Sands" [color = red]                           // added by: Gesugao-san
-		"CEV Eris"                                           -> "NEV Northern Light"                                  // added by: Gesugao-san
 		"CEV Eris"                                           -> "InterStation-Two"
+		"CEV Eris"                                           -> "NEV Northern Light"                                  // added by: Gesugao-san
 		"CEV Eris"                                           -> "Soujurn Station"
 		"Citadel Main"                                       -> "BurgerStation 13"
 		"Citadel Main"                                       -> "HyperStation"
 		"Citadel Main"                                       -> "Skyrat 13"
-		"Colonial Marines"                                   -> "DM;CA"
+		"Colonial Marines (CM)"                              -> "DM;CA"
 		"DM;CA"                                              -> "TerraGov Marine Corps (TGMC)" [color = red]
 		"FacePunch"                                          -> "Corporate Mercenaries"
 		"Fallout 13"                                         -> "Desert Rose"
@@ -174,9 +175,13 @@ digraph G {
 		"Goonstation"                                        -> "Goonstation (2016 Release)" [color = red]
 		"Goonstation"                                        -> "Goonstation (Open Source)" [color = red]
 		"Goonstation"                                        -> "Revision 4407 (r4407)" [color = red]
+		"Interbay 1.0"                                       -> "Interbay 2.0"                                        // added by: Gesugao-san
+		"Interbay 2.0"                                       -> "Interbay 3.0"                                        // added by: Gesugao-san
 		"Interbay"                                           -> "Cadia Station"                                       // added by: Gesugao-san
-		"Interbay"                                           -> "Samosbor 13"                                         // added by: Gesugao-san
 		"Interbay"                                           -> "Interpost Hague"
+		"Interbay"                                           -> "Samosbor 13"                                         // added by: Gesugao-san
+		"InterHippie"                                        -> "Interbay 1.0"                                        // added by: Gesugao-san
+		"Interpost Hague"                                    -> "InterHippie"                                         // added by: Gesugao-san
 		"Interpost Hague"                                    -> "Interpost: Redux"                                    // added by: Gesugao-san
 		"InterStation-Two"                                   -> "Ava's Battlegrounds"
 		"Lebensraum"                                         -> "Civilization 13"

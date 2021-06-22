@@ -13,21 +13,27 @@ IF %ERRORLEVEL% NEQ 0 (
 	EXIT 1
 ) ELSE (
 	ECHO Graphviz seems to be installed, processing...
+	CD ..
+	@REM ECHO Project dir: %CD%
 )
 
+SET file_name=tree
+SET path_input_file=%CD%\src\%file_name%.dot
+SET path_output_file=%CD%\out\%file_name%
+SET path_log_file=%CD%\out\compile_datetime.txt
 
-CD /D %CD%
+ECHO Graphviz version is:
 DOT.EXE -V
 
-ECHO .svg generating..
-DOT.EXE -Tsvg ".\..\src\tree.dot" > ".\..\out\tree.svg"
+ECHO [1/2] ".svg" file generating..
+DOT.EXE -Tsvg "%path_input_file%">"%path_output_file%.svg"
 
-ECHO .png generating..
-DOT.EXE -Tpng ".\..\src\tree.dot" > ".\..\out\tree.png"
+ECHO [2/2] ".png" file generating..
+DOT.EXE -Tpng "%path_input_file%">"%path_output_file%.png"
 
 ECHO Log file generating..
-DATE /t >  ".\..\out\compile_datetime.txt"
-TIME /t >> ".\..\out\compile_datetime.txt"
+DATE /t1>"%path_log_file%"
+TIME /t1>>"%path_log_file%"
 
 @REM To replace "ÜTC" in README.MD
 @REM FOR /f %%i IN ('DATE /t') DO SET compile_datetime=%%i

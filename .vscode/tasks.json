@@ -6,9 +6,9 @@
         {
             "label": "Run build",
             "type": "shell",
-            "command": "./bin/compile.sh",
+            "command": "./compile.sh",
             "windows": {
-                "command": ".\\bin\\compile.bat"
+                "command": ".\\compile.bat"
             },
             "problemMatcher": [],
             "group": {
@@ -16,8 +16,11 @@
                 "isDefault": true
             },
             "options": {
-                "cwd": "${workspaceFolder}"
-            }
+                "cwd": "${workspaceFolder}\\bin"
+            },
+			"presentation": {
+				"clear": true
+			}
         }
     ]
 }
