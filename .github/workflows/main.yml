@@ -25,6 +25,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: ts-graphviz/setup-graphviz@v1
 
-      # Runs a single command using the runners shell
+      # Runs a single command using the cmd
       - name: Build graph
-        run: .\bin\compile.bat
+        run: .\scripts\compile.bat
+      	shell: cmd

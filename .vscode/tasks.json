@@ -16,7 +16,7 @@
                 "isDefault": true
             },
             "options": {
-                "cwd": "${workspaceFolder}\\bin"
+                "cwd": "${workspaceFolder}\\scripts"
             },
 			"presentation": {
 				"clear": true
