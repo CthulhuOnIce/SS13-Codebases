@@ -27,10 +27,11 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       #- uses: ts-graphviz/setup-graphviz@v1
+      - name: Check out (clone) my current repo
       - uses: actions/checkout@master
-        with:
+        #with:
           #repository: Gesugao-san/SS13-Codebases     # <-- clone https://github.com/Gesugao-san/SS13-Codebases
-          token: ${{ secrets.my_pat }}
+          #token: ${{ secrets.my_pat }}
 
       # Runs a single command using the cmd
       - name: Build graph
