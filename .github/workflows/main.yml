@@ -50,12 +50,18 @@ jobs:
     steps:
       - name: Job cancel
         shell: cmd
-        run: EXIT 0
+        run: |
+          ECHO Hello world!
+          ECHO ----------------------------------------
+          EXIT 0
 
   ci_job_cancel_test_lin:
     name: CI job cancel test (OS *nux)
     runs-on: ubuntu-latest
     steps:
       - name: Job cancel
-        shell: shell
-        run: exit 0
+        shell: bash
+        run: |
+          echo "Hello world!"
+          echo "----------------------------------------"
+          exit 0

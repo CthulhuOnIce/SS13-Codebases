@@ -19,10 +19,9 @@ IF %ERRORLEVEL% NEQ 0 (
 	EXIT 1
 ) ELSE (
     ECHO ----------------------------------------
-	ECHO Graphviz seems to be installed, processing...
-	ECHO | SET /p = "Graphviz install folder: " & WHERE DOT.EXE
-	ECHO Graphviz version is:
-	DOT.EXE -V
+	ECHO Graphviz: seems to be ok, processing.
+	ECHO | SET /p = "! Folder:  " & WHERE DOT.EXE
+	ECHO | SET /p = "! Version: " & DOT.EXE -V
 )
 
 
@@ -32,28 +31,28 @@ SET path_input_file=\src\%file_name%.dot
 SET path_output_file=\out\%file_name%
 SET path_log_file=\out\compile_datetime.txt
 ECHO ----------------------------------------
-CD /D %CD%
-ECHO. ! Project dir:      "%CD%";
+CD /D %CD%\..
 ECHO. ! Input file name:  "%file_name%";
-ECHO. ! Input file path:  "%path_input_file%";
-ECHO. ! Output file path: "%path_output_file%";
-ECHO. ! Log file path:    "%path_log_file%".
+ECHO. ! Project dir:      "%CD%";
+ECHO. ! Input file path:  "%CD%%path_input_file%";
+ECHO. ! Output file path: "%CD%%path_output_file%";
+ECHO. ! Log file path:    "%CD%%path_log_file%".
 
 
 :GRAPHS_COMPILING
 ECHO ----------------------------------------
 ECHO [1/2] ".svg" file generating..
-DOT.EXE -Tsvg "%path_input_file%">"%CD%%path_output_file%.svg"
+DOT.EXE -Tsvg "%CD%%path_input_file%">"%CD%%path_output_file%.svg"
 
 ECHO [2/2] ".png" file generating..
-DOT.EXE -Tpng "%path_input_file%">"%CD%%path_output_file%.png"
+DOT.EXE -Tpng "%CD%%path_input_file%">"%CD%%path_output_file%.png"
 
 
 :LOGS_PROCESSING
 ECHO ----------------------------------------
 ECHO Log file generating..
-DATE /t1>"%path_log_file%"
-TIME /t1>>"%path_log_file%"
+DATE /t1>"%CD%%path_log_file%"
+TIME /t1>>"%CD%%path_log_file%"
 
 
 @REM :README_UPDATE
