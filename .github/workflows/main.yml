@@ -43,6 +43,13 @@ jobs:
           target_file_path: ${{github.workspace}}${{'\\scripts\\compile.bat'}}
         run: |
           @REM @ECHO OFF
-          ECHO Target file: "%target_file_path%"
+          ECHO Target file: "%target_file_path%".
           ECHO ----------------------------------------
           CALL "%target_file_path%"
+
+  ci_job_cancel_test:
+    name: CI job cancel test
+    #runs-on: windows-latest
+    steps:
+      - name: Job cancel
+        run: SIGINT
