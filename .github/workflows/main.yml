@@ -38,7 +38,7 @@ jobs:
       - name: Build graph
         shell: cmd
         env:
-          target_file_path: ${{ "%CD%\\scripts\\compile.bat" }}
+          target_file_path: ${{ '%CD%\\scripts\\compile.bat' }}
         run: |
           @REM @ECHO OFF
           ECHO %target_file_path%
