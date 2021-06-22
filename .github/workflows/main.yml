@@ -31,7 +31,8 @@ jobs:
         run: |
           @REM @ECHO OFF
           ECHO Current dir: %CD%\
-          CD ..
+          REM CD ..
+          DIR
           ECHO Project dir: %CD%\
           ECHO Target file: "%CD%\\scripts\\compile.bat"
 
