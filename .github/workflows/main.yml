@@ -26,32 +26,20 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      #- uses: ts-graphviz/setup-graphviz@v1
-      - name: Check out (clone) my current repo
+      - name: Check out (clone) current repository
         uses: actions/checkout@master
         with:
-          repository: ${{ github.repository }}     # <-- clone https://github.com/Gesugao-san/SS13-Codebases
+          repository: ${{ GITHUB_WORKSPACE }} # ${{ github.repository }}
           #token: ${{ secrets.my_pat }}
-        #run: git clone ${{ github.repository }}
 
       # Runs a single command using the cmd
       - name: Build graph
+        uses: ts-graphviz/setup-graphviz@master
         shell: cmd
+        env:
+          target_file_path: ${{ "%CD%\\scripts\\compile.bat" }}
         run: |
           @REM @ECHO OFF
-          ECHO Current dir: %CD%\
-          DIR
-          CD ..
-          DIR
-          CD ..
-          DIR
-          CD ..
-          DIR
-          ECHO Project dir: %CD%\
-          ECHO Target file: "%CD%\\scripts\\compile.bat"
-
+          ECHO %target_file_path%
           REM ECHO ----------------------------------------
-          REM ECHO 1: CDs...
-          REM "%CD%/scripts/compile.bat"   & @REM The system cannot find the path specified.
-          REM "%CD%\\scripts\\compile.bat" & @REM The system cannot find the path specified.
-          REM "%CD%\scripts\compile.bat"   & @REM The system cannot find the path specified.
+          REM "%CD%\\scripts\\compile.bat"
