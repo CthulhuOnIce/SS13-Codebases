@@ -43,6 +43,6 @@ jobs:
           target_file_path: ${{github.workspace}}${{'\\scripts\\compile.bat'}}
         run: |
           @REM @ECHO OFF
-          ECHO %target_file_path%
-          REM ECHO ----------------------------------------
-          REM "%CD%\\scripts\\compile.bat"
+          ECHO Target file: "%target_file_path%"
+          ECHO ----------------------------------------
+          CALL "%target_file_path%"
