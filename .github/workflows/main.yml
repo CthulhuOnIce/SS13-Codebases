@@ -27,11 +27,11 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: Check out (clone) current repository
+      - name: Check out current repository
         uses: actions/checkout@v2
         with:
           repository: ${{ github.repository }}
-          #token: ${{ secrets.my_pat }}
+          token: ${{ github.token }}
 
       #- name: Install Graphviz
       #  uses: ts-graphviz/setup-graphviz@v1
@@ -40,7 +40,7 @@ jobs:
       - name: Build graph
         shell: cmd
         env:
-          target_file_path: ${{github.repository}}${{'\\scripts\\compile.bat'}}
+          target_file_path: ${{github.workspace}}${{'\\scripts\\compile.bat'}}
         run: |
           @REM @ECHO OFF
           ECHO %target_file_path%
