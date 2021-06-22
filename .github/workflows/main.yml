@@ -24,6 +24,10 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       #- uses: ts-graphviz/setup-graphviz@v1
+      - uses: actions/checkout@master
+        with:
+          name: Gesugao-san/SS13-Codebases     # <-- clone https://github.com/Gesugao-san/SS13-Codebases
+          ref: refs/heads/release
 
       # Runs a single command using the cmd
       - name: Build graph
