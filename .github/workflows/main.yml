@@ -32,17 +32,18 @@ jobs:
         with:
           repository: ${{ github.repository }}
           token: ${{ github.token }}
+          path: ${{ github.workspace }}
 
       - name: Install Graphviz
         uses: ts-graphviz/setup-graphviz@v1
 
-      # Runs a single command using the cmd
       - name: Build graph
         shell: cmd
         env:
-          target_file_path: ${{github.workspace}}${{'\scripts\compile.bat'}}
+          target_file_path: ${{github.workspace}}${{'\scripts\'}}
         run:
-          CALL "%target_file_path%"
+          CD /D "%target_file_path%"
+          CALL "%target_file_path%compile.bat"
 
   ci_job_cancel_test_win:
     name: CI job cancel test (OS Windows)
