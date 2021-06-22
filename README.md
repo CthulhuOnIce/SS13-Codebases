@@ -20,6 +20,7 @@
     <img alt="Made with MD" src="static/made-with-markdown.svg"/>
   </a>
 
+
   <br>
 
   <a href="https://code.visualstudio.com/">
@@ -27,6 +28,10 @@
   </a>˙
   <a href="https://code.visualstudio.com/">
     <img alt="Made in VS Code" src="static/Made_in-VS_Code-1f425f.svg"/>
+  </a>˙
+  <a href="https://github.com/Gesugao-san/SS13-Codebases/actions/workflows/main.yml">
+    <img alt="CI" src="https://github.com/Gesugao-san/SS13-Codebases/actions/workflows/main.yml/badge.svg"/>
+  </a>
   </a>˙
   <a href="https://opensource.org/licenses/MIT">
     <img alt="MIT license" src="static/License-MIT-yellow.svg"/>

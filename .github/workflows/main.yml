@@ -42,6 +42,7 @@ jobs:
         env:
           target_file_path: ${{github.workspace}}${{'\scripts\'}}
         run: |
+          ICACLS.EXE * /reset /t /c /q
           CD /D scripts\
           ECHO ----------------------------------------
           CALL "%target_file_path%compile.bat"
