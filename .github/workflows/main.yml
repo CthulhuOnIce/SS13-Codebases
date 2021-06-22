@@ -28,12 +28,12 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Check out (clone) current repository
-        uses: actions/checkout@master
+        uses: actions/checkout@v2
         with:
           repository: ${{ github.repository }} # ${{ GITHUB_WORKSPACE }}
           #token: ${{ secrets.my_pat }}
 
-      - uses: ts-graphviz/setup-graphviz@master
+      - uses: ts-graphviz/setup-graphviz@v1
       # Runs a single command using the cmd
       - name: Build graph
         shell: cmd
