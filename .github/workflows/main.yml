@@ -27,4 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Build graph
-        run: START ".\bin\compile.bat"
+        run: .\\bin\\compile.bat
