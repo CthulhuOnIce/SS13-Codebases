@@ -41,8 +41,9 @@ jobs:
         shell: cmd
         env:
           target_file_path: ${{github.workspace}}${{'\scripts\'}}
-        run:
+        run: |
           CD /D scripts\
+          ECHO ----------------------------------------
           CALL "%target_file_path%compile.bat"
 
   ci_job_cancel_test_win:
