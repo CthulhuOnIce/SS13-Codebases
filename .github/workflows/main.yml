@@ -28,4 +28,4 @@ jobs:
       # Runs a single command using the cmd
       - name: Build graph
         shell: cmd
-        run: "%CD%\\scripts\\compile.bat"
+        run: "./scripts/compile.bat"
