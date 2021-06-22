@@ -34,6 +34,21 @@ jobs:
           CD ..
           ECHO Project dir: %CD%\
           ECHO Target file: "%CD%\\scripts\\compile.bat"
+
+          ECHO Slashs...
           "%CD%/scripts/compile.bat"
           "%CD%\\scripts\\compile.bat"
           "%CD%\scripts\compile.bat"
+
+          ECHO Dots...
+          "./scripts/compile.bat"
+          ".\\scripts\\compile.bat"
+          ".\scripts\compile.bat"
+
+          ECHO Nothing...
+          "/scripts/compile.bat"
+          "\\scripts\\compile.bat"
+          "\scripts\compile.bat"
+
+          "scripts/compile.bat"
+          "scripts\compile.bat"
