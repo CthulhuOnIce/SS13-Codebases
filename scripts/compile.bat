@@ -20,8 +20,8 @@ IF %ERRORLEVEL% NEQ 0 (
 ) ELSE (
     ECHO ----------------------------------------
 	ECHO Graphviz: seems to be ok, processing.
-	ECHO | SET /p = "! Folder:  " & WHERE DOT.EXE
-	ECHO | SET /p = "! Version: " & DOT.EXE -V
+	ECHO | SET /p = "^- Folder:  " & WHERE DOT.EXE
+	ECHO | SET /p = "^- Version: " & DOT.EXE -V
 )
 
 
@@ -30,29 +30,32 @@ SET file_name=tree
 SET path_input_file=\src\%file_name%.dot
 SET path_output_file=\out\%file_name%
 SET path_log_file=\out\compile_datetime.txt
-ECHO ----------------------------------------
 CD /D %CD%\..
+ECHO ----------------------------------------
+ECHO Used variables
 ECHO. ! Input file name:  "%file_name%";
 ECHO. ! Project dir:      "%CD%";
-ECHO. ! Input file path:  "%CD%%path_input_file%";
-ECHO. ! Output file path: "%CD%%path_output_file%";
-ECHO. ! Log file path:    "%CD%%path_log_file%".
+ECHO. ! Input file path:  ".%path_input_file%";
+ECHO. ! Output file path: ".%path_output_file%";
+ECHO. ! Log file path:    ".%path_log_file%".
 
 
 :GRAPHS_COMPILING
 ECHO ----------------------------------------
-ECHO [1/2] ".svg" file generating..
+ECHO Graphs Compiling
+ECHO. ! [1/2] ".svg" file generating..
 DOT.EXE -Tsvg "%CD%%path_input_file%">"%CD%%path_output_file%.svg"
 
-ECHO [2/2] ".png" file generating..
+ECHO. ! [2/2] ".png" file generating..
 DOT.EXE -Tpng "%CD%%path_input_file%">"%CD%%path_output_file%.png"
 
 
 :LOGS_PROCESSING
 ECHO ----------------------------------------
-ECHO Log file generating..
-DATE /t1>"%CD%%path_log_file%"
-TIME /t1>>"%CD%%path_log_file%"
+ECHO Log file generating
+ECHO ^- Date record & DATE /t 1>  "%CD%%path_log_file%"
+ECHO ^- Time record & TIME /t 1>> "%CD%%path_log_file%"
+@REM ECHO ^- UTC record
 
 
 @REM :README_UPDATE
@@ -62,6 +65,8 @@ TIME /t1>>"%CD%%path_log_file%"
 
 :END
 ECHO ----------------------------------------
-TIMEOUT /t 10
+SET exit_timeout=10
+ECHO Waiting for %exit_timeout% seconds...
+PING -n %exit_timeout% 127.0.0.1 1> NUL
 @REM PAUSE
 EXIT %ERRORLEVEL%

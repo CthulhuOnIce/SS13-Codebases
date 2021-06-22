@@ -44,9 +44,12 @@ digraph G {
 				height = .8
 			]
 			note2 [
-				label  = <<b><u><font color="blue" style="font-weight: bold;" align="center">GitHub source <br align="center"/>repository </font></u></b> >,
+				shape    = record,
+				fontcolor = "blue"
+				decorate=true
+				label  = <<b><u>GitHub source <br/>repository</u></b>>,
 				URL    = "https://github.com/CthulhuOnIce/SS13-Codebases",
-				width  = 1.5,
+				width  = 1.4,
 				height = .8
 			]
 			//dummy_helper1 [style = "invis", width = 3]
