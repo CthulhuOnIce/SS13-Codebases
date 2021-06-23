@@ -5,6 +5,8 @@
 {
 	# Any subsequent(*) commands which fail will cause the shell script to exit immediately
 	set -e;
+	echo "Script executed from: $(pwd)";
+	echo "Script location: $(dirname $0)"
 };
 
 # SCRIPT SETTINGS
@@ -41,7 +43,7 @@
 	echo "----------------------------------------";
 	echo " [ Used variables ]";
 	echo " ^- Input file name:  \"$file_name\"";
-	echo " ^- Project dir:      \"$pwd\"";
+	echo " ^- Project dir:      \"$(pwd)\"";
 	echo " ^- Input file path:  \".$path_input_file\"";
 	echo " ^- Output file path: \".$path_output_file\"";
 	echo " ^- Log file path:    \".$path_log_file\"".
