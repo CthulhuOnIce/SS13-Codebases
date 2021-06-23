@@ -32,7 +32,7 @@ choco.exe install graphviz
 In [OS](https://en.wikipedia.org/wiki/Operating_system) [Ubuntu](https://ubuntu.com/) [Graphviz](https://graphviz.org/) can be installed via two simple [commands](https://en.wikipedia.org/wiki/Bash_(Unix_shell)):
 
 ```shell
-$ sudo apt-get update -y
+$ sudo apt update -y && sudo apt upgrade -y
 $ sudo apt-get install graphviz libgraphviz-dev pkg-config -y
 ```
 

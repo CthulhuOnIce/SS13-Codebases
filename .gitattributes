@@ -17,7 +17,7 @@
 ## Scripts
 *.bat text eol=crlf
 *.ps1 text eol=crlf
-*.sh text eol=crlf
+*.sh text eol=lf
 
 ## Graphviz files
 *.dot text eol=crlf
