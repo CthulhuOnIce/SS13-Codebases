@@ -72,7 +72,7 @@ jobs:
           find $(pwd) -type f -iname "*.sh" -exec chmod +x {} \;
           cd "./scripts/";
           echo "----------------------------------------";
-          exec "$target_file_path/compile.sh";
+          bash -e "$target_file_path/compile.sh";
 
   # ci_job_cancel_test_win:
   #   name: CI job cancel test (OS Windows)

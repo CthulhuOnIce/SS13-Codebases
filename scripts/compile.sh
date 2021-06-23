@@ -1,13 +1,19 @@
 #!/bin/sh
 
 
+# BEGINNING
+{
+	# Any subsequent(*) commands which fail will cause the shell script to exit immediately
+	set -e;
+};
+
 # SCRIPT SETTINGS
 {
-	file_name = "tree";
-	path_input_file = "/src/$file_name.dot";
-	path_output_file = "/out/$file_name";
-	path_log_file = "/out/compile_datetime.txt";
-	graphviz_app_file = "dot";
+	file_name="tree";
+	path_input_file="/src/$file_name.dot";
+	path_output_file="/out/$file_name";
+	path_log_file="/out/compile_datetime.txt";
+	graphviz_app_file="dot";
 };
 
 
