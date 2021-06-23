@@ -38,7 +38,7 @@ jobs:
       - name: "> Build graph"
         shell: cmd
         run: |
-	        ECHO Workflow step executed from > %CD%
+          ECHO Workflow step executed from > %CD%
           ICACLS.EXE * /reset /t /c /q
           CD /D scripts\
           ECHO ----------------------------------------
