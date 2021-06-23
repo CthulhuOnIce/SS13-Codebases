@@ -1,0 +1,12 @@
+// https://stackoverflow.com/questions/28384220/how-to-put-a-node-in-the-center-of-the-dot-generated-graph
+digraph g
+{
+    P -> G [dir=back];
+    subgraph clusterGVE {
+        {rank=same V; G; E;}
+        G -> V [constraint=false];
+        G -> E;
+        color=invis;
+    };
+    G -> C;
+}

@@ -1,5 +1,5 @@
-digraph g{
-	// https://coderoad.ru/7374108/Размещение-узлов-GraphViz-и-Rankdir
+// https://coderoad.ru/7374108/Размещение-узлов-GraphViz-и-Rankdir
+digraph g {
 	ranksep = 0.2;
 
 	node [shape = box3d, width = 2.3, height = 0.6, fontname = "Arial"]

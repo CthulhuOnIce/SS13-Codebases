@@ -6,20 +6,19 @@
         {
             "label": "Run build",
             "type": "shell",
-            "command": "./compile.sh",
-            "windows": {
-                "command": ".\\compile.bat"
+            "options": {
+                "cwd": "${workspaceFolder}\\scripts"
             },
+            "windows": { "command": "./compile.bat" },
+            "linux":   { "command": "./compile.sh"  },
             "problemMatcher": [],
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
-            "options": {
-                "cwd": "${workspaceFolder}\\scripts"
-            },
 			"presentation": {
-				"clear": true
+				"clear": true, // Before starting a new session in an terminal, clear the terminal.
+				"panel": "new"
 			}
         }
     ]
