@@ -1,0 +1,25 @@
+* text=auto
+
+## Enforce text mode and CRLF line breaks
+*.htm text eol=crlf
+*.html text eol=crlf
+*.json text eol=crlf
+*.md text eol=crlf
+*.txt text eol=crlf
+*.yaml text eol=crlf
+*.yml text eol=crlf
+
+## Enforce binary mode and CRLF line breaks
+*.gif binary eol=crlf
+*.jpg binary eol=crlf
+*.png binary eol=crlf
+
+## Scripts
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.sh text eol=lf
+
+## Graphviz files
+*.dot text eol=crlf
+*.gv text eol=crlf
+*.svg text eol=crlf

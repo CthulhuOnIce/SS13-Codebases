@@ -1,0 +1,26 @@
+// https://coderoad.ru/7374108/Размещение-узлов-GraphViz-и-Rankdir
+digraph g {
+	ranksep = 0.2;
+
+	node [shape = box3d, width = 2.3, height = 0.6, fontname = "Arial"]
+	n1 [label = "Incident Commander"]
+	n2 [label = "Public Information\nOfficer"]
+	n3 [label = "Liaison Officer"]
+	n4 [label = "Safety Officer"]
+	n5 [label = "Operations Section"]
+	n6 [label = "Planning Section"]
+	n7 [label = "Logistics Section"]
+	n8 [label = "Finance/Admin. Section"]
+
+	node [shape = none, width = 0, height = 0, label = ""]
+	edge [dir = none]
+
+	n1 -> p1 -> p2 -> p3;
+	{rank=same; n2 -> p1 -> n3;}
+	{rank=same; n4 -> p2;}
+	{rank=same; p4 -> p5 -> p3 -> p6 -> p7;}
+	p4 -> n5;
+	p5 -> n6;
+	p6 -> n7;
+	p7 -> n8;
+}

@@ -1,0 +1,25 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run build",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}\\scripts"
+            },
+            "windows": { "command": "./compile.bat" },
+            "linux":   { "command": "./compile.sh"  },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+			"presentation": {
+				"clear": true, // Before starting a new session in an terminal, clear the terminal.
+				"panel": "shared"
+			}
+        }
+    ]
+}

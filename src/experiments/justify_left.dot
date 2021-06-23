@@ -1,0 +1,61 @@
+digraph G {
+	//rankdir="TB"
+	rankdir = "LR"
+
+	subgraph cluster_0{
+		rankdir = "LR"
+		style   = "dotted"
+		edge [constraint = false]
+		a->bbbbb
+	}
+	subgraph cluster_1{
+		rankdir = "LR";
+		ccccccc->d;
+	}
+
+	// https://stackoverflow.com/a/2112178
+    subgraph cluster_info
+    {
+		rankdir   = "LR";
+		labeljust = "l";
+		node [shape=record, height=.08, fontsize=11, width=4.5, constraint=false, style=solid]
+		elk [label="Red arrows indicate that the child is not a fork of a parent, \l
+		rather a new version or rebrand.\l",]
+		buffalo [label = <<b><u><font color="blue" style="font-weight: bold; text-align: left; align: left;">GitHub source repo </font></u></b> >, shape = rectangle, URL = "https://github.com/CthulhuOnIce/SS13-Codebases"]
+		//elk:s -> buffalo:n [style="invis", weight=999]
+	}
+
+	node1111111: s -> node2: n [splines="ortho"]
+
+
+	subgraph cluster_3{
+		rankdir = LR;
+		a2 -> b2;
+		c2 -> a2 [dir = "back"];
+	}
+
+
+
+	subgraph cluster_4
+	{
+		label = ""
+		style = "dotted"
+
+		info2 [label = "Red.", shape=rectangle]
+		GitHub_source_repo2 [label = <<b><u><font color="blue" style="font-weight: bold;">GitHub source repo </font></u></b> >, shape = rectangle, URL = "https://github.com/CthulhuOnIce/SS13-Codebases"]
+		info2 -> GitHub_source_repo2 [style="invis"] //, taillabel = "tail", lhead=cluster_0, constraint=false]
+
+
+		node[group=a, fontname="Arial", fontsize=14];
+		"Step11111" -> "Step2" -> "Step3";
+
+		node[group=""];
+		"Step2" -> "note1";
+		"Step2" -> "note2";
+		"Step2" -> "note3";
+		"Step2" -> "note4";
+
+
+	}
+
+}
