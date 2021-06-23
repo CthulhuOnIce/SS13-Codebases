@@ -69,7 +69,7 @@ jobs:
         env:
           target_file_path: ${{github.workspace}}${{'/scripts'}}
         run: |
-          find $pwd -type f -iname "*.sh" -exec chmod +x {} \;
+          find $(pwd) -type f -iname "*.sh" -exec chmod +x {} \;
           cd "./scripts/";
           echo "----------------------------------------";
           exec "$target_file_path/compile.sh";

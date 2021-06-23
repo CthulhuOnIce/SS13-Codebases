@@ -1,20 +1,72 @@
 #!/bin/sh
 
-echo "! PLEASE MAKE SURE THAT ANTIVIRUS ALLOWING TO EXECUTE THIS SCRIPT !";
 
-command -v DOT
+# SCRIPT SETTINGS
+{
+	file_name = "tree";
+	path_input_file = "/src/$file_name.dot";
+	path_output_file = "/out/$file_name";
+	path_log_file = "/out/compile_datetime.txt";
+	graphviz_app_file = "dot";
+};
 
-DOT -V;
 
-echo ".svg generating..";
-DOT -Tsvg "./../src/tree.dot" > "./../out/tree.svg";
+# APP INSTALLATION CHECK
+{
+	echo "Checking Graphviz installation...";
+	if [ ! type $graphviz_app_file &> /dev/null ]; then
+		echo "FATAL ERROR!";
+		echo " ^- Graphviz seems does not installed";
+		echo " ^- Please install it by command: \"sudo apt-get install graphviz libgraphviz-dev pkgconfig\"";
+		echo "----------------------------------------";
+		exit 1;
+	else
+		echo "^- Seems to be installed, processing.";
+	fi;
+	echo "Getting information about Graphviz app...";
+	$graphviz_app_file -V;
+	type $graphviz_app_file;
+};
 
-echo ".png generating..";
-DOT -Tpng "./../src/tree.dot" > "./../out/tree.png";
 
-echo "Log file generating..";
-date "+%d/%m/%y" >  "./../out/compile_datetime.txt";
-date "+%H:%M"    >> "./../out/compile_datetime.txt";
+# SETTINGS PRINT
+{
+	cd ./../;
+	echo "----------------------------------------";
+	echo " [ Used variables ]";
+	echo " ^- Input file name:  \"$file_name\"";
+	echo " ^- Project dir:      \"$pwd\"";
+	echo " ^- Input file path:  \".$path_input_file\"";
+	echo " ^- Output file path: \".$path_output_file\"";
+	echo " ^- Log file path:    \".$path_log_file\"".
+};
 
-echo "Goodbye";
-exit $?;
+
+# GRAPHS COMPILING
+{
+	echo "----------------------------------------";
+	echo " [ Graphs Compiling ]";
+	echo " ^- [1/2] \".svg\" file generating..";
+	$graphviz_app_file -Tsvg "./../src/tree.dot" > "./../out/tree.svg";
+
+	echo " ^- [2/2] \".png\" file generating..";
+	$graphviz_app_file -Tpng "./../src/tree.dot" > "./../out/tree.png";
+};
+
+
+# LOGS PROCESSING
+{
+	echo "----------------------------------------";
+	echo " [ Log file generating ]";
+	echo " ^- Date record";
+	date "+%d/%m/%y" > "./../out/compile_datetime.txt";
+	echo " ^- Time record";
+	date "+%H:%M" >> "./../out/compile_datetime.txt";
+};
+
+
+# END
+{
+	echo "Goodbye";
+	exit $?;
+};

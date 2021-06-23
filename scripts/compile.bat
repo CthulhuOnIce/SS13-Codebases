@@ -8,7 +8,7 @@ SET file_name=tree
 SET path_input_file=\src\%file_name%.dot
 SET path_output_file=\out\%file_name%
 SET path_log_file=\out\compile_datetime.txt
-SET graphviz_exe=DOT.EXE
+SET graphviz_app_file=DOT.EXE
 
 
 :ANTIVIRUS_WARNING
@@ -19,10 +19,10 @@ ECHO.
 
 :APP_INSTALLATION_CHECK
 ECHO Checking Graphviz installation...
-WHERE /Q %graphviz_exe%
+WHERE /Q %graphviz_app_file%
 IF %ERRORLEVEL% NEQ 0 (
 	ECHO FATAL ERROR!
-	ECHO. ^^- Graphviz seems does not installed ^(%graphviz_exe% didn't detected^)
+	ECHO. ^^- Graphviz seems does not installed ^(%graphviz_app_file% didn't detected^).
 	ECHO. ^^- Please install it from https://graphviz.org/download/ or chocolatey.
     ECHO ----------------------------------------
 	EXIT 1
@@ -30,12 +30,12 @@ IF %ERRORLEVEL% NEQ 0 (
 	ECHO. ^^- Seems to be installed, processing.
 )
 ECHO Getting information about Graphviz app...
-%graphviz_exe% -V
-WHERE %graphviz_exe%
+%graphviz_app_file% -V
+WHERE %graphviz_app_file%
 
 
 :SETTINGS_PRINT
-CD /D %CD%\..
+CD /D %CD%\..\
 ECHO ----------------------------------------
 ECHO. [ Used variables ]
 ECHO. ^^- Input file name:  "%file_name%";
@@ -49,10 +49,10 @@ ECHO. ^^- Log file path:    ".%path_log_file%".
 ECHO ----------------------------------------
 ECHO. [ Graphs Compiling ]
 ECHO. ^^- [1/2] ".svg" file generating..
-%graphviz_exe% -Tsvg "%CD%%path_input_file%">"%CD%%path_output_file%.svg"
+%graphviz_app_file% -Tsvg "%CD%%path_input_file%">"%CD%%path_output_file%.svg"
 
 ECHO. ^^- [2/2] ".png" file generating..
-%graphviz_exe% -Tpng "%CD%%path_input_file%">"%CD%%path_output_file%.png"
+%graphviz_app_file% -Tpng "%CD%%path_input_file%">"%CD%%path_output_file%.png"
 
 
 :LOGS_PROCESSING
