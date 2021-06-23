@@ -37,8 +37,6 @@ jobs:
 
       - name: "> Build graph"
         shell: cmd
-        env:
-          target_file_path: ${{github.workspace}}${{'\scripts'}}
         run: |
           ICACLS.EXE * /reset /t /c /q
           CD /D scripts\
@@ -66,13 +64,11 @@ jobs:
 
       - name: "> Build graph"
         shell: bash
-        env:
-          target_file_path: ${{github.workspace}}${{'/scripts'}}
         run: |
           find $(pwd) -type f -iname "*.sh" -exec chmod +x {} \;
           cd "./scripts/";
           echo "----------------------------------------";
-          bash -e "$target_file_path/compile.sh";
+          bash -e "./compile.sh";
 
   # ci_job_cancel_test_win:
   #   name: CI job cancel test (OS Windows)
