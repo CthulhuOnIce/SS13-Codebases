@@ -67,12 +67,12 @@ jobs:
       - name: "> Build graph"
         shell: bash
         env:
-          target_file_path: ${{github.workspace}}${{'\scripts'}}
+          target_file_path: ${{github.workspace}}${{'/scripts'}}
         run: |
           find $pwd -type f -iname "*.sh" -exec chmod +x {} \;
           cd "./scripts/";
           echo "----------------------------------------";
-          exec "$target_file_path\compile.sh";
+          exec "$target_file_path/compile.sh";
 
   # ci_job_cancel_test_win:
   #   name: CI job cancel test (OS Windows)
