@@ -38,12 +38,41 @@ jobs:
       - name: "> Build graph"
         shell: cmd
         env:
-          target_file_path: ${{github.workspace}}${{'\scripts\'}}
+          target_file_path: ${{github.workspace}}${{'\scripts'}}
         run: |
           ICACLS.EXE * /reset /t /c /q
           CD /D scripts\
           ECHO ----------------------------------------
-          CALL "%target_file_path%compile.bat"
+          CALL "%target_file_path%\compile.bat"
+
+  build_ubuntu:
+
+    name: Build (OS Ubuntu)
+
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - name: "> Check out current repository"
+        uses: actions/checkout@v2
+        with:
+          repository: ${{ github.repository }}
+          token: ${{ github.token }}
+          path: ${{ github.workspace }}
+
+      - name: "> Install Graphviz"
+        uses: ts-graphviz/setup-graphviz@v1
+
+      - name: "> Build graph"
+        shell: bash
+        env:
+          target_file_path: ${{github.workspace}}${{'\scripts'}}
+        run: |
+          find $pwd -type f -iname "*.sh" -exec chmod +x {} \;
+          cd "./scripts/";
+          echo "----------------------------------------";
+          exec "$target_file_path\compile.sh";
 
   # ci_job_cancel_test_win:
   #   name: CI job cancel test (OS Windows)
