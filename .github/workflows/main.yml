@@ -38,6 +38,7 @@ jobs:
       - name: "> Build graph"
         shell: cmd
         run: |
+	        ECHO Workflow step executed from > %CD%
           ICACLS.EXE * /reset /t /c /q
           CD /D scripts\
           ECHO ----------------------------------------
@@ -65,6 +66,7 @@ jobs:
       - name: "> Build graph"
         shell: bash
         run: |
+	        echo "Workflow step executed from > $(pwd)";
           find $(pwd) -type f -iname "*.sh" -exec chmod +x {} \;
           cd "./scripts/";
           echo "----------------------------------------";
