@@ -18,7 +18,7 @@ on:
 jobs:
   build_windows:
 
-    name: Build (OS Windows)
+    name: Build (Windows)
 
     # The type of runner that the job will run on
     runs-on: windows-latest
@@ -47,7 +47,7 @@ jobs:
 
   build_ubuntu:
 
-    name: Build (OS Ubuntu)
+    name: Build (Ubuntu)
 
     # The type of runner that the job will run on
     runs-on: ubuntu-latest

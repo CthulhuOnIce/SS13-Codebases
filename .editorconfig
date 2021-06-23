@@ -6,7 +6,6 @@ root = true
 [*]
 charset = utf-8
 end_of_line = crlf
-end_of_line = crlf
 files.encoding = "utf8"
 indent_size = 4
 indent_style = tab
