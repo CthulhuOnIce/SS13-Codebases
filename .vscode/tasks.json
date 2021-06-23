@@ -18,7 +18,7 @@
             },
 			"presentation": {
 				"clear": true, // Before starting a new session in an terminal, clear the terminal.
-				"panel": "new"
+				"panel": "shared"
 			}
         }
     ]

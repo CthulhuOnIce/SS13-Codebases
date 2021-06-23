@@ -5,16 +5,15 @@
 {
 	# Any subsequent(*) commands which fail will cause the shell script to exit immediately
 	set -e;
-	echo "Script executed from: $(pwd)";
-	echo "Script location: $(dirname $0)"
+	#echo "Script executed from: $(pwd)";
 };
 
 # SCRIPT SETTINGS
 {
 	file_name="tree";
-	path_input_file="/src/$file_name.dot";
-	path_output_file="/out/$file_name";
-	path_log_file="/out/compile_datetime.txt";
+	path_input_file="src/$file_name.dot";
+	path_output_file="out/$file_name";
+	path_log_file="out/compile_datetime.txt";
 	graphviz_app_file="dot";
 };
 
@@ -46,7 +45,7 @@
 	echo " ^- Project dir:      \"$(pwd)\"";
 	echo " ^- Input file path:  \".$path_input_file\"";
 	echo " ^- Output file path: \".$path_output_file\"";
-	echo " ^- Log file path:    \".$path_log_file\"".
+	echo " ^- Log file path:    \".$path_log_file\"";
 };
 
 
@@ -55,10 +54,10 @@
 	echo "----------------------------------------";
 	echo " [ Graphs Compiling ]";
 	echo " ^- [1/2] \".svg\" file generating..";
-	$graphviz_app_file -Tsvg "./../src/tree.dot" > "./../out/tree.svg";
+	$graphviz_app_file -Tsvg "$(pwd)/$path_input_file" > "$(pwd)/$path_output_file.svg";
 
 	echo " ^- [2/2] \".png\" file generating..";
-	$graphviz_app_file -Tpng "./../src/tree.dot" > "./../out/tree.png";
+	$graphviz_app_file -Tpng "$(pwd)/$path_input_file" > "$(pwd)/$path_output_file.png";
 };
 
 
@@ -66,15 +65,15 @@
 {
 	echo "----------------------------------------";
 	echo " [ Log file generating ]";
-	echo " ^- Date record";
-	date "+%d/%m/%y" > "./../out/compile_datetime.txt";
-	echo " ^- Time record";
-	date "+%H:%M" >> "./../out/compile_datetime.txt";
+	echo " ^- Date record should been created..";
+	date "+%d/%m/%y" > "$(pwd)/$path_log_file";
+	echo " ^- Time record should been created..";
+	date "+%H:%M"   >> "$(pwd)/$path_log_file";
 };
 
 
 # END
 {
-	echo "Goodbye";
+	echo "Goodbye!";
 	exit $?;
 };

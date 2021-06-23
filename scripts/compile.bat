@@ -5,9 +5,9 @@
 
 :SCRIPT_SETTINGS
 SET file_name=tree
-SET path_input_file=\src\%file_name%.dot
-SET path_output_file=\out\%file_name%
-SET path_log_file=\out\compile_datetime.txt
+SET path_input_file=src\%file_name%.dot
+SET path_output_file=out\%file_name%
+SET path_log_file=out\compile_datetime.txt
 SET graphviz_app_file=DOT.EXE
 
 
@@ -49,17 +49,19 @@ ECHO. ^^- Log file path:    ".%path_log_file%".
 ECHO ----------------------------------------
 ECHO. [ Graphs Compiling ]
 ECHO. ^^- [1/2] ".svg" file generating..
-%graphviz_app_file% -Tsvg "%CD%%path_input_file%">"%CD%%path_output_file%.svg"
+%graphviz_app_file% -Tsvg "%CD%\%path_input_file%">"%CD%\%path_output_file%.svg"
 
 ECHO. ^^- [2/2] ".png" file generating..
-%graphviz_app_file% -Tpng "%CD%%path_input_file%">"%CD%%path_output_file%.png"
+%graphviz_app_file% -Tpng "%CD%\%path_input_file%">"%CD%\%path_output_file%.png"
 
 
 :LOGS_PROCESSING
 ECHO ----------------------------------------
 ECHO. [ Log file generating ]
-ECHO. ^^- Date record & DATE /t 1>  "%CD%%path_log_file%"
-ECHO. ^^- Time record & TIME /t 1>> "%CD%%path_log_file%"
+ECHO. ^^- Date record should been created..
+DATE /t 1>  "%CD%\%path_log_file%"
+ECHO. ^^- Time record should been created..
+TIME /t 1>> "%CD%\%path_log_file%"
 @REM ECHO. ^^- UTC record
 
 
