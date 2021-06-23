@@ -1,17 +1,20 @@
 #!/bin/sh
 
-echo "! PLEASE MAKE SURE THAT ANTIVIRUS ALLOWING TO EXECUTE THIS SCRIPT !"
+echo "! PLEASE MAKE SURE THAT ANTIVIRUS ALLOWING TO EXECUTE THIS SCRIPT !";
 
-DOT -V
+command -v DOT
 
-echo ".svg generating.."
-DOT -Tsvg "./../src/tree.dot" > "./../out/tree.svg"
+DOT -V;
 
-echo ".png generating.."
-DOT -Tpng "./../src/tree.dot" > "./../out/tree.png"
+echo ".svg generating..";
+DOT -Tsvg "./../src/tree.dot" > "./../out/tree.svg";
 
-echo "Log file generating.."
-date >  ".\..\out\compile_datetime.txt"
-time >> ".\..\out\compile_datetime.txt"
+echo ".png generating..";
+DOT -Tpng "./../src/tree.dot" > "./../out/tree.png";
 
-exit $?
+echo "Log file generating..";
+date "+%d/%m/%y" >  "./../out/compile_datetime.txt";
+date "+%H:%M"    >> "./../out/compile_datetime.txt";
+
+echo "Goodbye";
+exit $?;
