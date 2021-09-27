@@ -178,6 +178,7 @@ digraph G {
 		"/tg/Station (AGPL)"			-> "Skyrat Main" // added by: ORCACommander
 		"Skyrat Main"					-> "Tannhauser Gate" //added: By ORCACommander
 		"Skyrat Main"					-> "Nebula Station 13" // Added By: ORCACommander
+		"Skyrat Main"					-> "Fluffy Frontier" // Added By: ORCACommander
 		"Colonial Marines (CM)"         -> "DM;CA" // added by: CthulhuOnIce
 		"DM;CA"                         -> "TerraGov Marine Corps (TGMC)" [color = red] // added by: CthulhuOnIce
 		"FacePunch"                     -> "Corporate Mercenaries" // added by: CthulhuOnIce
