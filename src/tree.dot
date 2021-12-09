@@ -173,7 +173,12 @@ digraph G {
 		"CEV Eris"                      -> "Soujurn Station"
 		"Citadel Main"                  -> "BurgerStation 13" // added by: CthulhuOnIce
 		"Citadel Main"                  -> "HyperStation" // added by: CthulhuOnIce
-		"Citadel Main"                  -> "Skyrat 13" // added by: CthulhuOnIce
+		"Citadel Main"                  -> "Skyrat 13 (Old)" // added by: CthulhuOnIce Updated by ORCACommander
+		"Skyrat 13 (Old)"				-> "Skyrat Main" [color = red] // Updated By ORCACommander
+		"/tg/Station (AGPL)"			-> "Skyrat Main" // added by: ORCACommander
+		"Skyrat Main"					-> "Tannhauser Gate" //added: By ORCACommander
+		"Skyrat Main"					-> "Nebula Station 13" // Added By: ORCACommander
+		"Skyrat Main"					-> "Fluffy Frontier" // Added By: ORCACommander
 		"Colonial Marines (CM)"         -> "DM;CA" // added by: CthulhuOnIce
 		"DM;CA"                         -> "TerraGov Marine Corps (TGMC)" [color = red] // added by: CthulhuOnIce
 		"FacePunch"                     -> "Corporate Mercenaries" // added by: CthulhuOnIce
