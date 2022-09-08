@@ -173,6 +173,7 @@ digraph G {
 		"CEV Eris"                      -> "Soujurn Station"
 		"Citadel Main"                  -> "BurgerStation 13" // added by: CthulhuOnIce
 		"Citadel Main"                  -> "HyperStation" // added by: CthulhuOnIce
+		"Citadel Main"					-> "Sandstorm" // added by: SandPoot
 		"Citadel Main"                  -> "Skyrat 13 (Old)" // added by: CthulhuOnIce Updated by ORCACommander
 		"Skyrat 13 (Old)"				-> "Skyrat Main" [color = red] // Updated By ORCACommander
 		"/tg/Station (AGPL)"			-> "Skyrat Main" // added by: ORCACommander
